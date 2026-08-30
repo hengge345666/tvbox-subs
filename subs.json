@@ -1,0 +1,48 @@
+{
+ "urls": [
+  {
+   "name": "C88聚合",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/main/box.json"
+  },
+  {
+   "name": "M135主库",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/0825.json"
+  },
+  {
+   "name": "N33精简",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/0827.json"
+  },
+  {
+   "name": "S234超大库",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/liu673cn/box/main/m.json"
+  },
+  {
+   "name": "106JS库",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/367.json"
+  },
+  {
+   "name": "X49纯净库",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/XYQ.json"
+  },
+  {
+   "name": "T经典保底",
+   "url": "http://home.jundie.top:81/top98.json"
+  },
+  {
+   "name": "K六合一聚合",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/0707.json"
+  },
+  {
+   "name": "C88备用B",
+   "url": "https://ghfast.top/https://raw.githubusercontent.com/cluntop/tvbox/main/box.json"
+  },
+  {
+   "name": "M135备用B",
+   "url": "https://ghfast.top/https://raw.githubusercontent.com/qist/tvbox/master/0825.json"
+  },
+  {
+   "name": "S234备用B",
+   "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m.json"
+  }
+ ]
+}
