@@ -2,7 +2,7 @@
  "urls": [
   {
    "name": "喵站·纯净HTTP(主力)",
-   "url": "./mirror/anaer_meow.json"
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/anaer_meow.json"
   },
   {
    "name": "C88聚合(解析flags全)",
@@ -10,15 +10,15 @@
   },
   {
    "name": "yw88075·HTTP大库",
-   "url": "./mirror/yw88075_js.json"
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/yw88075_js.json"
   },
   {
    "name": "教主·老牌爬虫",
-   "url": "./mirror/hackyjso_jzy.json"
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/hackyjso_jzy.json"
   },
   {
    "name": "hkuc_js·最大混合库",
-   "url": "./mirror/js.json"
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/js.json"
   },
   {
    "name": "T经典保底",
