@@ -9,6 +9,14 @@
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/main/box.json"
   },
   {
+   "name": "A站·轻量高命中(24源·5直播·纯HTTP)",
+   "url": "https://raw.githubusercontent.com/cluntop/tvbox/main/aa.json"
+  },
+  {
+   "name": "Tomorrow·采集(47源·1直播·纯HTTP)",
+   "url": "https://raw.githubusercontent.com/tushen6/Tomorrow/master/caiji.json"
+  },
+  {
    "name": "yw88075·HTTP大库",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/yw88075_js.json"
   },
