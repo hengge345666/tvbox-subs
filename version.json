@@ -1,0 +1,7 @@
+{
+  "versionCode": 16,
+  "versionName": "1.1.4-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.4-sub_code16/TVBox_v1.1.4-sub_code16_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.4-sub_code16/TVBox_v1.1.4-sub_code16_arm64.apk",
+  "log": "缓冲HUD(缓冲中显示百分比+网速) / 三级播放器兜底链(Exo->IJK->系统) / APK自更新模块"
+}
