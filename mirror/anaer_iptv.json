@@ -1,0 +1,932 @@
+[
+ {
+  "group": "📺央视频道",
+  "channels": [
+   {
+    "name": "CCTV-1",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0001_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-10",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0010_1.m3u8?key=txiptv",
+     "http://183.237.95.108:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+   },
+   {
+    "name": "CCTV-11",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+   },
+   {
+    "name": "CCTV-12",
+    "urls": [
+     "http://120.202.94.181:9446/tsfile/live/0012_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-14",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1096_1.m3u8?key=txiptv&playlive=0&authid=0",
+     "http://118.193.115.2:9901/tsfile/live/0014_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-15",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0015_1.m3u8?key=txiptv",
+     "http://120.202.94.181:9446/tsfile/live/0015_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-2",
+    "urls": [
+     "http://hczn.x3322.net:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://fuxin.yunjifei.top:999/tsfile/live/0002_1.m3u8?key=txiptv",
+     "http://120.202.94.181:9446/tsfile/live/0002_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-3",
+    "urls": [
+     "http://hczn.x3322.net:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://153.0.171.163:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://183.237.95.108:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+   },
+   {
+    "name": "CCTV-4",
+    "urls": [
+     "https://iptv.catvod.com/catvod?id=CCTV4K%E8%B6%85%E9%AB%98%E6%B8%85&line=4"
+    ]
+   },
+   {
+    "name": "CCTV-5",
+    "urls": [
+     "http://153.0.171.163:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://fuxin.yunjifei.top:999/tsfile/live/0005_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-5+",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0016_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-6",
+    "urls": [
+     "http://153.0.171.163:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://118.193.115.2:9901/tsfile/live/0006_1.m3u8?key=txiptv",
+     "http://183.237.95.108:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=0&authid=0",
+     "http://120.202.94.181:9446/tsfile/live/0006_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CCTV-8",
+    "urls": [
+     "http://153.0.171.163:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://183.237.95.108:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+   },
+   {
+    "name": "CCTV-9",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0009_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "CETV1",
+    "urls": [
+     "http://183.222.15.202:4321/rtp/239.11.0.139:5140",
+     "http://221.219.104.6:1193/rtp/239.3.1.57:8152",
+     "http://183.220.20.17:4321/rtp/239.11.0.139:5140",
+     "http://222.95.12.2:4022/rtp/239.49.8.115:8000",
+     "http://223.86.170.98:4500/rtp/239.11.0.139:5140",
+     "http://106.111.244.12:58099/rtp/239.49.8.115:8000"
+    ]
+   },
+   {
+    "name": "CETV4",
+    "urls": [
+     "http://223.86.170.98:4500/rtp/239.11.0.248:5140",
+     "http://183.222.15.202:4321/rtp/239.11.0.248:5140",
+     "http://106.111.244.12:58099/rtp/239.49.0.125:8000",
+     "http://222.95.12.2:4022/rtp/239.49.0.125:8000"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "💰央视付费频道",
+  "channels": [
+   {
+    "name": "世界地理",
+    "urls": [
+     "http://183.164.236.214:8888/rtp/238.1.79.60:4616",
+     "http://60.4.30.177:8077/rtp/239.253.92.131:6113",
+     "http://59.174.163.57:4022/rtp/239.69.1.91:10186",
+     "http://124.112.241.36:4022/rtp/238.1.79.60:4616",
+     "http://121.29.215.65:2083/rtp/239.253.92.131:6113"
+    ]
+   },
+   {
+    "name": "兵器科技",
+    "urls": [
+     "http://171.119.207.198:6000/rtp/226.0.2.223:9696",
+     "http://124.112.241.36:4022/rtp/238.1.79.56:4584",
+     "http://121.29.215.65:2083/rtp/239.253.93.47:6435",
+     "http://183.164.236.214:8888/rtp/238.1.79.56:4584",
+     "http://59.174.163.57:4022/rtp/239.69.1.79:10114"
+    ]
+   },
+   {
+    "name": "央视台球",
+    "urls": [
+     "http://183.164.236.214:8888/rtp/238.1.79.59:4608",
+     "http://116.2.175.131:4010/rtp/232.0.0.60:1234",
+     "http://59.174.163.57:4022/rtp/239.69.1.98:10224",
+     "http://60.4.30.177:8077/rtp/239.253.93.231:6409"
+    ]
+   },
+   {
+    "name": "怀旧剧场",
+    "urls": [
+     "http://59.35.185.47:8188/udp/239.253.43.5:5146",
+     "http://124.112.241.36:4022/rtp/238.1.79.61:4624"
+    ]
+   },
+   {
+    "name": "电视指南",
+    "urls": [
+     "http://124.112.241.36:4022/rtp/238.1.79.53:4560",
+     "http://60.4.30.177:8077/rtp/239.253.93.249:6427",
+     "http://121.29.215.65:2083/rtp/239.253.93.249:6427",
+     "http://171.119.207.198:6000/rtp/226.0.2.218:9656"
+    ]
+   },
+   {
+    "name": "第一剧场",
+    "urls": [
+     "http://59.35.185.47:8188/udp/239.253.43.15:5146",
+     "http://116.2.175.131:4010/rtp/232.0.0.29:1234"
+    ]
+   },
+   {
+    "name": "风云剧场",
+    "urls": [
+     "http://183.164.236.214:8888/rtp/238.1.79.62:4632",
+     "http://124.112.241.36:4022/rtp/238.1.79.62:4632",
+     "http://116.2.175.131:4010/rtp/232.0.0.45:1234"
+    ]
+   },
+   {
+    "name": "风云足球",
+    "urls": [
+     "http://183.164.236.214:8888/rtp/238.1.79.57:4592",
+     "http://116.2.175.131:4010/rtp/232.0.0.52:1234",
+     "http://124.112.241.36:4022/rtp/238.1.79.57:4592",
+     "http://60.4.30.177:8077/rtp/239.253.93.254:6432"
+    ]
+   },
+   {
+    "name": "风云音乐",
+    "urls": [
+     "http://60.4.30.177:8077/rtp/239.253.93.253:6431"
+    ]
+   },
+   {
+    "name": "高尔夫网球",
+    "urls": [
+     "http://183.164.236.214:8888/rtp/238.1.79.58:4600",
+     "http://59.174.163.57:4022/rtp/239.69.1.83:10138",
+     "http://60.4.30.177:8077/rtp/239.253.93.122:6465",
+     "http://121.29.215.65:2083/rtp/239.253.93.122:6465"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "📡卫视频道",
+  "channels": [
+   {
+    "name": "东南卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0137_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "东方卫视",
+    "urls": [
+     "http://114.254.185.98:8099/rtp/239.3.1.136:8032"
+    ]
+   },
+   {
+    "name": "云南卫视",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0119_1.m3u8?key=txiptv",
+     "http://222.95.12.2:4022/rtp/239.49.0.177:8000"
+    ]
+   },
+   {
+    "name": "内蒙古卫视",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86",
+     "http://222.95.12.2:4022/rtp/239.49.1.75:8000"
+    ]
+   },
+   {
+    "name": "北京卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0122_1.m3u8?key=txiptv",
+     "http://fuxin.yunjifei.top:999/tsfile/live/0122_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "吉林卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0116_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "四川卫视",
+    "urls": [
+     "http://222.212.84.190:54123/rtp/239.94.0.115:5140"
+    ]
+   },
+   {
+    "name": "天津卫视",
+    "urls": [
+     "http://125.42.150.56:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://144.255.31.236:6688/udp/239.21.1.165:5002",
+     "http://106.111.244.12:58099/rtp/239.49.8.148:6000",
+     "http://222.95.12.2:4022/rtp/239.49.8.148:6000"
+    ]
+   },
+   {
+    "name": "宁夏卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0112_1.m3u8?key=txiptv",
+     "http://fuxin.yunjifei.top:999/tsfile/live/0112_1.m3u8?key=txiptv",
+     "http://222.95.12.2:4022/rtp/239.49.1.60:8000"
+    ]
+   },
+   {
+    "name": "安徽卫视",
+    "urls": [
+     "http://106.111.244.12:58099/rtp/239.49.8.204:6000"
+    ]
+   },
+   {
+    "name": "山东卫视",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0131_1.m3u8?key=txiptv",
+     "http://114.226.212.155:8787/rtp/239.49.8.146:6000",
+     "http://114.226.212.154:8787/rtp/239.49.8.146:6000"
+    ]
+   },
+   {
+    "name": "山西卫视",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86"
+    ]
+   },
+   {
+    "name": "广东卫视",
+    "urls": [
+     "http://120.202.94.181:9446/tsfile/live/0125_1.m3u8?key=txiptv",
+     "http://183.62.8.58:50085/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+   },
+   {
+    "name": "新疆卫视",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0110_1.m3u8?key=txiptv",
+     "http://118.193.115.2:9901/tsfile/live/0110_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "江苏卫视",
+    "urls": [
+     "http://120.202.94.181:9446/tsfile/live/0127_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "江西卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0138_1.m3u8?key=txiptv",
+     "http://171.119.207.198:6000/rtp/226.0.2.54:8344"
+    ]
+   },
+   {
+    "name": "海南卫视",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/1010_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "深圳卫视",
+    "urls": [
+     "http://116.76.254.170:44330/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0",
+     "http://120.202.94.181:9446/tsfile/live/0126_1.m3u8?key=txiptv",
+     "http://115.171.216.46:4000/udp/225.1.8.43:8020"
+    ]
+   },
+   {
+    "name": "湖北卫视",
+    "urls": [
+     "http://223.75.149.129:9906/tsfile/live/0132_1.m3u8?key=txiptv",
+     "http://120.202.94.181:9446/tsfile/live/0132_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "湖南卫视",
+    "urls": [
+     "http://183.164.236.214:8888/rtp/238.1.78.160:7152",
+     "http://114.226.212.154:8787/rtp/239.49.8.12:9418",
+     "http://222.95.12.2:4022/rtp/239.49.8.12:9418"
+    ]
+   },
+   {
+    "name": "甘肃卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0139_2.m3u8?key=txiptv",
+     "https://iptv.catvod.com/catvod.php?id=gsws",
+     "http://124.112.241.36:4022/rtp/238.1.79.36:4400",
+     "http://183.164.236.214:8888/rtp/238.1.79.36:4400"
+    ]
+   },
+   {
+    "name": "西藏卫视",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0111_1.m3u8?key=txiptv",
+     "https://iptv.catvod.com/live.php?id=%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86",
+     "https://iptv.catvod.com/catvod.php?id=xzws",
+     "http://183.220.20.17:4321/rtp/239.11.0.53:5140"
+    ]
+   },
+   {
+    "name": "贵州卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0120_1.m3u8?key=txiptv",
+     "http://183.164.236.214:8888/rtp/238.1.78.244:7824"
+    ]
+   },
+   {
+    "name": "辽宁卫视",
+    "urls": [
+     "http://118.193.115.2:9901/tsfile/live/0121_1.m3u8?key=txiptv",
+     "http://123.118.54.216:8686/rtp/239.3.1.210:8056"
+    ]
+   },
+   {
+    "name": "重庆卫视",
+    "urls": [
+     "http://183.164.236.214:8888/rtp/238.1.78.31:6176",
+     "http://114.254.185.98:8099/rtp/239.3.1.122:8160"
+    ]
+   },
+   {
+    "name": "黑龙江卫视",
+    "urls": [
+     "http://fuxin.yunjifei.top:999/tsfile/live/0143_1.m3u8?key=txiptv",
+     "http://183.62.8.58:50085/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️广东频道",
+  "channels": [
+   {
+    "name": "大湾区卫视",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+   },
+   {
+    "name": "广东体育",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=0&authid=0",
+     "https://live.catvod.com/iptv.php?id=gdty01"
+    ]
+   },
+   {
+    "name": "广东新闻",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1031_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+   },
+   {
+    "name": "广东民生",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=0&authid=0",
+     "http://120.238.94.82:9901/tsfile/live/1011_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "广东珠江",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1030_1.m3u8?key=txiptv&playlive=0&authid=0",
+     "https://iptv.catvod.com/catvod?id=%E5%B9%BF%E4%B8%9C%E7%8F%A0%E6%B1%9F&line=1",
+     "https://iptv.catvod.com/catvod?id=%E5%B9%BF%E4%B8%9C%E7%8F%A0%E6%B1%9F&line=2"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️北京频道",
+  "channels": [
+   {
+    "name": "北京卡酷少儿",
+    "urls": [
+     "http://114.254.185.98:8099/rtp/239.3.1.189:8000",
+     "http://39.77.159.240:4002/rtp/239.253.254.66:8000",
+     "http://221.219.104.6:1193/rtp/239.3.1.189:8000",
+     "http://59.174.163.57:4022/rtp/239.69.1.193:10800",
+     "http://123.118.54.216:8686/rtp/239.3.1.189:8000"
+    ]
+   },
+   {
+    "name": "北京新闻",
+    "urls": [
+     "http://114.254.185.98:8099/rtp/239.3.1.159:8000",
+     "http://221.219.104.6:1193/rtp/239.3.1.159:8000"
+    ]
+   },
+   {
+    "name": "北京生活",
+    "urls": [
+     "http://114.254.185.98:8099/rtp/239.3.1.117:8000",
+     "http://221.219.104.6:1193/rtp/239.3.1.117:8000"
+    ]
+   },
+   {
+    "name": "北京财经",
+    "urls": [
+     "http://221.219.104.6:1193/rtp/239.3.1.116:8000"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️上海频道",
+  "channels": [
+   {
+    "name": "上海新闻综合",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E4%B8%8A%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88"
+    ]
+   },
+   {
+    "name": "上海第一财经",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E4%B8%8A%E6%B5%B7%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F"
+    ]
+   },
+   {
+    "name": "东方影视",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E4%B8%8A%E8%A7%86%E4%B8%9C%E6%96%B9%E5%BD%B1%E8%A7%86"
+    ]
+   },
+   {
+    "name": "东方财经",
+    "urls": [
+     "http://222.95.12.2:4022/rtp/239.49.8.37:8000",
+     "http://106.111.244.12:58099/rtp/239.49.8.37:8000"
+    ]
+   },
+   {
+    "name": "动漫秀场",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1104_1.m3u8?key=txiptv&playlive=0&authid=0",
+     "http://171.119.207.198:6000/rtp/226.0.2.183:9376",
+     "http://124.112.241.36:4022/rtp/238.1.78.154:7104",
+     "http://116.2.175.131:4010/rtp/232.0.0.128:1234",
+     "http://183.164.236.214:8888/rtp/238.1.78.154:7104",
+     "http://39.77.159.240:4002/rtp/239.253.254.115:8000",
+     "http://171.8.169.175:8800/rtp/239.16.20.40:10400"
+    ]
+   },
+   {
+    "name": "新闻综合",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E4%B8%8A%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88&line=1"
+    ]
+   },
+   {
+    "name": "欢笑剧场",
+    "urls": [
+     "http://116.2.175.131:4010/rtp/232.0.0.98:1234"
+    ]
+   },
+   {
+    "name": "生活时尚",
+    "urls": [
+     "http://39.77.159.240:4002/rtp/239.253.254.99:8000",
+     "http://183.164.236.214:8888/rtp/238.1.78.155:7112",
+     "http://124.112.241.36:4022/rtp/238.1.78.155:7112",
+     "http://116.2.175.131:4010/rtp/232.0.0.107:1234",
+     "http://171.8.169.175:8800/rtp/239.16.20.114:11140"
+    ]
+   },
+   {
+    "name": "第一财经",
+    "urls": [
+     "https://live.catvod.com/iptv.php?id=dycj01"
+    ]
+   },
+   {
+    "name": "都市剧场",
+    "urls": [
+     "http://171.119.207.198:6000/rtp/226.0.2.81:8560",
+     "http://116.2.175.131:4010/rtp/232.0.0.149:1234",
+     "http://171.8.169.175:8800/rtp/239.16.20.38:10380",
+     "http://39.77.159.240:4002/rtp/239.253.254.98:8000"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️江苏频道",
+  "channels": [
+   {
+    "name": "优漫卡通",
+    "urls": [
+     "https://iptv.catvod.com/catvod?id=%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93&line=2",
+     "https://iptv.catvod.com/catvod?id=%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93&line=5",
+     "https://iptv.catvod.com/catvod?id=%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93&line=1",
+     "https://iptv.catvod.com/catvod?id=%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93&line=3",
+     "https://iptv.catvod.com/catvod?id=%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93&line=4",
+     "http://114.226.212.154:8787/rtp/239.49.8.119:8000",
+     "http://114.226.212.153:8787/rtp/239.49.8.119:8000",
+     "http://114.226.212.155:8787/rtp/239.49.8.119:8000"
+    ]
+   },
+   {
+    "name": "南京十八",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E5%8D%97%E4%BA%AC%E5%8D%81%E5%85%AB%E9%A2%91%E9%81%93"
+    ]
+   },
+   {
+    "name": "南京教科",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E5%8D%97%E4%BA%AC%E6%95%99%E7%A7%91%E9%A2%91%E9%81%93"
+    ]
+   },
+   {
+    "name": "南京新闻综合",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E5%8D%97%E4%BA%AC%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93"
+    ]
+   },
+   {
+    "name": "江苏城市",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E6%B1%9F%E8%8B%8F%E5%9F%8E%E5%B8%82%E9%A2%91%E9%81%93"
+    ]
+   },
+   {
+    "name": "江苏影视",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E6%B1%9F%E8%8B%8F%E5%BD%B1%E8%A7%86%E9%A2%91%E9%81%93"
+    ]
+   },
+   {
+    "name": "江苏教育",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E6%B1%9F%E8%8B%8F%E6%95%99%E8%82%B2"
+    ]
+   },
+   {
+    "name": "淮安新闻综合",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E6%B7%AE%E5%AE%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88"
+    ]
+   },
+   {
+    "name": "溧水新闻综合",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E6%BA%A7%E6%B0%B4%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88"
+    ]
+   },
+   {
+    "name": "连云港新闻综合",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E8%BF%9E%E4%BA%91%E6%B8%AF%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88"
+    ]
+   },
+   {
+    "name": "镇江新闻综合",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E9%95%87%E6%B1%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️湖南频道",
+  "channels": [
+   {
+    "name": "湖南娱乐",
+    "urls": [
+     "http://116.128.243.121:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+   },
+   {
+    "name": "湖南电影",
+    "urls": [
+     "http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv"
+    ]
+   },
+   {
+    "name": "湖南经视",
+    "urls": [
+     "http://116.128.243.121:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+   },
+   {
+    "name": "湖南都市",
+    "urls": [
+     "http://116.128.243.121:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0"
+    ]
+   },
+   {
+    "name": "湖南金鹰纪实",
+    "urls": [
+     "http://114.254.185.98:8099/rtp/239.3.1.58:8156",
+     "http://221.219.104.6:1193/rtp/239.3.1.58:8156"
+    ]
+   },
+   {
+    "name": "金鹰纪实",
+    "urls": [
+     "http://115.171.216.32:4000/rtp/225.1.8.31:8156",
+     "http://115.171.216.46:4000/rtp/225.1.8.31:8156",
+     "http://39.77.159.240:4002/rtp/239.253.254.103:8000",
+     "http://144.255.31.236:6688/udp/239.21.1.170:5002",
+     "http://121.29.215.65:2083/rtp/239.253.92.103:6054",
+     "http://171.8.169.175:8800/rtp/239.16.20.153:11530"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️陕西频道",
+  "channels": [
+   {
+    "name": "陕西体育休闲",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E4%BD%93%E8%82%B2%E4%BC%91%E9%97%B2%E9%A2%91%E9%81%93"
+    ]
+   },
+   {
+    "name": "陕西新闻资讯",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF%E9%A2%91%E9%81%93"
+    ]
+   },
+   {
+    "name": "陕西都市青春",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E9%99%95%E8%A5%BF%E9%83%BD%E5%B8%82%E9%9D%92%E6%98%A5%E9%A2%91%E9%81%93"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️福建频道",
+  "channels": [
+   {
+    "name": "厦门卫视",
+    "urls": [
+     "https://iptv.catvod.com/catvod.php?id=xmws"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️河南频道",
+  "channels": [
+   {
+    "name": "河南民生",
+    "urls": [
+     "http://www.lwfz.fun:8800/rtp/239.16.20.165:11650"
+    ]
+   },
+   {
+    "name": "河南都市",
+    "urls": [
+     "http://www.lwfz.fun:8800/rtp/239.16.20.164:11640"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "☘️山东频道",
+  "channels": [
+   {
+    "name": "山东教育",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2&line=1",
+     "https://iptv.catvod.com/live.php?id=%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "🌊港·澳·台",
+  "channels": [
+   {
+    "name": "凤凰中文",
+    "urls": [
+     "https://live.catvod.com/iptv.php?id=phzw01"
+    ]
+   },
+   {
+    "name": "凤凰资讯",
+    "urls": [
+     "https://live.catvod.com/iptv.php?id=phzx01"
+    ]
+   },
+   {
+    "name": "凤凰香港",
+    "urls": [
+     "https://live.catvod.com/iptv.php?id=fhhk01"
+    ]
+   },
+   {
+    "name": "翡翠台",
+    "urls": [
+     "https://live.catvod.com/iptv.php?id=fct4k02",
+     "https://live.catvod.com/iptv.php?id=fct003",
+     "https://live.catvod.com/iptv.php?id=fctsub"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "🎬电影频道",
+  "channels": [
+   {
+    "name": "CHC动作电影",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1",
+     "http://106.59.2.32:55555/rtp/239.200.201.31:8144",
+     "http://106.59.2.85:55555/rtp/239.200.201.31:8144",
+     "http://59.174.163.57:4022/rtp/239.69.1.242:11094"
+    ]
+   },
+   {
+    "name": "CHC家庭影院",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2",
+     "http://39.77.159.240:4002/rtp/239.253.254.152:8000"
+    ]
+   },
+   {
+    "name": "NewTV动作电影",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=NewTV%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1"
+    ]
+   },
+   {
+    "name": "NewTV惊悚悬疑",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=NewTV%E6%83%8A%E6%82%9A%E6%82%AC%E7%96%91"
+    ]
+   },
+   {
+    "name": "淘剧场",
+    "urls": [
+     "http://221.220.135.48:8012/rtp/239.3.1.95:8001"
+    ]
+   },
+   {
+    "name": "淘娱乐",
+    "urls": [
+     "http://123.118.54.216:8686/rtp/239.3.1.100:8001",
+     "http://221.220.135.48:8012/rtp/239.3.1.100:8001"
+    ]
+   },
+   {
+    "name": "淘电影",
+    "urls": [
+     "http://115.171.216.46:4000/rtp/225.1.8.38:8002"
+    ]
+   },
+   {
+    "name": "经典电影",
+    "urls": [
+     "https://yylunbo.ottiptv.cc/yy/1414812324"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "🏀体育频道",
+  "channels": [
+   {
+    "name": "五星体育",
+    "urls": [
+     "https://live.catvod.com/iptv.php?id=wxty01"
+    ]
+   },
+   {
+    "name": "劲爆体育",
+    "urls": [
+     "http://183.237.95.108:9901/tsfile/live/1074_1.m3u8?key=txiptv&playlive=0&authid=0"
+    ]
+   },
+   {
+    "name": "天元围棋",
+    "urls": [
+     "http://121.29.215.65:2083/rtp/239.253.93.211:6389",
+     "http://60.4.30.177:8077/rtp/239.253.93.211:6389"
+    ]
+   },
+   {
+    "name": "快乐垂钓",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93",
+     "http://121.29.215.65:2083/rtp/239.253.93.213:6391"
+    ]
+   },
+   {
+    "name": "睛彩篮球",
+    "urls": [
+     "http://feilong123.vip/409990236/iptv/gdy.php?id=23",
+     "http://feilong123.vip/409990236/iptv/gdy.php?id=2",
+     "http://114.254.185.98:8099/rtp/239.3.1.126:8001",
+     "http://221.219.104.6:1193/rtp/239.3.1.126:8001"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "🪁动画频道",
+  "channels": [
+   {
+    "name": "新动漫",
+    "urls": [
+     "https://iptv.catvod.com/live.php?id=%E6%96%B0%E5%8A%A8%E6%BC%AB"
+    ]
+   },
+   {
+    "name": "经典动漫",
+    "urls": [
+     "https://www.goodiptv.club/yy/22777075"
+    ]
+   },
+   {
+    "name": "金鹰卡通",
+    "urls": [
+     "http://183.62.8.58:50085/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://125.42.150.56:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0",
+     "http://121.29.215.65:2083/rtp/239.253.92.163:8055",
+     "http://39.77.159.240:4002/rtp/239.253.254.117:8000",
+     "http://59.174.163.57:4022/rtp/239.69.1.248:11130",
+     "http://60.4.30.177:8077/rtp/239.253.92.163:8055",
+     "http://106.59.2.85:55555/rtp/239.200.200.65:8328",
+     "http://116.2.175.131:4010/rtp/232.0.0.90:1234",
+     "http://106.59.2.32:55555/rtp/239.200.200.65:8328",
+     "http://171.119.207.198:6000/rtp/226.0.2.172:9288"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "🎮游戏频道",
+  "channels": [
+   {
+    "name": "游戏风云",
+    "urls": [
+     "http://171.8.169.175:8800/rtp/239.16.20.112:11120",
+     "http://116.2.175.131:4010/rtp/232.0.0.127:1234"
+    ]
+   }
+  ]
+ },
+ {
+  "group": "🏛经典剧场",
+  "channels": [
+   {
+    "name": "上海滩",
+    "urls": [
+     "https://www.goodiptv.club/yy/1382745184"
+    ]
+   },
+   {
+    "name": "封神榜",
+    "urls": [
+     "https://www.goodiptv.club/yy/1382797534"
+    ]
+   }
+  ]
+ }
+]
