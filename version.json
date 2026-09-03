@@ -1,8 +1,8 @@
 {
-  "versionCode": 22,
-  "versionName": "1.1.10-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.10-sub_code22/TVBox_v1.1.10-sub_code22_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.10-sub_code22/TVBox_v1.1.10-sub_code22_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.10-sub_code22/TVBox_v1.1.10-sub_code22_arm64.apk",
-  "log": "code22: ①关于页新增手动检查更新按钮+显示当前版本号 ②屏蔽管理新增全选/反选按钮(站点与分类模式都支持) ③直播线路列表标注历史实测状态(失败多于成功的线路标'不可用', 成功过的显示平均起播耗时), 选线路前即可避开死线。说明: 线路'选其他不成功'经源码级排查确认切换逻辑无bug, 是裸IP线路失效所致, 自动换源会兜底, 现在可看标注主动避开。"
+  "versionCode": 23,
+  "versionName": "1.1.11-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.11-sub_code23/TVBox_v1.1.11-sub_code23_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.11-sub_code23/TVBox_v1.1.11-sub_code23_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.11-sub_code23/TVBox_v1.1.11-sub_code23_arm64.apk",
+  "log": "code23: 修复点播换源后自动跳回主力源的问题——启动择优与后台测速自动切换新增'手动宽限期': 你手动选的订阅源7天内绝不被自动覆盖(仅当该源彻底失效才兜底切换), 手动选择拥有最高优先级。"
 }
