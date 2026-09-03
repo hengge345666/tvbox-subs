@@ -1,8 +1,8 @@
 {
-  "versionCode": 19,
-  "versionName": "1.1.7-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.7-sub_code19/TVBox_v1.1.7-sub_code19_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.7-sub_code19/TVBox_v1.1.7-sub_code19_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.7-sub_code19/TVBox_v1.1.7-sub_code19_arm64.apk",
-  "log": "code19: ①搜索结果列表按源响应速度重排(快站结果排前,超时/无数据排最后,同速保持原序); ②随源下发死站清单 dead_sites.json(24个真探测死站),新装用户首天即跳过死站,不必等 SiteHealth 连失败3天下架; 不含作者故意 searchable:0 的优质源,避免误伤播放换源"
+  "versionCode": 20,
+  "versionName": "1.1.8-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.8-sub_code20/TVBox_v1.1.8-sub_code20_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.8-sub_code20/TVBox_v1.1.8-sub_code20_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.8-sub_code20/TVBox_v1.1.8-sub_code20_arm64.apk",
+  "log": "code20: 新增「设置->屏蔽管理」页: ①站点黑名单(独立于聚合套娃API_URL,智能选源切换也持久生效,被屏蔽站点从搜索结果+播放换源彻底消失,不再每次搜索重勾); ②分类黑名单(按源+分类名精确屏蔽,可隐藏指定站内伦理片/短视频等菜单); 设置一次永久生效"
 }
