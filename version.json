@@ -1,8 +1,8 @@
 {
-  "versionCode": 20,
-  "versionName": "1.1.8-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.8-sub_code20/TVBox_v1.1.8-sub_code20_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.8-sub_code20/TVBox_v1.1.8-sub_code20_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.8-sub_code20/TVBox_v1.1.8-sub_code20_arm64.apk",
-  "log": "code20: 新增「设置->屏蔽管理」页: ①站点黑名单(独立于聚合套娃API_URL,智能选源切换也持久生效,被屏蔽站点从搜索结果+播放换源彻底消失,不再每次搜索重勾); ②分类黑名单(按源+分类名精确屏蔽,可隐藏指定站内伦理片/短视频等菜单); 设置一次永久生效"
+  "versionCode": 21,
+  "versionName": "1.1.9-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.9-sub_code21/TVBox_v1.1.9-sub_code21_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.9-sub_code21/TVBox_v1.1.9-sub_code21_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.9-sub_code21/TVBox_v1.1.9-sub_code21_arm64.apk",
+  "log": "code21: 修复分类黑名单(屏蔽管理→分类模式)。根因: code20 把分类黑名单建在 SourceBean.getCategories()(源JSON的categories字段)上, 但主力源 anaer_meow.json 的站点根本没写该字段, 导致①屏蔽管理页列不出任何栏目可选②首页过滤逻辑(PATH A/C)完全没调用 isCategoryBlocked。修正: 真实栏目改为取自各源首页解析出的类目(AbsSortXml.classes.sortList), 新增 SourceCategoryCache 在首页解析时按 sourceKey 缓存; adjustSort 全路径(含未定义categories的真实源)都按 isCategoryBlocked(sourceKey,类目名) 过滤, 分类屏蔽真正生效。注意: 分类需先打开过该源首页(使其栏目被加载)才会在列表中出现。"
 }
