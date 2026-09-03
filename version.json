@@ -1,8 +1,8 @@
 {
-  "versionCode": 21,
-  "versionName": "1.1.9-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.9-sub_code21/TVBox_v1.1.9-sub_code21_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.9-sub_code21/TVBox_v1.1.9-sub_code21_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.9-sub_code21/TVBox_v1.1.9-sub_code21_arm64.apk",
-  "log": "code21: 修复分类黑名单(屏蔽管理→分类模式)。根因: code20 把分类黑名单建在 SourceBean.getCategories()(源JSON的categories字段)上, 但主力源 anaer_meow.json 的站点根本没写该字段, 导致①屏蔽管理页列不出任何栏目可选②首页过滤逻辑(PATH A/C)完全没调用 isCategoryBlocked。修正: 真实栏目改为取自各源首页解析出的类目(AbsSortXml.classes.sortList), 新增 SourceCategoryCache 在首页解析时按 sourceKey 缓存; adjustSort 全路径(含未定义categories的真实源)都按 isCategoryBlocked(sourceKey,类目名) 过滤, 分类屏蔽真正生效。注意: 分类需先打开过该源首页(使其栏目被加载)才会在列表中出现。"
+  "versionCode": 22,
+  "versionName": "1.1.10-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.10-sub_code22/TVBox_v1.1.10-sub_code22_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.10-sub_code22/TVBox_v1.1.10-sub_code22_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.10-sub_code22/TVBox_v1.1.10-sub_code22_arm64.apk",
+  "log": "code22: ①关于页新增手动检查更新按钮+显示当前版本号 ②屏蔽管理新增全选/反选按钮(站点与分类模式都支持) ③直播线路列表标注历史实测状态(失败多于成功的线路标'不可用', 成功过的显示平均起播耗时), 选线路前即可避开死线。说明: 线路'选其他不成功'经源码级排查确认切换逻辑无bug, 是裸IP线路失效所致, 自动换源会兜底, 现在可看标注主动避开。"
 }
