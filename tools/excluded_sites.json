@@ -1,0 +1,135 @@
+{
+ "date": "2026-09-03",
+ "action": "soft-exclude (searchable=0)",
+ "reason": "连续两轮探测均不可用(DEAD)或返回空结果(EMPTY)",
+ "source": "mirror/anaer_meow.json",
+ "count": 25,
+ "sites": [
+  {
+   "name": "12-量子",
+   "key": "d2fee2579b5b9f122d45709ce08226fb",
+   "api": "http://www.lzzy.tv/api.php/provide/vod/"
+  },
+  {
+   "name": "14-量子",
+   "key": "fb264ae3b34e829817f35b9b59ea9c36",
+   "api": "https://lzizy4.com/api.php/provide/vod/"
+  },
+  {
+   "name": "15-量子",
+   "key": "548c69066731916a1611dacb0e3b452c",
+   "api": "https://lzizy8.com/api.php/provide/vod/"
+  },
+  {
+   "name": "16-量子",
+   "key": "6c22ca0c90b5e44cd830d7ca515efa9c",
+   "api": "https://lzizy2.com/api.php/provide/vod/"
+  },
+  {
+   "name": "17-量子",
+   "key": "5d7bbc2b3aa0bfea3296946bf1ecda92",
+   "api": "https://lzizy5.com/api.php/provide/vod/"
+  },
+  {
+   "name": "19-量子",
+   "key": "4797280cffa831567a8b737ec684ac1d",
+   "api": "http://lzizy.net/api.php/provide/vod/"
+  },
+  {
+   "name": "20-量子",
+   "key": "96eb0562e1d21f2ef02d4c5e5bbf9ea7",
+   "api": "https://lzizy3.com/api.php/provide/vod/"
+  },
+  {
+   "name": "24-樱花",
+   "key": "30e07a544ffe9b6069a1ba66d6442ca9",
+   "api": "https://api.apiyhzy.com/api.php/provide/vod/"
+  },
+  {
+   "name": "27-樱花",
+   "key": "f392a6508debf453628b2713b0ee0a47",
+   "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/"
+  },
+  {
+   "name": "28-无尽",
+   "key": "2b95a57602ae920c848d81627e162f9e",
+   "api": "https://api.wujinapi.me/api.php/provide/vod/"
+  },
+  {
+   "name": "39-柚子",
+   "key": "d8f1cd70bcdc09564995c505f7041a2e",
+   "api": "https://api.yzzy-api.com/inc/api.php"
+  },
+  {
+   "name": "43-HG",
+   "key": "fbfa5eed414e1f6137f2496a68005ef5",
+   "api": "https://hong.hgyx.vip/api.php/provide/vod/"
+  },
+  {
+   "name": "44-步步高资源(切)",
+   "key": "9988d74012ebbb2648a68f41dab1f3da",
+   "api": "https://api.yparse.com/api/json"
+  },
+  {
+   "name": "45-91视频",
+   "key": "041c843aea19129a4716a6db4ab444ff",
+   "api": "https://91av.cyou/api.php/provide/vod/"
+  },
+  {
+   "name": "47-步步高资源",
+   "key": "45f33b701d9ec5f355ffb35e51e2a37d",
+   "api": "https://api.yparse.com/api/xml"
+  },
+  {
+   "name": "48-旺仔",
+   "key": "be13cce49fea98ed9760b206092df3dc",
+   "api": "https://api.wwzy.tv/api.php/provide/vod/"
+  },
+  {
+   "name": "50-淘片",
+   "key": "9d8b0f25e739dc88f3a9aa3ccd54b1a5",
+   "api": "https://taopianapi.com/cjapi/mc/vod/json.html"
+  },
+  {
+   "name": "51-快鹰",
+   "key": "3d23da393a65774f2800c6732c55c7ce",
+   "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/"
+  },
+  {
+   "name": "52-淘片",
+   "key": "f333ebedb73901ca466a8ebc6aeab0da",
+   "api": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html"
+  },
+  {
+   "name": "53-豆瓣",
+   "key": "2ffb0933727d1d8f3aad0d1524e1d69b",
+   "api": "https://caiji.dbzy.tv/api.php/provide/vod/"
+  },
+  {
+   "name": "55-最大",
+   "key": "6e31126e4b7e6db33dcde3d30e309463",
+   "api": "https://zuidazy.me/api.php/provide/vod/"
+  },
+  {
+   "name": "57-飞马",
+   "key": "b954276569fe5d54ca57cf5cd6358465",
+   "api": "http://rise.eu.org/api.php/provide/vod/"
+  },
+  {
+   "name": "60-🌼蓝天┃90",
+   "key": "c0d55d39117844f081c86f10fec19ba4",
+   "api": "https://90sr.com/api.php/provide/vod/"
+  },
+  {
+   "name": "69-无尽",
+   "key": "16cfe5fb43282cd0609786037845f50b",
+   "api": "https://api.wujinapi.net/api.php/provide/vod/"
+  },
+  {
+   "name": "73-索尼",
+   "key": "de35b0afa75598ab506891123e6d8cb8",
+   "api": "https://suoniapi.com/api.php/provide/vod/"
+  }
+ ],
+ "note": "仅不参与搜索, 播放/解析链路仍可用; 改回 searchable=1 即可恢复"
+}
