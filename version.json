@@ -1,8 +1,7 @@
 {
-  "versionCode": 25,
-  "versionName": "1.1.13-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.13-sub_code25/TVBox_v1.1.13-sub_code25_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.13-sub_code25/TVBox_v1.1.13-sub_code25_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.13-sub_code25/TVBox_v1.1.13-sub_code25_arm64.apk",
-  "log": "code25: 多词搜索=缩小范围——搜'英雄 张艺谋'现在只出张艺谋拍的英雄: 源查询用第一个词保召回, 结果本地按'片名/演员/导演全词命中'过滤; 组合全空时自动降级改搜第一个词并提示。"
+  "versionCode": 26,
+  "versionName": "1.1.14-sub",
+  "log": "修复多词搜索（如「英雄 张艺谋」）结果被展示门槛扣下导致一直转圈的问题——多词过滤结果直接展示；保留 code25 多词缩小范围/演员导演过滤、code24 演员点击、code23 手动换源宽限期、code22 检查更新/全选反选/线路标注全部功能。",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.14-sub_code26/TVBox_v1.1.14-sub_code26_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.14-sub_code26/TVBox_v1.1.14-sub_code26_universal.apk"
 }
