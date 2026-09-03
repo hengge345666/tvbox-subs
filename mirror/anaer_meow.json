@@ -3630,7 +3630,7 @@
    "key": "041c843aea19129a4716a6db4ab444ff",
    "name": "45-91视频",
    "type": 1,
-   "searchable": 0
+   "searchable": 1
   },
   {
    "api": "https://8day.icu/api.php/provide/vod/",
