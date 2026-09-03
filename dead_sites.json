@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "generated": "2026-09-03",
+  "note": "已探测确认失活(接口不可达/超时)的源站 key，随源下发让新装用户首天即跳过(不必等 SiteHealth 的 3 天连失败下架)。仅含真死站；作者故意 searchable:0 的优质源(带 quickSearch:0 的 *-标记站)不在此列，避免误伤播放换源。与 mirror/anaer_meow.json 的 searchable:0 保持同步：恢复某站时须同时从此清单移除。",
+  "count": 24,
+  "keys": [
+    "d2fee2579b5b9f122d45709ce08226fb",
+    "fb264ae3b34e829817f35b9b59ea9c36",
+    "548c69066731916a1611dacb0e3b452c",
+    "6c22ca0c90b5e44cd830d7ca515efa9c",
+    "5d7bbc2b3aa0bfea3296946bf1ecda92",
+    "4797280cffa831567a8b737ec684ac1d",
+    "96eb0562e1d21f2ef02d4c5e5bbf9ea7",
+    "30e07a544ffe9b6069a1ba66d6442ca9",
+    "f392a6508debf453628b2713b0ee0a47",
+    "2b95a57602ae920c848d81627e162f9e",
+    "d8f1cd70bcdc09564995c505f7041a2e",
+    "fbfa5eed414e1f6137f2496a68005ef5",
+    "9988d74012ebbb2648a68f41dab1f3da",
+    "45f33b701d9ec5f355ffb35e51e2a37d",
+    "be13cce49fea98ed9760b206092df3dc",
+    "9d8b0f25e739dc88f3a9aa3ccd54b1a5",
+    "3d23da393a65774f2800c6732c55c7ce",
+    "f333ebedb73901ca466a8ebc6aeab0da",
+    "2ffb0933727d1d8f3aad0d1524e1d69b",
+    "6e31126e4b7e6db33dcde3d30e309463",
+    "b954276569fe5d54ca57cf5cd6358465",
+    "c0d55d39117844f081c86f10fec19ba4",
+    "16cfe5fb43282cd0609786037845f50b",
+    "de35b0afa75598ab506891123e6d8cb8"
+  ]
+}
