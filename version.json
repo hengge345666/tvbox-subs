@@ -1,8 +1,8 @@
 {
-  "versionCode": 24,
-  "versionName": "1.1.12-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.12-sub_code24/TVBox_v1.1.12-sub_code24_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.12-sub_code24/TVBox_v1.1.12-sub_code24_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.12-sub_code24/TVBox_v1.1.12-sub_code24_arm64.apk",
-  "log": "code24: 搜索优化——详情页演员/导演名字可点击发起全源搜索; 多词组合(如'英雄 李连杰')零结果时自动降级改搜最长词, 支持演员匹配的源(暴风/非凡lz等)可直接关联出影片。"
+  "versionCode": 25,
+  "versionName": "1.1.13-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.13-sub_code25/TVBox_v1.1.13-sub_code25_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.13-sub_code25/TVBox_v1.1.13-sub_code25_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.13-sub_code25/TVBox_v1.1.13-sub_code25_arm64.apk",
+  "log": "code25: 多词搜索=缩小范围——搜'英雄 张艺谋'现在只出张艺谋拍的英雄: 源查询用第一个词保召回, 结果本地按'片名/演员/导演全词命中'过滤; 组合全空时自动降级改搜第一个词并提示。"
 }
