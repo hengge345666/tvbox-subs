@@ -1,8 +1,8 @@
 {
-  "versionCode": 17,
-  "versionName": "1.1.5-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.5-sub_code17/TVBox_v1.1.5-sub_code17_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.5-sub_code17/TVBox_v1.1.5-sub_code17_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.5-sub_code17/TVBox_v1.1.5-sub_code17_arm64.apk",
-  "log": "搜索源测速排序(标签显示响应速度/超时,快站靠前) / 广告过滤加强(远程规则热更+host精准匹配) / 修复坏源yw88075"
+  "versionCode": 18,
+  "versionName": "1.1.6-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.6-sub_code18/TVBox_v1.1.6-sub_code18_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.6-sub_code18/TVBox_v1.1.6-sub_code18_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.6-sub_code18/TVBox_v1.1.6-sub_code18_arm64.apk",
+  "log": "code18: 换台自动优先选历史起播最快的线路（记录每条线路真实起播耗时，换台时直接选最快那条，越用越准）；超时换源默认档位 10s→5s（死线路更快跳过）"
 }
