@@ -1,0 +1,5 @@
+
+# 工作区工具目录(非源内容)
+.workbuddy/
+__pycache__/
+tools/__pycache__/
