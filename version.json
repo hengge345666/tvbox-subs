@@ -1,8 +1,8 @@
 {
-  "versionCode": 18,
-  "versionName": "1.1.6-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.6-sub_code18/TVBox_v1.1.6-sub_code18_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.6-sub_code18/TVBox_v1.1.6-sub_code18_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.6-sub_code18/TVBox_v1.1.6-sub_code18_arm64.apk",
-  "log": "code18: 换台自动优先选历史起播最快的线路（记录每条线路真实起播耗时，换台时直接选最快那条，越用越准）；超时换源默认档位 10s→5s（死线路更快跳过）"
+  "versionCode": 19,
+  "versionName": "1.1.7-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.7-sub_code19/TVBox_v1.1.7-sub_code19_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.7-sub_code19/TVBox_v1.1.7-sub_code19_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.7-sub_code19/TVBox_v1.1.7-sub_code19_arm64.apk",
+  "log": "code19: ①搜索结果列表按源响应速度重排(快站结果排前,超时/无数据排最后,同速保持原序); ②随源下发死站清单 dead_sites.json(24个真探测死站),新装用户首天即跳过死站,不必等 SiteHealth 连失败3天下架; 不含作者故意 searchable:0 的优质源,避免误伤播放换源"
 }
