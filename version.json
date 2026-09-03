@@ -1,8 +1,8 @@
 {
-  "versionCode": 23,
-  "versionName": "1.1.11-sub",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.11-sub_code23/TVBox_v1.1.11-sub_code23_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.11-sub_code23/TVBox_v1.1.11-sub_code23_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.11-sub_code23/TVBox_v1.1.11-sub_code23_arm64.apk",
-  "log": "code23: 修复点播换源后自动跳回主力源的问题——启动择优与后台测速自动切换新增'手动宽限期': 你手动选的订阅源7天内绝不被自动覆盖(仅当该源彻底失效才兜底切换), 手动选择拥有最高优先级。"
+  "versionCode": 24,
+  "versionName": "1.1.12-sub",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.12-sub_code24/TVBox_v1.1.12-sub_code24_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.12-sub_code24/TVBox_v1.1.12-sub_code24_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.12-sub_code24/TVBox_v1.1.12-sub_code24_arm64.apk",
+  "log": "code24: 搜索优化——详情页演员/导演名字可点击发起全源搜索; 多词组合(如'英雄 李连杰')零结果时自动降级改搜最长词, 支持演员匹配的源(暴风/非凡lz等)可直接关联出影片。"
 }
