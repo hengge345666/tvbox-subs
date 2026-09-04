@@ -909,7 +909,9 @@
       "api": "https://8day.icu/api.php/provide/vod/",
       "key": "ae542ab0bdf63ea164619ca8280d8576",
       "name": "46-七天",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://api.yparse.com/api/xml",
