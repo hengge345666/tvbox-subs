@@ -1,7 +1,8 @@
 {
-  "versionCode": 27,
-  "versionName": "1.1.15-sub",
-  "log": "搜索展示层一次性修复：单词搜索结果被精确/前缀门槛全扣下不上屏（如搜「辽沈战役」出站点标签但无结果转圈）→ 搜完兜底全量展示；前缀展示模式触发时若无前缀命中立即展示已到结果；精确命中不再被前缀模式丢弃；多词搜索直接展示（code26）。",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.15-sub_code27/TVBox_v1.1.15-sub_code27_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.15-sub_code27/TVBox_v1.1.15-sub_code27_universal.apk"
+  "versionCode": 28,
+  "versionName": "1.1.16-sub",
+  "log": "防误触+可取证+高帧率：一、「我的」页「设置」按钮改为双击确认（首次只提示「再按一次进入设置」，2 秒内再按才进入，其余按钮不变）；二、崩溃日志落盘，闪退后可在 Android/data/包名/files/crash_logs/ 取到含时间/版本/设备/完整堆栈的日志，自动保留最近 20 份；三、IJK max-fps 由固定 30 改为直播 30 / 点播 60，体育、演唱会等 60fps 片源不再被腰斩到 30 帧。",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.16-sub_code28/TVBox_v1.1.16-sub_code28_arm64.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.16-sub_code28/TVBox_v1.1.16-sub_code28_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.16-sub_code28/TVBox_v1.1.16-sub_code28_universal.apk"
 }
