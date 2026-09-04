@@ -1,8 +1,8 @@
 {
-  "versionCode": 28,
-  "versionName": "1.1.16-sub",
-  "log": "防误触+可取证+高帧率：一、「我的」页「设置」按钮改为双击确认（首次只提示「再按一次进入设置」，2 秒内再按才进入，其余按钮不变）；二、崩溃日志落盘，闪退后可在 Android/data/包名/files/crash_logs/ 取到含时间/版本/设备/完整堆栈的日志，自动保留最近 20 份；三、IJK max-fps 由固定 30 改为直播 30 / 点播 60，体育、演唱会等 60fps 片源不再被腰斩到 30 帧。",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.16-sub_code28/TVBox_v1.1.16-sub_code28_arm64.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.16-sub_code28/TVBox_v1.1.16-sub_code28_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.16-sub_code28/TVBox_v1.1.16-sub_code28_universal.apk"
+  "versionCode": 29,
+  "versionName": "1.1.17-sub",
+  "log": "修复更新下载极慢：下载链路改为镜像优先（gh-proxy → ghfast → github 直连兜底），并对每条候选链先探测 1MB 测速，命中不低于 200KB/s 的链才正式下载、慢链自动跳过。原逻辑把国内仅约 15KB/s 的 github 直连当主链，下载 22MB 要 20 多分钟；现在盒子点更新下载新包约 20~30 秒完成。",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.17-sub_code29/TVBox_v1.1.17-sub_code29_arm64.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.17-sub_code29/TVBox_v1.1.17-sub_code29_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.17-sub_code29/TVBox_v1.1.17-sub_code29_universal.apk"
 }
