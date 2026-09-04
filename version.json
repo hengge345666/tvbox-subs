@@ -1,8 +1,8 @@
 {
-  "versionCode": 29,
-  "versionName": "1.1.17-sub",
-  "log": "修复更新下载极慢：下载链路改为镜像优先（gh-proxy → ghfast → github 直连兜底），并对每条候选链先探测 1MB 测速，命中不低于 200KB/s 的链才正式下载、慢链自动跳过。原逻辑把国内仅约 15KB/s 的 github 直连当主链，下载 22MB 要 20 多分钟；现在盒子点更新下载新包约 20~30 秒完成。",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.17-sub_code29/TVBox_v1.1.17-sub_code29_arm64.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.17-sub_code29/TVBox_v1.1.17-sub_code29_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.17-sub_code29/TVBox_v1.1.17-sub_code29_universal.apk"
+  "versionCode": 30,
+  "versionName": "1.1.18-sub",
+  "log": "修复自更新「应用不兼容此设备」：更新包按设备架构自适应下发——优先 universal 全架构包（含 armeabi-v7a + arm64-v8a），32 位盒子不再被下发 arm64 单包而拒装；64 位设备仍可用更小的 arm64 包。已装的旧版本直接点「检查更新」即可拉到能安装的 universal 包。",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.18-sub_code30/TVBox_v1.1.18-sub_code30_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.18-sub_code30/TVBox_v1.1.18-sub_code30_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.18-sub_code30/TVBox_v1.1.18-sub_code30_universal.apk"
 }
