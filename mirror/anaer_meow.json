@@ -929,7 +929,9 @@
       "api": "https://www.wyvod.com/api.php/provide/vod/",
       "key": "130ff3134aa51648a8a5575b98b5d268",
       "name": "49-无忧",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
@@ -964,7 +966,9 @@
       "api": "https://iqiyizyapi.com/api.php/provide/vod/",
       "key": "acd47931ed9a83e500f70bbb7c5c0c2b",
       "name": "54-奇艺",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://zuidazy.me/api.php/provide/vod/",
