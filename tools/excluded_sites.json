@@ -216,5 +216,32 @@
     "reason": "用户指定屏蔽(apiyutu.com,切片站)",
     "date": "2026-09-04",
     "by": "用户确认"
+  },
+  "batch_2026-09-04_slow": {
+    "date": "2026-09-04",
+    "action": "soft-exclude (searchable=0 + quickSearch=0)",
+    "reason": "站点级实测：搜索响应过慢，拖累全源搜索尾延迟",
+    "source": "mirror/anaer_meow.json",
+    "count": 2,
+    "sites": [
+      {
+        "name": "49-无忧",
+        "key": "130ff3134aa51648a8a5575b98b5d268",
+        "api": "https://www.wyvod.com/api.php/provide/vod/",
+        "reason": "SLOW 搜索平均8889ms/最大10000ms超时，严重拖慢全源搜索尾延迟"
+      },
+      {
+        "name": "54-奇艺",
+        "key": "acd47931ed9a83e500f70bbb7c5c0c2b",
+        "api": "https://iqiyizyapi.com/api.php/provide/vod/",
+        "reason": "SLOW 搜索平均4227ms/最大7595ms，拖慢全源搜索尾延迟"
+      }
+    ],
+    "watch": {
+      "40-橘猫采集": "平均3514ms，处于边界，本轮先保留观察，下轮实测再定"
+    },
+    "note": "本轮只处置慢站。此前判定的 12 个死站经核对已全部处于 searchable=0，不参与搜索，剔除无性能收益，故保留站点仅做审计记录。",
+    "method": "两轮实测：首轮 5 词标准片名搜索 16 并发 10s 超时；第二轮零命中/死站降并发 20s 超时 + 4 种 MacCMS 参数变体复核",
+    "backup": "anaer_meow_backup_2026-09-04-1639.json"
   }
 }
