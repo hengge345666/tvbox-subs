@@ -1,0 +1,62 @@
+name: Weekly Probe
+
+on:
+  schedule:
+    # UTC 周日 20:00 = 北京时间周一 04:00
+    - cron: "0 20 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: pip install requests
+
+      - name: 探测主力源（anaer_meow）
+        run: python tools/probe_sites.py mirror/anaer_meow.json | tee probe_main.txt
+
+      - name: 死站复活扫描（dead_sites）
+        run: python tools/probe_sites.py --revive dead_sites.json mirror/anaer_meow.json | tee probe_revive.txt
+
+      - name: 归档报告并回写仓库
+        run: |
+          STAMP=$(date -u +%Y-%m-%d)
+          mkdir -p reports
+          {
+            echo "# 周期探测报告 $STAMP (UTC)"
+            echo
+            echo "> 复活候选仅供参考：移回主池前需人工复核，并在 tools/excluded_sites.json 登记恢复决策。"
+            echo
+            echo "## 主力源 mirror/anaer_meow.json"
+            echo '```text'
+            cat probe_main.txt
+            echo '```'
+            echo
+            echo "## 死站复活扫描 dead_sites.json"
+            echo '```text'
+            cat probe_revive.txt
+            echo '```'
+          } > "reports/$STAMP.md"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports
+          git diff --cached --quiet || (git commit -m "chore(probe): 周期探测报告 $STAMP" && git push)
+
+      - name: 上传报告 artifact（保留 30 天）
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-report
+          path: |
+            probe_main.txt
+            probe_revive.txt
+          retention-days: 30

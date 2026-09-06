@@ -9,8 +9,14 @@
 全部通过退出码 0, 任一失败退出码 1。
 """
 import json
+import re
 import sys
 from pathlib import Path
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
 ROOT = Path(__file__).resolve().parent.parent
 errors = []
@@ -74,6 +80,21 @@ def main():
               "未置零: %s" % not_zero[:5] if not_zero else "")
     else:
         check("交叉一致性", False, "缺少 %s 或 %s" % (dead_rel, meow_rel))
+
+    print("== 4) 订阅链路与更新清单元数据 ==")
+    subs = docs.get("subs.json")
+    if isinstance(subs, dict):
+        for item in subs.get("urls", []):
+            u = str(item.get("url", ""))
+            check("https 订阅 " + str(item.get("name", "?"))[:20],
+                  u.startswith("https://"), u[:70])
+    ver = docs.get("version.json")
+    if isinstance(ver, dict):
+        for field, val in ver.items():
+            if field.startswith("sha256"):
+                check("version.json %s 为 64 位十六进制" % field,
+                      bool(re.fullmatch(r"[0-9a-fA-F]{64}", str(val))),
+                      str(val)[:24] + ("…" if len(str(val)) > 24 else ""))
 
     print()
     if errors:

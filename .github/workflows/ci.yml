@@ -17,5 +17,8 @@ jobs:
       - name: 仓库质量校验（JSON 语法 / key 唯一性 / dead_sites 一致性）
         run: python tools/validate.py
 
+      - name: 订阅与更新链路可达性检查
+        run: python tools/check_urls.py
+
       - name: 探测脚本语法检查
-        run: python -m py_compile tools/probe_sites.py tools/validate.py
+        run: python -m py_compile tools/probe_sites.py tools/validate.py tools/check_urls.py

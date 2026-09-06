@@ -8,7 +8,7 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 
 | 文件 | 用途 | 消费方 |
 |---|---|---|
-| `subs.json` | 订阅接口索引（8 条，含 gh-proxy 镜像与第三方源） | TVBox 应用「订阅」入口 |
+| `subs.json` | 订阅接口索引（7 条，含 gh-proxy 镜像与第三方源） | TVBox 应用「订阅」入口 |
 | `version.json` | App 自更新 OTA 清单（版本号 / APK 地址 / 更新日志） | TVBox 应用检查更新 |
 | `ads.json` | 91 条广告域名黑名单（含 note / updated 元数据） | TVBox 应用热更 |
 | `dead_sites.json` | 24 个已探测确认失效的源站 key，供首日跳过 | TVBox 应用热更 |
@@ -24,14 +24,30 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 | `tools/excluded_sites.json` | 排除决策审计台账（死站/慢站/成人站/恢复记录） | 维护记录 |
 | `tools/_to_exclude.json` | 拟排除站点草稿（与 `excluded_sites.json` 同步） | 维护记录 |
 | `tools/validate.py` | 仓库质量校验（JSON 语法 / 站点 key 唯一性 / dead_sites 交叉一致性） | CI 与本地自检 |
+| `tools/check_urls.py` | 订阅与更新链路可达性检查（https 强制 + 外链 HEAD 探测） | CI 与本地自检 |
+| `reports/` | 周期探测报告（每周自动生成，保留历史） | GitHub Actions |
 
 ## 更新流程
 
 1. 上游配置更新后，镜像文件放 `mirror/`（保持文件名不变）。
-2. 跑 `tools/probe_sites.py <源JSON> [关键词]` 探测站点存活（只读）。
-3. 依探测结果更新 `dead_sites.json`，并在 `tools/excluded_sites.json` 登记决策。
+2. 跑 `tools/probe_sites.py <源JSON> [关键词]` 探测站点存活（只读）；每周一 04:00（北京时间）GitHub Actions 也会自动跑一轮并回写报告到 `reports/`。
+3. 依探测结果更新 `dead_sites.json`，并在 `tools/excluded_sites.json` 登记决策；`--revive` 可对死站名单做复活扫描（`python tools/probe_sites.py --revive dead_sites.json`）。
 4. 本地跑 `python tools/validate.py` 自检，确认 JSON 与 key 唯一性没问题。
-5. 提交推送；CI 会自动重跑同样的校验。
+5. 提交推送；CI 会自动重跑同样的校验，并对 `subs.json` / `version.json` 的全部外链做可达性检查。
+
+## 手动备用源
+
+以下源因走 HTTP 明文传输（配置可被链路篡改），已从 `subs.json` 默认订阅中移除，仅作手动添加备用：
+
+- T经典保底：`http://home.jundie.top:81/top98.json`
+
+## 源池健康
+
+<!-- health:start 由 Weekly Probe 工作流维护, 手动编辑会被覆盖 -->
+
+等待首轮定时探测后自动填充：各镜像可出片站点数 / 失活数 / 探测时间。
+
+<!-- health:end -->
 
 ## 致谢与来源声明
 

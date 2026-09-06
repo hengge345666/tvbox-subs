@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 订阅源站点存活探测（P2）
-用法: python probe_sites.py <源JSON的URL或本地路径> [关键词]
-输出: 每个接口/正则类站点(type 0/1)按 mac cms 接口做真实搜索探测,
+用法:
+  python probe_sites.py <源JSON的URL或本地路径> [关键词]
+      探测指定源里每个接口/正则类站点(type 0/1)按 mac cms 接口做真实搜索探测,
       判定 存活/空结果/非JSON响应/失活, 并给出失败原因与耗时。
+  python probe_sites.py --revive <dead_sites.json> [主源JSON] [关键词]
+      对死站名单做复活扫描: 从主源反查站点后逐个探活,
+      输出「复活候选」名单; 移回主池前需人工复核并登记台账。
 只读探测, 不修改任何源文件。
 """
 import json, os, sys, time, urllib.parse
@@ -105,14 +109,53 @@ def load(path_or_url):
         raise SystemExit("本地源 JSON 解析失败: %s (%s)" % (path_or_url, e))
 
 
+def run_revive(dead_path, args):
+    """死站复活扫描: args = [dead_sites.json, 主源JSON(可选), 关键词(可选)]"""
+    global KEYWORD
+    meow_path = args[1] if len(args) > 1 else "mirror/anaer_meow.json"
+    if len(args) > 2:
+        KEYWORD = args[2]
+    dead = load(dead_path)
+    keys = [k for k in dead.get("keys", []) if isinstance(k, str)]
+    meow = {s.get("key"): s for s in load(meow_path).get("sites", [])}
+    targets = [meow[k] for k in keys if k in meow]
+    missing = [k for k in keys if k not in meow]
+    print("复活扫描: 死站名单 %d 个, 主源(%s)反查到 %d 个%s | 关键词 %s"
+          % (len(keys), os.path.basename(meow_path), len(targets),
+             (" | 未找到: %s" % ", ".join(missing)) if missing else "", KEYWORD))
+    print("=" * 78)
+    revived = []
+    with futures.ThreadPoolExecutor(max_workers=12) as ex:
+        futs = {ex.submit(probe, s): s for s in targets}
+        for fu in futures.as_completed(futs):
+            try:
+                name, verdict, ms, url = fu.result()
+            except Exception:
+                name, verdict, ms, url = futs[fu].get("name", "?"), "ERR", 0, ""
+            print("  [%6dms] %s  %s" % (ms, cut(name, 24), cut(verdict, 60)))
+            if verdict.startswith("ALIVE("):
+                revived.append(name)
+    print("\n复活候选 %d 个（建议连续 2 轮探测确认后再移回主池, 并登记 excluded_sites.json）"
+          % len(revived))
+    for name in sorted(revived):
+        print("  - %s" % name)
+    return 0
+
+
 def main():
-    src = sys.argv[1] if len(sys.argv) > 1 else ""
+    args = sys.argv[1:]
+    revive = bool(args) and args[0] == "--revive"
+    if revive:
+        args = args[1:]
+    src = args[0] if args else ""
     if not src:
         print(__doc__)
         return
     global KEYWORD
-    if len(sys.argv) > 2:
-        KEYWORD = sys.argv[2]
+    if not revive and len(args) > 1:
+        KEYWORD = args[1]
+    if revive:
+        return run_revive(src, args)
     d = load(src)
     sites = d.get("sites", [])
     t1 = [s for s in sites if str(s.get("type")) in ("1", "0") and s.get("searchable", 1) == 1]

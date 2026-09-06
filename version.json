@@ -4,5 +4,8 @@
   "log": "修复自更新「应用不兼容此设备」：更新包按设备架构自适应下发——优先 universal 全架构包（含 armeabi-v7a + arm64-v8a），32 位盒子不再被下发 arm64 单包而拒装；64 位设备仍可用更小的 arm64 包。已装的旧版本直接点「检查更新」即可拉到能安装的 universal 包。",
   "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.18-sub_code30/TVBox_v1.1.18-sub_code30_universal.apk",
   "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.18-sub_code30/TVBox_v1.1.18-sub_code30_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.18-sub_code30/TVBox_v1.1.18-sub_code30_universal.apk"
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.18-sub_code30/TVBox_v1.1.18-sub_code30_universal.apk",
+  "sha256Universal": "cbffa50993ad3a24e4ea7a6d3728f184763e5f7c6564385c5987765efe5fb4ec",
+  "sha256Arm64": "e867115708bb412de4d238d454c53f698474056c085e82d4b6929cef3c7e126a",
+  "updateTime": "2026-09-06T23:30:00+08:00"
 }
