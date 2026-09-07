@@ -1,5 +1,12 @@
-
 # 工作区工具目录(非源内容)
 .workbuddy/
 __pycache__/
 tools/__pycache__/
+
+# 探测/构建脚本生成的临时文件
+/_*.py
+/_*.m3u8
+/_*.apk
+
+# 巡检历史记录（运行时自动生成）
+tools/probe_history.json
