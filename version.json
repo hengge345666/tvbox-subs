@@ -1,8 +1,8 @@
 {
-  "versionCode": 31,
-  "versionName": "1.1.19-sub",
-  "log": "修复非凡(ffzy)等站点中插广告识别不出来的问题：广告分片与正片同域名同路径、URL无特征，原有规则全部漏判。新增短段判定（被DISCONTINUITY包裹+分片≤6+时长<40s且<全片5%）精准剔除，既有安全阀兜底防误删短片。盒子实测移除4段共74秒中插广告，无跳帧。",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.19-sub_code31/TVBox_v1.1.19-sub_code31_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.19-sub_code31/TVBox_v1.1.19-sub_code31_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.19-sub_code31/TVBox_v1.1.19-sub_code31_universal.apk"
+  "versionCode": 32,
+  "versionName": "1.1.20-sub",
+  "log": "改进批A: variantFilter禁用死flavor + 删除M3u8AdFilterInterceptor死代码 + M3u8常量提取; B批: release.py发版脚本; D批: probe_sites.py源池巡检扩展",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.20-sub_code32/TVBox_v1.1.20-sub_code32_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.20-sub_code32/TVBox_v1.1.20-sub_code32_universal.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.20-sub_code32/TVBox_v1.1.20-sub_code32_universal.apk"
 }
