@@ -1,8 +1,8 @@
 {
-  "versionCode": 32,
-  "versionName": "1.1.20-sub",
-  "log": "改进批A: variantFilter禁用死flavor + 删除M3u8AdFilterInterceptor死代码 + M3u8常量提取; B批: release.py发版脚本; D批: probe_sites.py源池巡检扩展",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.20-sub_code32/TVBox_v1.1.20-sub_code32_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.20-sub_code32/TVBox_v1.1.20-sub_code32_universal.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.20-sub_code32/TVBox_v1.1.20-sub_code32_universal.apk"
+  "versionCode": 33,
+  "versionName": "1.1.21-sub",
+  "log": "修复自更新报「签名校验失败」却无法定位真因的问题: 旧实现把下载文件无效/包名不符/签名不一致/归档无法解析四种故障混成一句报错。现改为逐层独立报错(下载不完整/非ZIP镜像网页/无法解析/包名不符/签名不一致), 并加固下载链路: 测速探测改用Range只取1MB(旧实现三条链各拉全量34MB, 极易触发镜像限流拿到HTML), 下载目录多级兜底。同时补齐 code32 漏传的 arm64 包。",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.21-sub_code33/TVBox_v1.1.21-sub_code33_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.21-sub_code33/TVBox_v1.1.21-sub_code33_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.21-sub_code33/TVBox_v1.1.21-sub_code33_universal.apk"
 }
