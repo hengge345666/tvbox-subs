@@ -1,8 +1,8 @@
 {
-  "versionCode": 33,
-  "versionName": "1.1.21-sub",
-  "log": "修复自更新报「签名校验失败」却无法定位真因的问题: 旧实现把下载文件无效/包名不符/签名不一致/归档无法解析四种故障混成一句报错。现改为逐层独立报错(下载不完整/非ZIP镜像网页/无法解析/包名不符/签名不一致), 并加固下载链路: 测速探测改用Range只取1MB(旧实现三条链各拉全量34MB, 极易触发镜像限流拿到HTML), 下载目录多级兜底。同时补齐 code32 漏传的 arm64 包。",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.21-sub_code33/TVBox_v1.1.21-sub_code33_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.21-sub_code33/TVBox_v1.1.21-sub_code33_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.21-sub_code33/TVBox_v1.1.21-sub_code33_universal.apk"
+  "versionCode": 34,
+  "versionName": "1.1.22-sub",
+  "log": "m3u8去广告重构: ffzy广告实为40/60/80s长块(非短块), 改用中位场景基准判定(shouldDropGroup), 修复旧isShortAdBlock过匹配正常场景触发50%安全阀导致广告全漏的问题",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.22-sub_code34/TVBox_v1.1.22-sub_code34_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.22-sub_code34/TVBox_v1.1.22-sub_code34_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.22-sub_code34/TVBox_v1.1.22-sub_code34_universal.apk"
 }
