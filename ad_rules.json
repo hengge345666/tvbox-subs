@@ -1,0 +1,10 @@
+{
+  "note": "TVBox 广告净化规则（远程热更）。App 启动/检查更新时自动拉取，改完提交即生效、无需重打包。回滚两种方式：① 把参数填回旧值并把 rev 加 1（客户端只接受 rev >= 当前值的规则，所以改小无效）；② 把 enabled 改成 false 一键关闭净化。客户端另会把数值硬夹在安全区间内（maxSegments≤4、maxDuration≤30、safetyRatio≤0.10），写超标也不会生效。",
+  "updated": "2026-09-13",
+  "rev": 1,
+  "enabled": true,
+  "maxSegments": 3,
+  "maxDuration": 15.0,
+  "safetyRatio": 0.05,
+  "safetyMaxSegments": 60
+}
