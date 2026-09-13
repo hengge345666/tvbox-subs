@@ -1,8 +1,8 @@
 {
-  "versionCode": 38,
-  "versionName": "1.1.26-sub",
-  "log": "去广告判据分形态化：新增大段落切分流识别（ffzy-play6/feifei-kan），修掉该形态广告全漏；分镜型流行为零变化",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.26-sub_code38/TVBox_v1.1.26-sub_code38_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.26-sub_code38/TVBox_v1.1.26-sub_code38_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.26-sub_code38/TVBox_v1.1.26-sub_code38_universal.apk"
+  "versionCode": 39,
+  "versionName": "1.1.27-sub",
+  "log": "去广告自适应兜底：新增空档检测（防站点换流水线后的第三种流形态），人工阈值未命中时自动从该流片数分布找空档定阈值；分镜型阈值 3片/15s -> 4片/20s（100 部普查发现 4 片广告组）；形态门 100 -> 60",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.27-sub_code39/TVBox_v1.1.27-sub_code39_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.27-sub_code39/TVBox_v1.1.27-sub_code39_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.27-sub_code39/TVBox_v1.1.27-sub_code39_universal.apk"
 }
