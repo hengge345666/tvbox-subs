@@ -1,8 +1,8 @@
 {
-  "versionCode": 34,
-  "versionName": "1.1.22-sub",
-  "log": "m3u8去广告重构: ffzy广告实为40/60/80s长块(非短块), 改用中位场景基准判定(shouldDropGroup), 修复旧isShortAdBlock过匹配正常场景触发50%安全阀导致广告全漏的问题",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.22-sub_code34/TVBox_v1.1.22-sub_code34_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.22-sub_code34/TVBox_v1.1.22-sub_code34_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.22-sub_code34/TVBox_v1.1.22-sub_code34_universal.apk"
+  "versionCode": 35,
+  "versionName": "1.1.23-sub",
+  "log": "紧急修复误删正片: 撤回code34的长块判定(ffzy广告实为长块是错误结论), 实测该流广告与正片无可区分结构特征; 改为只删<=2分片且<=10s的极短碎片块, 安全阀由50%收紧至5%并新增60片绝对上限",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.23-sub_code35/TVBox_v1.1.23-sub_code35_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.23-sub_code35/TVBox_v1.1.23-sub_code35_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.23-sub_code35/TVBox_v1.1.23-sub_code35_universal.apk"
 }
