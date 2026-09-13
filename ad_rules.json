@@ -1,10 +1,14 @@
 {
-  "note": "TVBox 广告净化规则（远程热更）。App 启动/检查更新时自动拉取，改完提交即生效、无需重打包。回滚两种方式：① 把参数填回旧值并把 rev 加 1（客户端只接受 rev >= 当前值的规则，所以改小无效）；② 把 enabled 改成 false 一键关闭净化。客户端另会把数值硬夹在安全区间内（maxSegments≤4、maxDuration≤30、safetyRatio≤0.10），写超标也不会生效。rev 2 = 热更通道连通性验证，参数与 rev 1 完全一致。",
-  "updated": "2026-09-13",
-  "rev": 2,
+  "note": "TVBox 广告净化规则（远程热更）。App 启动/检查更新时自动拉取，改完提交即生效、无需重打包。回滚两种方式：① 把参数填回旧值并把 rev 加 1（客户端只接受 rev >= 当前值的规则，所以改小无效）；② 把 enabled 改成 false 一键关闭净化。客户端另会把数值硬夹在安全区间内（maxSegments≤4、maxDuration≤30、safetyRatio≤0.10、coarseGroupThreshold∈[60,600]、maxSegmentsCoarse≤20、maxDurationCoarse≤60），写超标也不会生效。",
+  "updated": "2026-09-14",
+  "rev": 3,
   "enabled": true,
   "maxSegments": 3,
   "maxDuration": 15.0,
   "safetyRatio": 0.05,
-  "safetyMaxSegments": 60
+  "safetyMaxSegments": 60,
+  "coarseGroupThreshold": 100,
+  "maxSegmentsCoarse": 6,
+  "maxDurationCoarse": 25.0,
+  "note2": "rev3 = code38 引入「大段落切分流」形态门与第二组阈值。前 6 项用于分镜型流（一组=一个镜头，正片≥5片、广告2~3片）；后 3 项仅在「全流最大分组片数 ≥ coarseGroupThreshold」时启用，用于大段落型流（一组=几分钟正片、单组359~480片，广告固定为5片/19.63s + 4片/17.36s）。注意：coarseGroupThreshold 以下的门是形态开关，把它调小会让分镜型流也被套用第二组阈值，切勿低于 60（分镜型实测最大组 30 片）。"
 }
