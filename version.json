@@ -1,8 +1,8 @@
 {
-  "versionCode": 35,
-  "versionName": "1.1.23-sub",
-  "log": "紧急修复误删正片: 撤回code34的长块判定(ffzy广告实为长块是错误结论), 实测该流广告与正片无可区分结构特征; 改为只删<=2分片且<=10s的极短碎片块, 安全阀由50%收紧至5%并新增60片绝对上限",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.23-sub_code35/TVBox_v1.1.23-sub_code35_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.23-sub_code35/TVBox_v1.1.23-sub_code35_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.23-sub_code35/TVBox_v1.1.23-sub_code35_universal.apk"
+  "versionCode": 36,
+  "versionName": "1.1.24-sub",
+  "log": "去广告判据定位成功(code36): 抽帧实测确认广告分组特征为分片数<=3(正片最少5片,4片为空档), 旧规则<=2片且<=10s只删掉一半广告; 改为片数<=3且时长<=15s, 实删8组18片74秒(0.69%), 片长保持173分钟不受损",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.24-sub_code36/TVBox_v1.1.24-sub_code36_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.24-sub_code36/TVBox_v1.1.24-sub_code36_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.24-sub_code36/TVBox_v1.1.24-sub_code36_universal.apk"
 }
