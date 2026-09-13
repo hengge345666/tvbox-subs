@@ -1,8 +1,8 @@
 {
-  "versionCode": 39,
-  "versionName": "1.1.27-sub",
-  "log": "去广告自适应兜底：新增空档检测（防站点换流水线后的第三种流形态），人工阈值未命中时自动从该流片数分布找空档定阈值；分镜型阈值 3片/15s -> 4片/20s（100 部普查发现 4 片广告组）；形态门 100 -> 60",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.27-sub_code39/TVBox_v1.1.27-sub_code39_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.27-sub_code39/TVBox_v1.1.27-sub_code39_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.27-sub_code39/TVBox_v1.1.27-sub_code39_universal.apk"
+  "versionCode": 40,
+  "versionName": "1.1.28-sub",
+  "log": "热更全自动：起播时异步刷新远程净化规则（不阻塞播放，新版下次生效），URL 加时间戳穿透 CDN 缓存（实测裸 URL 最长 28 秒才回源）；改完 ad_rules.json 推上去即自动生效，无需手动点刷新。规则详情新增「上次拉取」时间",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.28-sub_code40/TVBox_v1.1.28-sub_code40_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.28-sub_code40/TVBox_v1.1.28-sub_code40_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.28-sub_code40/TVBox_v1.1.28-sub_code40_universal.apk"
 }
