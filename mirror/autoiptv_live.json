@@ -1,9 +1,16 @@
 {
   "lives": [
     {
-      "name": "南风直播(871频道·国内直连)",
+      "name": "南风直播(871频道·国内直连·实测存活)",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt"
+    },
+    {
+      "name": "咪咕直播(169频道·含4K·移动IPTV)",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/migu_live.m3u"
     }
+  ]
+}
   ]
 }
