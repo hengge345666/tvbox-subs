@@ -396,5 +396,100 @@
     "note": "本轮巡检零「慢站」屏蔽：无一站同时满足「平均>5000ms+两轮确认+慢且无货」。测得的全站慢主要来自本机 ~5.1s/新连接 的固定开销（baidu 白名单除外），与站点无关，故不可按耗时归因屏蔽。",
     "method": "长连接(keep-alive)终局实测剔除本机连接惩罚 + 3UA/空词/首页?ac=list 复核",
     "backup": "anaer_meow_backup_2026-09-21-1105.json"
+  },
+  "batch_2026-09-21_restore_full": {
+    "date": "2026-09-21",
+    "action": "soft-exclude (searchable=0 + quickSearch=0)",
+    "reason": "09-13 已恢复 20 个失效站（batch_2026-09-13_restore_dead），本批次补齐剩余 14 个被 09-07 auto-sync 回滚的历史屏蔽，恢复 09-04 已知良好状态（屏蔽 44 / 参与搜索 33）。",
+    "source": "mirror/anaer_meow.json",
+    "count": 14,
+    "sites": [
+      {
+        "name": "1-艾旦",
+        "key": "b4d4414ba19c27a00bf907d34b47bc3d",
+        "api": "https://www.lovedan.net/api.php/provide/vod/",
+        "reason": "用户指定屏蔽(09-04, lovedan.net)"
+      },
+      {
+        "name": "21-爱胆",
+        "key": "0ec30b843eb0dd00005239556b902374",
+        "api": "https://lovedan.net/api.php/provide/vod/",
+        "reason": "用户指定屏蔽(09-04, lovedan.net 同域名重复)"
+      },
+      {
+        "name": "39-柚子",
+        "key": "d8f1cd70bcdc09564995c505f7041a2e",
+        "api": "https://api.yzzy-api.com/inc/api.php",
+        "reason": "DEAD(不可达/超时)，09-03 两轮判定"
+      },
+      {
+        "name": "41-番号资源",
+        "key": "39a5f7a3881f34fa6361cf1129caea4f",
+        "api": "http://fhapi9.com/api.php/provide/vod/",
+        "reason": "用户指定屏蔽(09-04, 成人站)"
+      },
+      {
+        "name": "42-玉兔资源(切片)",
+        "key": "7de11eca32356644ce7da016fa2412e5",
+        "api": "https://apiyutu.com/api.php/provide/vod/",
+        "reason": "用户指定屏蔽(09-04, 切片站)"
+      },
+      {
+        "name": "43-HG",
+        "key": "fbfa5eed414e1f6137f2496a68005ef5",
+        "api": "https://hong.hgyx.vip/api.php/provide/vod/",
+        "reason": "DEAD(不可达/超时)，09-03 两轮判定"
+      },
+      {
+        "name": "45-91视频",
+        "key": "041c843aea19129a4716a6db4ab444ff",
+        "api": "https://91av.cyou/api.php/provide/vod/",
+        "reason": "用户指定屏蔽(09-04, 成人站)"
+      },
+      {
+        "name": "48-旺仔",
+        "key": "be13cce49fea98ed9760b206092df3dc",
+        "api": "https://api.wwzy.tv/api.php/provide/vod/",
+        "reason": "DEAD(不可达/超时)，09-03 两轮判定"
+      },
+      {
+        "name": "50-淘片",
+        "key": "9d8b0f25e739dc88f3a9aa3ccd54b1a5",
+        "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+        "reason": "DEAD(不可达/超时)，09-03 两轮判定"
+      },
+      {
+        "name": "52-淘片",
+        "key": "f333ebedb73901ca466a8ebc6aeab0da",
+        "api": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html",
+        "reason": "DEAD(不可达/超时)，09-03 两轮判定"
+      },
+      {
+        "name": "54-奇艺",
+        "key": "acd47931ed9a83e500f70bbb7c5c0c2b",
+        "api": "https://iqiyizyapi.com/api.php/provide/vod/",
+        "reason": "慢且无货(09-04 两轮复测验证: 稳态慢+零命中)"
+      },
+      {
+        "name": "55-最大",
+        "key": "6e31126e4b7e6db33dcde3d30e309463",
+        "api": "https://zuidazy.me/api.php/provide/vod/",
+        "reason": "DEAD(不可达/超时)，09-03 两轮判定"
+      },
+      {
+        "name": "57-飞马",
+        "key": "b954276569fe5d54ca57cf5cd6358465",
+        "api": "http://rise.eu.org/api.php/provide/vod/",
+        "reason": "EMPTY(空关键词返回0条, 目录为空)，09-03 判定"
+      },
+      {
+        "name": "73-索尼",
+        "key": "de35b0afa75598ab506891123e6d8cb8",
+        "api": "https://suoniapi.com/api.php/provide/vod/",
+        "reason": "DEAD(不可达/超时)，09-03 两轮判定"
+      }
+    ],
+    "note": "8×DEAD + 1×EMPTY 均为 09-03 两轮判定；5 个为用户指定（成人/切片/重复域名）；54-奇艺为 09-04 两轮复测验证的慢且无货站。",
+    "backup": "anaer_meow_backup_2026-09-21-1109.json"
   }
 }
