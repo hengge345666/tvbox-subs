@@ -43,6 +43,74 @@
   {
    "name": "饭太硬·老牌精简(49源)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/qist_fty.json"
+  },
+  {
+   "name": "AutoIPTV·自动测速直播(2388条·每日更新)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/autoiptv_live.json"
+  },
+  {
+   "name": "Raycorn·IPV6直播(央视卫视)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/raycorn_live.json"
+  },
+  {
+   "name": "noimank·健康家用(自维护)",
+   "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json"
+  },
+  {
+   "name": "高天流云·FongMI线路(0827)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"
+  },
+  {
+   "name": "香雅情·XYQ源",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+  },
+  {
+   "name": "巧计·pandown线路",
+   "url": "http://pandown.pro/tvbox/tvbox.json"
+  },
+  {
+   "name": "高天流云·XYQ源",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json"
+  },
+  {
+   "name": "影探·lyyytv线路",
+   "url": "http://www.lyyytv.cn/yt/yt.json"
+  },
+  {
+   "name": "南风·XC源",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
+  },
+  {
+   "name": "无意·wya6线路",
+   "url": "https://www.wya6.cn/tv/yc.json"
+  },
+  {
+   "name": "饭太硬·官方接口",
+   "url": "http://www.饭太硬.net/tv"
+  },
+  {
+   "name": "肥猫·多源聚合",
+   "url": "http://肥猫.net/"
+  },
+  {
+   "name": "摸鱼·4K资源",
+   "url": "http://我不是.摸鱼儿.top"
+  },
+  {
+   "name": "王二小放牛娃·多源聚合",
+   "url": "http://tvbox.王二小放牛娃.top"
+  },
+  {
+   "name": "道长·GitLab源",
+   "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json"
+  },
+  {
+   "name": "俊佬·jundie线路",
+   "url": "http://home.jundie.top:81/top98.json"
+  },
+  {
+   "name": "老刘备·liu673源",
+   "url": "https://ghfast.top/https://raw.githubusercontent.com/liu673cn/box/main/m.json"
   }
  ]
 }

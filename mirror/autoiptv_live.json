@@ -1,0 +1,10 @@
+{
+  "lives": [
+    {
+      "name": "AutoIPTV直播",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/leiyou-li/AutoIPTV/master/output/result.txt",
+      "epg": "http://epg.51zmt.top:8000/e.xml"
+    }
+  ]
+}
