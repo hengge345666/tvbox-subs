@@ -4,7 +4,7 @@
     {
       "name": "初秋语",
       "type": 0,
-      "url": "./list.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt",
       "playerType": 2,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"

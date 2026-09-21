@@ -24,7 +24,7 @@
     {
       "name": "ipv6",
       "type": 0,
-      "url": "./tvboxtv.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/tvboxtv.txt",
       "playerType": 1,
       "ua": "okhttp/3.8.1",
       "timeout": 20,
