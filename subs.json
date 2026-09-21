@@ -27,6 +27,18 @@
   {
    "name": "hkuc_js·最大混合库",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/js.json"
+  },
+  {
+   "name": "qist·OK影视官方合集(151源·含直播)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/qist_jsm.json"
+  },
+  {
+   "name": "高天流云·JS大库(298源·每日自动更新)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/gao_js.json"
+  },
+  {
+   "name": "饭太硬·老牌精简(49源)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/qist_fty.json"
   }
  ]
 }
