@@ -3408,7 +3408,9 @@
       "api": "https://cj.rycjapi.com/api.php/provide/vod/",
       "key": "7e324c0872c13fd329e818c33a659046",
       "name": "10-如意",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "http://by.bfzyapi.com/api.php/provide/vod/",
