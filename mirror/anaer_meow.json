@@ -3352,7 +3352,9 @@
       "api": "https://www.lovedan.net/api.php/provide/vod/",
       "key": "b4d4414ba19c27a00bf907d34b47bc3d",
       "name": "1-艾旦",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "http://cj.ffzyapi.com//api.php/provide/vod/",
@@ -3486,7 +3488,9 @@
       "api": "https://lovedan.net/api.php/provide/vod/",
       "key": "0ec30b843eb0dd00005239556b902374",
       "name": "21-爱胆",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://www.kxgav.com/api/xml.php",
@@ -3604,7 +3608,9 @@
       "api": "https://api.yzzy-api.com/inc/api.php",
       "key": "d8f1cd70bcdc09564995c505f7041a2e",
       "name": "39-柚子",
-      "type": 0
+      "type": 0,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "http://www.zitv.cc/api.php/provide/vod/",
@@ -3616,19 +3622,25 @@
       "api": "http://fhapi9.com/api.php/provide/vod/",
       "key": "39a5f7a3881f34fa6361cf1129caea4f",
       "name": "41-番号资源",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://apiyutu.com/api.php/provide/vod/",
       "key": "7de11eca32356644ce7da016fa2412e5",
       "name": "42-玉兔资源(切片)",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://hong.hgyx.vip/api.php/provide/vod/",
       "key": "fbfa5eed414e1f6137f2496a68005ef5",
       "name": "43-HG",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://api.yparse.com/api/json",
@@ -3642,7 +3654,9 @@
       "api": "https://91av.cyou/api.php/provide/vod/",
       "key": "041c843aea19129a4716a6db4ab444ff",
       "name": "45-91视频",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://8day.icu/api.php/provide/vod/",
@@ -3664,7 +3678,9 @@
       "api": "https://api.wwzy.tv/api.php/provide/vod/",
       "key": "be13cce49fea98ed9760b206092df3dc",
       "name": "48-旺仔",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://www.wyvod.com/api.php/provide/vod/",
@@ -3678,7 +3694,9 @@
       "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
       "key": "9d8b0f25e739dc88f3a9aa3ccd54b1a5",
       "name": "50-淘片",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/",
@@ -3693,7 +3711,9 @@
       "api": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html",
       "key": "f333ebedb73901ca466a8ebc6aeab0da",
       "name": "52-淘片",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://caiji.dbzy.tv/api.php/provide/vod/",
@@ -3707,13 +3727,17 @@
       "api": "https://iqiyizyapi.com/api.php/provide/vod/",
       "key": "acd47931ed9a83e500f70bbb7c5c0c2b",
       "name": "54-奇艺",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://zuidazy.me/api.php/provide/vod/",
       "key": "6e31126e4b7e6db33dcde3d30e309463",
       "name": "55-最大",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://ty.tyyszy5.com/api.php/provide/vod/",
@@ -3725,7 +3749,9 @@
       "api": "http://rise.eu.org/api.php/provide/vod/",
       "key": "b954276569fe5d54ca57cf5cd6358465",
       "name": "57-飞马",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://xml.heimuer.tv/api.php/provide/vod/",
@@ -3837,7 +3863,9 @@
       "api": "https://suoniapi.com/api.php/provide/vod/",
       "key": "de35b0afa75598ab506891123e6d8cb8",
       "name": "73-索尼",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "http://haowywz.com/api.php/provide/vod/at/xml",
