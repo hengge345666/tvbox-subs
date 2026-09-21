@@ -2,19 +2,9 @@
   "sites": [],
   "lives": [
     {
-      "name": "喵站直播(273频道·已优化排序)",
+      "name": "全部直播(喵站+南风+咪咕·1313频道)",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/meow_live.txt"
-    },
-    {
-      "name": "南风直播(871频道·国内直连)",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt"
-    },
-    {
-      "name": "咪咕直播(169频道·含4K·移动IPTV)",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/migu_live.m3u"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/live.txt"
     }
   ]
 }
