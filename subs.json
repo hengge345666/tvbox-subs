@@ -5,8 +5,8 @@
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/anaer_meow.json"
   },
   {
-   "name": "C88聚合(解析flags全)",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/main/box.json"
+   "name": "C88聚合·修复版(92源·jar1.9MB·解析全)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/c88_box.json"
   },
   {
    "name": "A站·轻量高命中(24源·5直播·纯HTTP)",
@@ -17,7 +17,7 @@
    "url": "https://raw.githubusercontent.com/tushen6/Tomorrow/master/caiji.json"
   },
   {
-   "name": "教主·老牌爬虫",
+   "name": "教主·老牌爬虫(jar已404·待修)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/hackyjso_jzy.json"
   },
   {
@@ -53,8 +53,8 @@
    "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json"
   },
   {
-   "name": "高天流云·FongMI线路(0827)",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"
+   "name": "FongMI·0827修复版(33源·jar仅0.25MB·秒加载)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/fongmi0827.json"
   },
   {
    "name": "饭太硬·官方接口",
