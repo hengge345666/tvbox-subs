@@ -609,14 +609,6 @@
   ],
   "sites": [
     {
-      "api": "https://www.lovedan.net/api.php/provide/vod/",
-      "key": "b4d4414ba19c27a00bf907d34b47bc3d",
-      "name": "1-艾旦",
-      "type": 1,
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
       "api": "http://cj.ffzyapi.com//api.php/provide/vod/",
       "key": "730acd683fc317fa1a584e5613e727f0",
       "name": "2-非凡",
@@ -742,14 +734,6 @@
       "api": "https://lzizy3.com/api.php/provide/vod/",
       "key": "96eb0562e1d21f2ef02d4c5e5bbf9ea7",
       "name": "20-量子",
-      "type": 1,
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
-      "api": "https://lovedan.net/api.php/provide/vod/",
-      "key": "0ec30b843eb0dd00005239556b902374",
-      "name": "21-爱胆",
       "type": 1,
       "searchable": 0,
       "quickSearch": 0
