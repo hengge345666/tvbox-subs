@@ -755,22 +755,6 @@
       "quickSearch": 0
     },
     {
-      "api": "https://www.kxgav.com/api/xml.php",
-      "key": "c7c8d8da2ba856cc798421b5de48a8bc",
-      "name": "22-*白嫖资源",
-      "type": 0,
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
-      "api": "https://www.gdlsp.com/api/xml.php",
-      "key": "2da82ad79b8f4e114cf435763ab1d721",
-      "name": "23-*香奶儿资源",
-      "type": 0,
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
       "api": "https://api.apiyhzy.com/api.php/provide/vod/",
       "key": "30e07a544ffe9b6069a1ba66d6442ca9",
       "name": "24-樱花",
@@ -881,14 +865,6 @@
       "type": 1
     },
     {
-      "api": "http://fhapi9.com/api.php/provide/vod/",
-      "key": "39a5f7a3881f34fa6361cf1129caea4f",
-      "name": "41-番号资源",
-      "type": 1,
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
       "api": "https://apiyutu.com/api.php/provide/vod/",
       "key": "7de11eca32356644ce7da016fa2412e5",
       "name": "42-玉兔资源(切片)",
@@ -908,14 +884,6 @@
       "api": "https://api.yparse.com/api/json",
       "key": "9988d74012ebbb2648a68f41dab1f3da",
       "name": "44-步步高资源(切)",
-      "type": 1,
-      "searchable": 0,
-      "quickSearch": 0
-    },
-    {
-      "api": "https://91av.cyou/api.php/provide/vod/",
-      "key": "041c843aea19129a4716a6db4ab444ff",
-      "name": "45-91视频",
       "type": 1,
       "searchable": 0,
       "quickSearch": 0
@@ -1014,14 +982,6 @@
       "type": 1,
       "searchable": 0,
       "quickSearch": 0
-    },
-    {
-      "api": "https://xml.heimuer.tv/api.php/provide/vod/",
-      "key": "7f3e7fd1536a4bd6bfd5129cd7981344",
-      "name": "58-木耳*",
-      "quickSearch": 0,
-      "searchable": 0,
-      "type": 1
     },
     {
       "api": "http://sdzyapi.com/api.php/provide/vod/at/xml",
@@ -1141,14 +1101,6 @@
       "api": "https://apilj.com/api.php/provide/vod/at/xml/",
       "key": "0a80243b21a08dc935258557df03cf34",
       "name": "75-辣椒资源*",
-      "quickSearch": 0,
-      "searchable": 0,
-      "type": 0
-    },
-    {
-      "api": "http://www.madouse.la/api.php/provide/vod/at/xml",
-      "key": "18fbb7eeb899e52a04614d9bb9fa0232",
-      "name": "76-麻豆视频*",
       "quickSearch": 0,
       "searchable": 0,
       "type": 0
