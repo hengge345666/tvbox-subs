@@ -1,8 +1,8 @@
 {
-  "versionCode": 40,
-  "versionName": "1.1.28-sub",
-  "log": "热更全自动：起播时异步刷新远程净化规则（不阻塞播放，新版下次生效），URL 加时间戳穿透 CDN 缓存（实测裸 URL 最长 28 秒才回源）；改完 ad_rules.json 推上去即自动生效，无需手动点刷新。规则详情新增「上次拉取」时间",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.28-sub_code40/TVBox_v1.1.28-sub_code40_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.28-sub_code40/TVBox_v1.1.28-sub_code40_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.28-sub_code40/TVBox_v1.1.28-sub_code40_universal.apk"
+  "versionCode": 42,
+  "versionName": "1.1.30-sub",
+  "log": "瘦身：移除P2P(libp2p)与迅雷SDK(thunder)，包体34.4→27.4MB；磁力/荐片链接停用，主力HTTP源零影响",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.30-sub_code42/TVBox_v1.1.30-sub_code42_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.30-sub_code42/TVBox_v1.1.30-sub_code42_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.30-sub_code42/TVBox_v1.1.30-sub_code42_universal.apk"
 }
