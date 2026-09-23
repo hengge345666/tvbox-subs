@@ -735,8 +735,6 @@ https://iptv.catvod.com/live.php?id=%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2&line=1
 http://120.220.44.46/609154353
 #EXTINF:-1 group-title="卫视",山东教育
 http://219.139.228.248:1234/609154353
-#EXTINF:-1 group-title="🌊港·澳·台",TVBS亚洲
-http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 group-title="🌊港·澳·台",Viutv
 http://122.152.202.33/s/81a8a44f/index.m3u8?id=686
 #EXTINF:-1 group-title="🌊港·澳·台",Viutv
@@ -769,8 +767,6 @@ http://cdn9.163189.xyz/smt1.1.php?id=inews_twn
 https://cdn9.163189.xyz/smt3.1.1.php?id=inews_twn
 #EXTINF:-1 group-title="🌊港·澳·台",无线新闻
 http://r.jdshipin.com/CkuBd
-#EXTINF:-1 group-title="🌊港·澳·台",纬来体育
-http://fbd48279.ott.oxtvs.com/ott/?q=9222549520c295e029ec6ff9d9f66695&id=5459
 #EXTINF:-1 group-title="🌊港·澳·台",纬来育乐
 https://live.catvod.com/live.php?id=videolandyule&token=9110a84f06e58d2c632e1c3f6b9342c343ccf0447cc40ad96f67d3ea0065ba93%3A1764379082%3AMTM1LjExOS4yMzYuNTE%3D
 #EXTINF:-1 group-title="🌊港·澳·台",纬来育乐
