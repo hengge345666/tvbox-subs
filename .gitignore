@@ -10,3 +10,6 @@ tools/__pycache__/
 
 # 巡检历史记录（运行时自动生成）
 tools/probe_history.json
+
+# 代理内部临时目录
+.temp/
