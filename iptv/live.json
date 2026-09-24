@@ -3,12 +3,12 @@
   {
    "name": "精选直播·已验证13条",
    "type": 0,
-   "url": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/iptv/live.m3u"
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/iptv/live.m3u"
   },
   {
    "name": "全量直播·110条",
    "type": 0,
-   "url": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/iptv/full.m3u"
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/iptv/full.m3u"
   }
  ]
 }

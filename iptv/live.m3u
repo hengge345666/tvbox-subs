@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/iptv/epg.gz"
+#EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/iptv/epg.gz"
 #EXTINF:-1 tvg-name="海南卫视" group-title="✅已验证",海南卫视
 http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 #EXTINF:-1 tvg-name="浙江卫视" group-title="✅已验证",浙江卫视
