@@ -1,0 +1,10 @@
+{
+  "sites": [],
+  "lives": [
+    {
+      "name": "央视/卫视官方卫星源(26频道·13快线实测+20备线)",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/sat_live.m3u"
+    }
+  ]
+}

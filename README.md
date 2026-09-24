@@ -1,3 +1,14 @@
+---
+AIGC:
+  ContentProducer: '001191110102MAD55U9H0F10002'
+  ContentPropagator: '001191110102MAD55U9H0F10002'
+  Label: '1'
+  ProduceID: 'd868d7ee-c3d3-4f1e-bfb9-6408f72298d2'
+  PropagateID: 'd868d7ee-c3d3-4f1e-bfb9-6408f72298d2'
+  ReservedCode1: '5cf4ff22-058c-443f-aa71-eb7a1780d4bc'
+  ReservedCode2: '5cf4ff22-058c-443f-aa71-eb7a1780d4bc'
+---
+
 # tvbox-subs
 
 TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，供 TVBox 类应用热更拉取：
@@ -14,6 +25,8 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 | `dead_sites.json` | 24 个已探测确认失效的源站 key，供首日跳过 | TVBox 应用热更 |
 | `mirror/anaer_meow.json` | 主力自用配置（77 源 + 解析/播放/广告/直播/壁纸） | `subs.json` 首条指向 |
 | `mirror/anaer_live.json` | 直播频道清单（29 组） | 被 `anaer_meow.json` 的 `lives[0]` 引用 |
+| `mirror/sat_live.json` | 央视/卫视卫星官方源（26 频道·分片级实测可播） | `subs.json` 订阅条目 |
+| `mirror/sat_live.m3u` | 卫星源 m3u（13 快线实测 + 20 备线） | 被 `sat_live.json` 引用 |
 | `mirror/js.json` | 「hkuc_js 混合大库」（297 源，JS 爬虫为主） | 供外部订阅使用 |
 | `mirror/yw88075_js.json` | 「yw88075 HTTP 大库」（211 源） | 供外部订阅使用 |
 | `mirror/hackyjso_jzy.json` | 「教主/老牌爬虫」配置（93 源） | 供外部订阅使用 |
@@ -65,3 +78,5 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 ## 许可
 
 本仓库自身代码与整理内容以 [MIT](LICENSE) 释出；镜像的第三方配置遵循其各自原始许可。
+
+> AI生成
