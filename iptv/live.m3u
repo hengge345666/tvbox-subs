@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV",CCTV
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-1",CCTV-1
-http://221.226.51.220:50081/newlive/live/hls/1/live.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-4K 高清",CCTV-4K 高清
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1790395200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-47f3fcb97a47d90ef574fe2f03662df2&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-10",CCTV-10
 http://222.223.41.27:8888/hls/10/index.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-11",CCTV-11
@@ -11,110 +11,92 @@ http://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/chunklist_w74403
 http://222.223.41.27:8888/hls/11/index.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-12",CCTV-12
 http://222.223.41.27:8888/hls/12/index.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-12",CCTV-12
-http://173.208.212.130:8181/720p/cctv12.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-13",CCTV-13
 https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-14",CCTV-14
 https://event.pull.hebtv.com/jishi/cp2.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-15",CCTV-15
 http://222.223.41.27:8888/hls/15/index.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-16",CCTV-16
-http://173.208.212.130:8181/720p/cctv16.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-17",CCTV-17
-http://173.208.212.130:8181/720p/cctv17.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-2",CCTV-2
+http://173.208.212.130:8181/1080p/cctv2.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-3",CCTV-3
 http://222.223.41.27:8888/hls/3/index.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-4 中文国际",CCTV-4 中文国际
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790395200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-dcb5aefed6742f96e4d7e7dc7594d7a3&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-5",CCTV-5
 https://ldcctvwbcdbd.a.bdydns.com/ldcctvwbcd/cdrmldcctv5plus_1/index.m3u8?BR=td
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-6",CCTV-6
 http://222.223.41.27:8888/hls/6/index.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-6",CCTV-6
-http://118.193.115.2:9901/tsfile/live/0006_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-8",CCTV-8
 https://ldocctvwbcdbd.a.bdydns.com/ldocctvwbcd/cdrmldcctv8_1/index.m3u8?BR=hd
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-9 纪录",CCTV-9 纪录
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=232afd7e3e9b751c2eb12940b7cf3d19
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV13",CCTV13
+http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV16",CCTV16
 https://piccpndali.v.myalicdn.com/audio/cctv16_2.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV央视台球",CCTV央视台球
 http://173.208.212.130:8181/720p/ystq.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV央视文化精品",CCTV央视文化精品
 http://173.208.212.130:8181/720p/ysjp.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV怀旧剧场",CCTV怀旧剧场
-http://173.208.212.130:8181/720p/hjjc.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV第一剧场",CCTV第一剧场
-http://173.208.212.130:8181/720p/dyjc.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV风云足球",CCTV风云足球
 http://173.208.212.130:8181/720p/fyzq.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV风云音乐",CCTV风云音乐
 http://173.208.212.130:8181/720p/fyyy.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CGTN",CGTN
+http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CGTN法语",CGTN法语
+http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 #EXTINF:-1 group-title="📺央视频道" tvg-id="CGTN纪录",CGTN纪录
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
-#EXTINF:-1 group-title="📺央视频道" tvg-id="央视台球",央视台球
-http://173.208.212.130:8181/720p/ystq.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="三沙卫视",三沙卫视
-http://221.226.51.220:50081/newlive/live/hls/38/live.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="东南卫视",东南卫视
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="东南卫视",东南卫视
 http://106.46.169.202:9000/hls/36/index.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="东南卫视",东南卫视
-http://118.193.115.2:9901/tsfile/live/0137_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="东方卫视",东方卫视
 http://173.208.212.130:8181/720p/dfws.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="东方卫视",东方卫视
 http://113.15.109.216:59901/tsfile/live/1009_1.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="云南卫视",云南卫视
 http://106.46.169.202:9000/hls/32/index.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="云南卫视",云南卫视
+https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="内蒙古卫视",内蒙古卫视
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="北京卫视",北京卫视
-http://173.208.212.130:8181/720p/bjws.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="吉林卫视",吉林卫视
-http://118.193.115.2:9901/tsfile/live/0116_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="吉林卫视",吉林卫视
-http://182.150.23.74:808/hls/35/index.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="吉林卫视",吉林卫视
-http://59.39.89.130:60901/tsfile/live/0125_19.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="天津卫视",天津卫视
-http://182.150.23.74:808/hls/27/index.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="内蒙古卫视",内蒙古卫视
+http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="天津卫视",天津卫视
 http://113.15.109.216:59901/tsfile/live/0135_1.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="宁夏卫视",宁夏卫视
 http://106.46.169.202:9000/hls/35/index.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="安多卫视",安多卫视
+https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="安徽卫视",安徽卫视
 http://173.208.212.130:8181/720p/ahws.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="山西卫视",山西卫视
-http://106.46.169.202:9000/hls/39/index.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="广东卫视",广东卫视
 http://173.208.212.130:8181/720p/gdws.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="广西卫视",广西卫视
-http://113.15.109.216:59901/tsfile/live/0113_1.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="延边卫视",延边卫视
 https://srs.iyb983.cn:443/video/CYS/index.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="延边卫视",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="延边卫视",延边卫视
-http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
+http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="新疆卫视",新疆卫视
-http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="新疆卫视",新疆卫视
-http://118.193.115.2:9901/tsfile/live/0110_1.m3u8?key=txiptv
+http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="新疆卫视",新疆卫视
 http://218.84.12.186:8001/hls/main/playlist.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="江苏卫视",江苏卫视
 http://8.138.7.223/tv/jsws4k.php
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="江西卫视",江西卫视
-http://182.150.23.74:808/hls/30/index.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="河北卫视",河北卫视
 http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="河南卫视",河南卫视
-http://221.226.51.220:50081/newlive/live/hls/37/live.m3u8
+http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="浙江卫视",浙江卫视
 http://ali-vl.cztv.com/channels/lantian/channel001/360p.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="浙江卫视",浙江卫视
-http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
+http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="浙江卫视",浙江卫视
-http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
+http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="海南卫视",海南卫视
 https://livelyws1.chinamcache.com/lyws/newlive_zb03.m3u8?auth_key=1767148001-0-0-0650c6542c331540df214a79a09a2356
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="海南卫视",海南卫视
@@ -126,21 +108,11 @@ http://yncbn.ks-cdn.gitv.tv/gitv_live/G_SHENZHEN-HQ/G_SHENZHEN-HQ.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="湖南卫视",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="湖南卫视",湖南卫视
+https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="湖南卫视",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="甘肃卫视",甘肃卫视
-http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="甘肃卫视",甘肃卫视
-http://118.193.115.2:9901/tsfile/live/0139_2.m3u8?key=txiptv
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="贵州卫视",贵州卫视
-http://118.193.115.2:9901/tsfile/live/0120_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="贵州卫视",贵州卫视
-http://59.39.89.130:60901/tsfile/live/0125_15.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="贵州卫视",贵州卫视
-http://58.56.162.102:4466/newlive/live/hls/41/live.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="辽宁卫视",辽宁卫视
-http://118.193.115.2:9901/tsfile/live/0121_1.m3u8?key=txiptv
-#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="辽宁卫视",辽宁卫视
-http://58.56.162.102:4466/newlive/live/hls/26/live.m3u8
+https://piccpndks.v.kcdnvip.com/audio/liaoning_2/index.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="陕西卫视",陕西卫视
 http://106.46.169.202:9000/hls/23/index.m3u8
 #EXTINF:-1 group-title="🛰️卫视频道" tvg-id="黑龙江卫视",黑龙江卫视
@@ -149,5 +121,3 @@ http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
 http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
 #EXTINF:-1 group-title="🌉港澳台频道" tvg-id="凤凰资讯",凤凰资讯
 http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
-#EXTINF:-1 group-title="🌉港澳台频道" tvg-id="纬来精采",纬来精采
-http://61.221.215.25:8800/hls/48/index.m3u8
