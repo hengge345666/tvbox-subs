@@ -1,6 +1,10 @@
 {
  "urls": [
   {
+   "name": "自建直播·稳定精选+日更层(三轮验活27台)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/tang_live.json"
+  },
+  {
    "name": "喵站·纯净HTTP(主力)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/anaer_meow.json"
   },
@@ -17,7 +21,7 @@
    "url": "https://raw.githubusercontent.com/tushen6/Tomorrow/master/caiji.json"
   },
   {
-    "name": "教主·老牌爬虫(63源·jar1MB·编码有乱码)",
+   "name": "教主·老牌爬虫(63源·jar1MB·编码有乱码)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/hackyjso_jzy.json"
   },
   {
@@ -40,16 +44,16 @@
    "name": "纯直播合集(喵站+南风+咪咕·1313频道)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/live.json"
   },
-   {
-    "name": "Raycorn·IPV6直播(央视卫视)",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/raycorn_live.json"
-   },
-   {
-    "name": "央视/卫视卫星官方源(26频道·分片实测可播)",
-    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/sat_live.json"
-   },
   {
-    "name": "noimank·健康家用(64源·jar0.7MB·spider带md5)",
+   "name": "Raycorn·IPV6直播(央视卫视)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/raycorn_live.json"
+  },
+  {
+   "name": "央视/卫视卫星官方源(26频道·分片实测可播)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/sat_live.json"
+  },
+  {
+   "name": "noimank·健康家用(64源·jar0.7MB·spider带md5)",
    "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json"
   },
   {
