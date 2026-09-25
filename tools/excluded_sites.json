@@ -510,5 +510,40 @@
     "method": "首轮 16 并发 5 词 → 长连接 keep-alive 稳态 → 握手分离计时 → 3UA/空词/首页复核 → 尾延迟 3 轮并行对照站 → curl 分级诊断（Host/SNI/IP 三分法）+ 外部独立路径交叉验证",
     "backup": "anaer_meow_backup_2026-09-21-1126.json",
     "revert": "将 sites 中 name==10-如意 的 searchable/quickSearch 置回 1 即可"
+  },
+  "batch_2026-09-25_auto_sync_reblock": {
+    "date": "2026-09-25",
+    "action": "soft-exclude (searchable=0 + quickSearch=0)",
+    "reason": "上游 auto-sync 将 09-04/09-13 已屏蔽的成人/敏感站重新拉回 anaer_meow（74 站），其中 4 站 searchable 被重置为 1；本次按台账重新软屏蔽",
+    "source": "mirror/anaer_meow.json",
+    "count": 4,
+    "sites": [
+      {
+        "name": "21-爱胆",
+        "key": "0ec30b843eb0dd00005239556b902374",
+        "api": "https://lovedan.net/api.php/provide/vod/",
+        "reason": "成人/敏感站(用户指定屏蔽, lovedan.net 与艾旦同域名)"
+      },
+      {
+        "name": "22-*白嫖资源",
+        "key": "c7c8d8da2ba856cc798421b5de48a8bc",
+        "api": "https://www.kxgav.com/api/xml.php",
+        "reason": "成人站(kxgav.com)"
+      },
+      {
+        "name": "23-*香奶儿资源",
+        "key": "2da82ad79b8f4e114cf435763ab1d721",
+        "api": "https://www.gdlsp.com/api/xml.php",
+        "reason": "成人站(gdlsp.com)"
+      },
+      {
+        "name": "42-玉兔资源(切片)",
+        "key": "7de11eca32356644ce7da016fa2412e5",
+        "api": "https://apiyutu.com/api.php/provide/vod/",
+        "reason": "切片站(用户指定屏蔽, apiyutu.com)"
+      }
+    ],
+    "note": "与 58-木耳/76-麻豆 等 13 个已屏蔽站一并保持 searchable=0+quickSearch=0；上游 auto-sync 每次刷新都可能重置，需在 sync 后复核本清单",
+    "backup": "anaer_meow_backup_2026-09-25-2238.json"
   }
 }

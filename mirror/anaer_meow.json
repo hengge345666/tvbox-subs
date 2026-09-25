@@ -3473,19 +3473,25 @@
       "api": "https://lovedan.net/api.php/provide/vod/",
       "key": "0ec30b843eb0dd00005239556b902374",
       "name": "21-爱胆",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://www.kxgav.com/api/xml.php",
       "key": "c7c8d8da2ba856cc798421b5de48a8bc",
       "name": "22-*白嫖资源",
-      "type": 0
+      "type": 0,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://www.gdlsp.com/api/xml.php",
       "key": "2da82ad79b8f4e114cf435763ab1d721",
       "name": "23-*香奶儿资源",
-      "type": 0
+      "type": 0,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://api.apiyhzy.com/api.php/provide/vod/",
@@ -3597,7 +3603,9 @@
       "api": "https://apiyutu.com/api.php/provide/vod/",
       "key": "7de11eca32356644ce7da016fa2412e5",
       "name": "42-玉兔资源(切片)",
-      "type": 1
+      "type": 1,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "api": "https://hong.hgyx.vip/api.php/provide/vod/",
