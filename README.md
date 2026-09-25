@@ -17,12 +17,12 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 
 ## 订阅入口
 
-`subs.json` 精选 17 条线路（每条上游唯一、全部 https、CI 实时校验可达）：
+`subs.json` 精选 16 条线路（每条上游唯一、全部 https、CI 实时校验可达）：
 
 - **直播**：自建 tang_live（稳定精选+日更层+IPV6）、南风+咪咕、全部直播合集
 - **点播大库**：高天流云 JS 库(297源)、yw88075 HTTP 库(211源)、qist 合集(151源)、C88(92源)、教主(93源)
 - **轻量/精简**：A站(24源)、Tomorrow(47源)、饭太硬(49源)、FongMI(33源)、noimank(64源)
-- **聚合/其他**：喵站主力配置、老刘备、香雅情XYQ、无意wya6
+- **聚合/其他**：喵站主力配置、老刘备、香雅情XYQ
 
 ## 文件地图
 
@@ -67,6 +67,7 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 - 摸鱼·4K资源：`http://我不是.摸鱼儿.top`
 - 王二小放牛娃·多源聚合：`http://tvbox.王二小放牛娃.top`
 - 南风·XC源（点播）：`https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json`
+- 无意·wya6线路（加密配置，境外 IP 访问返回 456，CI 无法校验）：`https://www.wya6.cn/tv/yc.json`
 
 ## 整合记录（2026-09-25）
 
