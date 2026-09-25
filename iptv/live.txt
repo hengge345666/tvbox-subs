@@ -1,5 +1,5 @@
 # TVBox 直播精选：央视全套 + 主要卫视
-# 生成 2026-09-25 10:17 | 判定口径：无 Referer 无鉴权可直连 + 拉到真实分片 + 清单 6 秒内滚动
+# 生成 2026-09-25 11:55 | 判定口径：无 Referer 无鉴权可直连 + 拉到真实分片 + 清单 6 秒内滚动
 📺央视频道,#genre#
 CCTV-2财经,http://genglei.8866.org:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-3综艺,http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
