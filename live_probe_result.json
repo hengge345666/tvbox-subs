@@ -1,0 +1,455 @@
+[
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "CCTV-2财经",
+   "url": "http://genglei.8866.org:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "TimeoutError: timed out",
+   "name": "CCTV-3综艺",
+   "url": "http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "CCTV-4国际",
+   "url": "http://genglei.8866.org:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "TimeoutError: timed out",
+   "name": "CCTV-5体育",
+   "url": "http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "CCTV-7国防军事",
+   "url": "http://genglei.8866.org:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "CCTV-8电视剧",
+   "url": "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.31401658058166504,
+   "kbps": 3130.7556789609926,
+   "ratio": 6.002266786239004,
+   "seg_dur": 7.199999999999999,
+   "name": "CCTV-9纪录",
+   "url": "https://xykt-fix.github.io/Y77.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "CCTV-10科教",
+   "url": "http://221.226.51.220:50081/newlive/live/hls/11/live.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.15616345405578613,
+   "kbps": 1909.5943311201186,
+   "ratio": 0.6970885482935,
+   "seg_dur": 15.0,
+   "name": "CCTV-11戏曲",
+   "url": "http://113.25.252.226:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "CCTV-12法制",
+   "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.16552948951721191,
+   "kbps": 37006.61185090991,
+   "ratio": 6.618967474882807,
+   "seg_dur": 12.0,
+   "name": "CCTV-13新闻",
+   "url": "https://event.pull.hebtv.com/jishi/cp1.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.19812750816345215,
+   "kbps": 40003.10908448829,
+   "ratio": 7.154597357050623,
+   "seg_dur": 12.0,
+   "name": "CCTV-14少儿",
+   "url": "https://event.pull.hebtv.com/jishi/cp2.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "CCTV-15音乐",
+   "url": "http://genglei.8866.org:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "东方卫视",
+   "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.2551395893096924,
+   "kbps": 29539.45466882866,
+   "ratio": 6.3510944803183635,
+   "seg_dur": 11.56,
+   "name": "内蒙古卫视",
+   "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.25458669662475586,
+   "kbps": 1585.2224718763302,
+   "ratio": 0.5774944130707869,
+   "seg_dur": 15.0,
+   "name": "吉林卫视",
+   "url": "http://113.25.252.226:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.2609591484069824,
+   "kbps": 7216.614690409504,
+   "ratio": 3.191939313377196,
+   "seg_dur": 6.0009999999999994,
+   "name": "安多卫视",
+   "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "山西卫视",
+   "url": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.18866443634033203,
+   "kbps": 16.277319793858386,
+   "ratio": 44.009049813024525,
+   "seg_dur": 21.608,
+   "name": "新疆卫视",
+   "url": "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "TimeoutError: timed out",
+   "name": "江西卫视",
+   "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.045470476150512695,
+   "kbps": 36552.0275210674,
+   "ratio": 30.612573887710088,
+   "seg_dur": 11.96,
+   "name": "河北卫视",
+   "url": "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.842803955078125,
+   "kbps": 10853.836093527247,
+   "ratio": 4.173884522140783,
+   "seg_dur": 15.0,
+   "name": "河南卫视",
+   "url": "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.09977960586547852,
+   "kbps": 25446.120316312143,
+   "ratio": 6.164118034892566,
+   "seg_dur": 24.0,
+   "name": "浙江卫视",
+   "url": "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "无法解析",
+   "name": "深圳卫视",
+   "url": "http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "ttfb": 0.07116818428039551,
+   "kbps": 35678.65746444098,
+   "ratio": 24.228620575120065,
+   "seg_dur": 18.0,
+   "name": "湖南卫视",
+   "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "贵州卫视",
+   "url": "http://58.56.162.102:4466/newlive/live/hls/41/live.m3u8"
+  }
+ ],
+ [
+  "精选",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "青海卫视",
+   "url": "https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-1",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-5",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-10",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-10",
+   "url": "http://74.91.26.218:82/live/cctv10hd.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-10",
+   "url": "http://221.226.51.220:50081/newlive/live/hls/11/live.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-11",
+   "url": "http://74.91.26.218:82/live/cctv11hd.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-11",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-12",
+   "url": "http://107.150.60.122/live/cctv12hd.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-12",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "ttfb": 0.11234354972839355,
+   "kbps": 39937.735217676534,
+   "ratio": 7.141784541983677,
+   "seg_dur": 12.0,
+   "name": "咪咕日更|CCTV-13",
+   "url": "https://event.pull.hebtv.com/jishi/cp1.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "ttfb": 0.23743963241577148,
+   "kbps": 28425.32999963333,
+   "ratio": 5.084013578609175,
+   "seg_dur": 12.0,
+   "name": "咪咕日更|CCTV-14",
+   "url": "https://event.pull.hebtv.com/jishi/cp2.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-14",
+   "url": "http://74.91.26.218:82/live/cctv14hd.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-14",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-15",
+   "url": "http://74.91.26.218:82/live/cctv15hd.m3u8"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-15",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-15",
+   "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv15hd"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-16",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-17",
+   "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv17hd.m3u8?auth=test20251009"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-17",
+   "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv17hd"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "TimeoutError: timed out",
+   "name": "咪咕日更|CCTV5",
+   "url": "http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 605: ",
+   "name": "咪咕日更|CCTV10科教",
+   "url": "http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/cctv10hd/1000/index.m3u8?msisdn=20260924220135dbdb7294b9664b129eba5737a6bfbe02&mdspid=&spid=699004&netType=0&sid=5500212874&pid=2028597139&timestamp=20260924220135&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878405&ParentNodeID=-99&assertID=5500212874&client_ip=171.8.79.254&SecurityKey=20260924220135&promotionId=&mvid=5100001696&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=d3aa229842d8b07168c8c8ff20ed20d1"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "name": "咪咕日更|CCTV-11戏曲",
+   "url": "http://genglei.8866.org:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "上游",
+  {
+   "ttfb": 0.13011407852172852,
+   "kbps": 1072.330137631914,
+   "ratio": 0.39154946026818116,
+   "seg_dur": 15.0,
+   "name": "咪咕日更|CCTV-11戏曲",
+   "url": "http://113.25.252.226:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0"
+  }
+ ],
+ [
+  "上游",
+  {
+   "error": "HTTPError: HTTP Error 605: ",
+   "name": "咪咕日更|CCTV11戏曲",
+   "url": "http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv11hd/50/20200103/index.m3u8?msisdn=20260924220301950cac42cca24f9babc095aca0c9a03a&mdspid=&spid=699004&netType=0&sid=5500988610&pid=2028597139&timestamp=20260924220301&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=667987558&ParentNodeID=-99&assertID=5500988610&client_ip=171.8.79.254&SecurityKey=20260924220301&promotionId=&mvid=5102751362&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=1c22d7d3ca5de7aea8ebe66e2d888f9b"
+  }
+ ]
+]
