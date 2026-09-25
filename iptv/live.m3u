@@ -1,27 +1,55 @@
-#EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/iptv/epg.gz"
-#EXTINF:-1 tvg-name="海南卫视" group-title="✅已验证",海南卫视
-http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
-#EXTINF:-1 tvg-name="浙江卫视" group-title="✅已验证",浙江卫视
-https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" group-title="✅已验证",浙江卫视
-http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" group-title="✅已验证",浙江卫视
-http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-#EXTINF:-1 tvg-name="CCTV-13" group-title="✅已验证",CCTV-13
-http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
-#EXTINF:-1 tvg-name="内蒙古卫视" group-title="✅已验证",内蒙古卫视
+#EXTM3U
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-2 财经",CCTV-2财经
+http://genglei.8866.org:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-3 综艺",CCTV-3综艺
+http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-4 中文国际",CCTV-4国际
+http://genglei.8866.org:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-5 体育",CCTV-5体育
+http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-7 国防军事",CCTV-7国防军事
+http://genglei.8866.org:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-8 电视剧",CCTV-8电视剧
+http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-9 纪录",CCTV-9纪录
+https://xykt-fix.github.io/Y77.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-10 科教",CCTV-10科教
+http://221.226.51.220:50081/newlive/live/hls/11/live.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-11 戏曲",CCTV-11戏曲
+http://113.25.252.226:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-12 社会与法",CCTV-12法制
+http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-13 新闻",CCTV-13新闻
+https://event.pull.hebtv.com/jishi/cp1.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-14 少儿",CCTV-14少儿
+https://event.pull.hebtv.com/jishi/cp2.m3u8
+#EXTINF:-1 group-title="📺央视频道" tvg-id="CCTV-15 音乐",CCTV-15音乐
+http://genglei.8866.org:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="东方卫视",东方卫视
+http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="内蒙古卫视",内蒙古卫视
 http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="✅已验证",河南卫视
-http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=%2A%2A%2A&playlive=1&authid=%2A%2A%2A
-#EXTINF:-1 tvg-name="湖南卫视" group-title="✅已验证",湖南卫视
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="吉林卫视",吉林卫视
+http://113.25.252.226:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="安多卫视",安多卫视
+https://liveout.xntv.tv/a65jur/96iln2.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="山西卫视",山西卫视
+http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="新疆卫视",新疆卫视
+http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="江西卫视",江西卫视
+http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="河北卫视",河北卫视
+http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="河南卫视",河南卫视
+http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="浙江卫视",浙江卫视
+http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="深圳卫视",深圳卫视
+http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="湖南卫视",湖南卫视
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-#EXTINF:-1 tvg-name="三沙卫视" group-title="✅已验证",三沙卫视
-http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
-#EXTINF:-1 tvg-name="CCTV-15" group-title="✅已验证",CCTV-15
-http://74.91.26.218:82/live/cctv15hd.m3u8
-#EXTINF:-1 tvg-name="黑龙江卫视" group-title="✅已验证",黑龙江卫视
-http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
-#EXTINF:-1 tvg-name="大湾区卫视" group-title="✅已验证",大湾区卫视
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nfws
-#EXTINF:-1 tvg-name="新疆卫视" group-title="✅已验证",新疆卫视
-http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd%3Bhttp%3A%2F%2F218.84.12.186%3A8001%2Fhls%2Fmain%2Fplaylist.m3u8zxinjd=
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="贵州卫视",贵州卫视
+http://58.56.162.102:4466/newlive/live/hls/41/live.m3u8
+#EXTINF:-1 group-title="🛰️卫视频道" tvg-id="青海卫视",青海卫视
+https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
