@@ -391,8 +391,8 @@
       "name": "4KAV[py]",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/cluntop/tvbox/master/py/4KAV.py",
-      "quickSearch": 1,
-      "searchable": 1,
+      "quickSearch": 0,
+      "searchable": 0,
       "filterable": 1
     },
     {
@@ -840,7 +840,8 @@
       "name": "黑木耳 | 采集",
       "type": 1,
       "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "categories": [
         "动作片",
         "喜剧片",

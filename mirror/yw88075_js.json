@@ -444,7 +444,9 @@
       "name": "影视 | 91free[js]",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js/91free.js"
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js/91free.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_LIBVIO",
@@ -1041,7 +1043,9 @@
       "name": "动漫 | 奇米动漫[js]",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js/奇米动漫.js"
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/js/奇米动漫.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_妮可动漫",
