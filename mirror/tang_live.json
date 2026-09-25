@@ -25,6 +25,12 @@
       "name": "全网电视台·日更(vbskycn)",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt"
+    },
+    {
+      "name": "Raycorn·IPV6直播(央视卫视)",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/RaycornM/TVbox-IPTV/main/Tivi-ipv6.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
     }
   ]
 }

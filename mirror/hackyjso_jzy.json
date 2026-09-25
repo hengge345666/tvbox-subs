@@ -1,10 +1,10 @@
-﻿{
+{
   "spider": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/custom_spider.txt",
   "wallpaper": "https://娣辫壊澹佺焊.xxooo.cf/",
   "sites": [
     {
       "key": "璞嗙摚",
-      "name": "馃挊鍏紬鍙?銆愭瀛愭煔褰辫銆戰煉?,
+      "name": "馃挊鍏紬鍙?銆愭瀛愭煔褰辫銆戰煉?",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -25,7 +25,7 @@
     },
     {
       "key": "Wexconfig",
-      "name": "馃挊閰嶇疆鈹冧腑蹇凁煉?,
+      "name": "馃挊閰嶇疆鈹冧腑蹇凁煉?",
       "type": 3,
       "api": "csp_Wexconfig",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wex.jar",
@@ -39,7 +39,7 @@
     },
     {
       "key": "鎴戠殑闃块噷",
-      "name": "馃挊鎴戠殑鈹冮樋閲岎煉?,
+      "name": "馃挊鎴戠殑鈹冮樋閲岎煉?",
       "type": 3,
       "api": "csp_MyAli",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/danmu.jar",
@@ -66,7 +66,7 @@
     },
     {
       "key": "ShiJue",
-      "name": "馃挊鐝忕弿鈹冨脊骞曫煉?,
+      "name": "馃挊鐝忕弿鈹冨脊骞曫煉?",
       "type": 3,
       "api": "csp_ShiJue",
       "filterable": 1,
@@ -94,7 +94,7 @@
     },
     {
       "key": "laikan",
-      "name": "馃挊鑾辫幈鈹冨脊骞曫煉?,
+      "name": "馃挊鑾辫幈鈹冨脊骞曫煉?",
       "type": 3,
       "api": "csp_Naikan",
       "filterable": 1,
@@ -103,7 +103,7 @@
     },
     {
       "key": "璩よ长",
-      "name": "馃挊璐辫幢鈹冪洿杩烉煉?,
+      "name": "馃挊璐辫幢鈹冪洿杩烉煉?",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
@@ -113,7 +113,7 @@
     },
     {
       "key": "澶╁ぉ",
-      "name": "馃挊澶╁ぉ鈹冨脊骞曫煉?,
+      "name": "馃挊澶╁ぉ鈹冨脊骞曫煉?",
       "type": 3,
       "api": "csp_TTian",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wypg.jar",
@@ -135,14 +135,14 @@
     },
     {
       "key": "drjs_瀛愬瓙褰辫",
-      "name": "馃挊瀛愬瓙鈹冪洿杩烉煉?,
+      "name": "馃挊瀛愬瓙鈹冪洿杩烉煉?",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/libs/drpy.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/js/瀛愬瓙褰辫.js"
     },
     {
       "key": "subai",
-      "name": "馃挊绱犵礌鈹冨脊骞曫煉?,
+      "name": "馃挊绱犵礌鈹冨脊骞曫煉?",
       "type": 3,
       "api": "csp_Subaibai",
       "searchable": 1,
@@ -249,7 +249,7 @@
     },
     {
       "key": "闃块噷鍚堥泦",
-      "name": "馃挊闃块噷鈹冨悎闆嗮煉?,
+      "name": "馃挊闃块噷鈹冨悎闆嗮煉?",
       "type": 3,
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/danmu.jar",
       "api": "csp_AliShare",
@@ -268,15 +268,15 @@
     },
     {
       "key": "FreeOK",
-      "name": " 馃挊FreeOK鈹冨脊骞曫煉?,
+      "name": " 馃挊FreeOK鈹冨脊骞曫煉?",
       "type": 3,
       "api": "csp_Freeok",
       "ext": "https://www.freeok.pro/",
-      "鍡呮帰璇?: "m3u8#.m3u8#.mp4#freeok.mp4#/obj/"
+      "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/"
     },
     {
       "key": "鍗楃摐",
-      "name": "馃挊姊︽ⅵ鈹冨脊骞曫煉?,
+      "name": "馃挊姊︽ⅵ鈹冨脊骞曫煉?",
       "type": 3,
       "api": "csp_NanGua",
       "searchable": 1,
@@ -302,7 +302,7 @@
     },
     {
       "key": "Wexshandian",
-      "name": "馃挊闂數鈹冪洿杩烉煉?,
+      "name": "馃挊闂數鈹冪洿杩烉煉?",
       "type": 3,
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wex.jar",
       "api": "csp_Wexshandian",
@@ -339,7 +339,7 @@
     },
     {
       "key": "Wexwencai",
-      "name": "馃挊鏂囨枃鈹冪洿杩烉煉?,
+      "name": "馃挊鏂囨枃鈹冪洿杩烉煉?",
       "type": 3,
       "api": "csp_Wexwencai",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wex.jar",
@@ -356,7 +356,7 @@
     },
     {
       "key": "Aid",
-      "name": "馃殤鎬ユ晳鈹冩暀瀛︷煔?,
+      "name": "馃殤鎬ユ晳鈹冩暀瀛︷煔?",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -370,7 +370,7 @@
     {
       "key": "csp_CandyMuj_taoju",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/lem1225.jar",
-      "name": "馃挊娣樺墽鈹冪洿杩?,
+      "name": "馃挊娣樺墽鈹冪洿杩?",
       "type": 3,
       "api": "csp_CandyMuj_taoju",
       "searchable": 1,
@@ -379,14 +379,14 @@
     },
     {
       "key": "drjs_浜轰汉褰辫",
-      "name": "馃挊浜轰汉鈹冪洿杩烉煉?,
+      "name": "馃挊浜轰汉鈹冪洿杩烉煉?",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/libs/drpy.min.js",
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/js/浜轰汉褰辫.js"
     },
     {
       "key": "楠氱伀鐢靛奖",
-      "name": "馃挊楠氶獨鈹冪洿杩烉煉?,
+      "name": "馃挊楠氶獨鈹冪洿杩烉煉?",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -396,7 +396,7 @@
     },
     {
       "key": "naikan",
-      "name": "馃挊濂堝鈹冪洿杩烉煉?,
+      "name": "馃挊濂堝鈹冪洿杩烉煉?",
       "type": 3,
       "api": "csp_Naikan",
       "filterable": 1,
@@ -405,7 +405,7 @@
     },
     {
       "key": "Auete",
-      "name": "馃挊鐗圭壒鈹冨梾鎺煉?,
+      "name": "馃挊鐗圭壒鈹冨梾鎺煉?",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -414,7 +414,7 @@
       "ext": "https://auete.pro/"
     },
     {
-      "key": "drjs_8鍙峰奖闄?,
+      "key": "drjs_8鍙峰奖闄?",
       "name": "馃挊8鍙封攦鍡呮帰馃挊",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/libs/drpy.min.js",
@@ -422,7 +422,7 @@
     },
     {
       "key": "Jugege",
-      "name": "馃挊鑱氳仛鈹冨梾鎺煉?,
+      "name": "馃挊鑱氳仛鈹冨梾鎺煉?",
       "type": 3,
       "api": "csp_Jugege",
       "searchable": 1,
@@ -432,7 +432,7 @@
     },
     {
       "key": "XBPQ_鏄熻景",
-      "name": "馃挊杈拌景鈹冨梾鎺煉?,
+      "name": "馃挊杈拌景鈹冨梾鎺煉?",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -443,7 +443,7 @@
     },
     {
       "key": "js_ddys",
-      "name": "馃挊浣庣鈹冨鍓ю煉?,
+      "name": "馃挊浣庣鈹冨鍓ю煉?",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/libs/drpy2.min.js",
       "searchable": 1,
@@ -453,7 +453,7 @@
     },
     {
       "key": "SeedHub",
-      "name": "馃РSeedHub鈹冪鍔涴煣?,
+      "name": "馃РSeedHub鈹冪鍔涴煣?",
       "type": 3,
       "api": "csp_SeedHub",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wyog1.jar",
@@ -462,8 +462,8 @@
       "filterable": 1
     },
     {
-      "key": "杩呴浄鍚?,
-      "name": "馃Р杩呴浄鈹冪鍔涴煣?,
+      "key": "杩呴浄鍚?",
+      "name": "馃Р杩呴浄鈹冪鍔涴煣?",
       "type": 3,
       "api": "csp_Xunlei8",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wyog1.jar",
@@ -473,7 +473,7 @@
     },
     {
       "key": "Mp4鐢靛奖",
-      "name": "馃РMp4鈹冪鍔涴煣?,
+      "name": "馃РMp4鈹冪鍔涴煣?",
       "type": 3,
       "api": "csp_Mp4Mov",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wyog1.jar",
@@ -483,7 +483,7 @@
     },
     {
       "key": "閰峰惂鐢靛奖",
-      "name": "馃Р閰峰惂鈹冪鍔涴煣?,
+      "name": "馃Р閰峰惂鈹冪鍔涴煣?",
       "type": 3,
       "api": "csp_KubaCL",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wyog1.jar",
@@ -493,7 +493,7 @@
     },
     {
       "key": "缇庡墽澶╁爞",
-      "name": "馃Р缇庡墽鈹冪鍔涴煣?,
+      "name": "馃Р缇庡墽鈹冪鍔涴煣?",
       "type": 3,
       "api": "csp_MeijuTT",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wyog1.jar",
@@ -503,15 +503,15 @@
     },
     {
       "key": "鏂?V",
-      "name": "馃Р鏂?V鈹冪鍔涴煣?,
+      "name": "馃Р鏂?V鈹冪鍔涴煣?",
       "type": 3,
       "api": "csp_Xb6v",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "鏂伴鑺?,
-      "name": "馃Р椋樿姳鈹冪鍔涴煣?,
+      "key": "鏂伴鑺?",
+      "name": "馃Р椋樿姳鈹冪鍔涴煣?",
       "type": 3,
       "api": "csp_PiaoHua",
       "searchable": 1,
@@ -519,35 +519,35 @@
     },
     {
       "key": "drpy_js_浼橀叿",
-      "name": "馃挊閰烽叿鈹冨畼婧愷煉?,
+      "name": "馃挊閰烽叿鈹冨畼婧愷煉?",
       "type": 3,
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/浼橀叿.js"
     },
     {
       "key": "drpy_js_濂囩弽寮傚吔",
-      "name": "馃挊濂囧紓鈹冨畼婧愷煉?,
+      "name": "馃挊濂囧紓鈹冨畼婧愷煉?",
       "type": 3,
       "api": "http://alist.xn--z7x900a.live/ddrpy2.m.js",
       "ext": "http://alist.xn--z7x900a.live/鐖卞.js"
     },
     {
       "key": "鎼滅嫍",
-      "name": "馃挊鐙椼簝鈹冨畼婧愷煉?,
+      "name": "馃挊鐙椼簝鈹冨畼婧愷煉?",
       "type": 3,
       "api": "https://weixine.net/js/lib/drpy2.min.js",
       "ext": "https://weixine.net/js/caigou.js"
     },
     {
       "key": "360",
-      "name": "馃挊360鈹冭В鏋愷煉?,
+      "name": "馃挊360鈹冭В鏋愷煉?",
       "type": 3,
       "api": "csp_SP360",
       "searchable": 1
     },
     {
       "key": "MGTV",
-      "name": "馃挊MGTV鈹冭В鏋愷煉?,
+      "name": "馃挊MGTV鈹冭В鏋愷煉?",
       "type": 3,
       "api": "csp_MGTV",
       "searchable": 1
@@ -565,13 +565,13 @@
       },
       "ext": {
         "json": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/json/bili.json",
-        "type": "甯曟鎷?澶瀬鎷?骞垮満鑸?婕斿敱浼?,
+        "type": "甯曟鎷?澶瀬鎷?骞垮満鑸?婕斿敱浼?",
         "cookie": ""
       }
     },
     {
       "key": "閰风嫍",
-      "name": "馃挊鐙楃嫍鈹冮煶涔愷煉?,
+      "name": "馃挊鐙楃嫍鈹冮煶涔愷煉?",
       "type": 3,
       "api": "csp_Kugou",
       "searchable": 0,
@@ -579,7 +579,7 @@
     },
     {
       "key": "csp_閰峰",
-      "name": "馃幐閰峰鈹冮煶涔愷煄?,
+      "name": "馃幐閰峰鈹冮煶涔愷煄?",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 0,
@@ -589,7 +589,7 @@
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/json/閰峰MV.json"
     },
     {
-      "key": "open_瑙嗚仛鍦?,
+      "key": "open_瑙嗚仛鍦?",
       "name": " 馃挊澶缃戔攦鐩磋繛馃挊",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/js/cntv_open.js",
@@ -600,7 +600,7 @@
     },
     {
       "key": "cctv",
-      "name": "馃挊CCTV锝滃ぇ鍏煉?,
+      "name": "馃挊CCTV锝滃ぇ鍏煉?",
       "type": 3,
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/HCCX.jar",
       "api": "csp_CCTV",
@@ -610,7 +610,7 @@
     },
     {
       "key": "骞煎効鏁欒偛",
-      "name": "馃摎骞煎皬鈹冭鎺ヰ煋?,
+      "name": "馃摎骞煎皬鈹冭鎺ヰ煋?",
       "type": 3,
       "api": "csp_Bili",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wyxy.jar",
@@ -620,8 +620,8 @@
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/json/鍝斿摡骞煎皬.json"
     },
     {
-      "key": "open_鍏斿皬璐?,
-      "name": "馃摎鍏斿皬璐濔煋?,
+      "key": "open_鍏斿皬璐?",
+      "name": "馃摎鍏斿皬璐濔煋?",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/js/tuxiaobei_open.js",
       "searchable": 1,
@@ -630,8 +630,8 @@
       "changeable": 1
     },
     {
-      "key": "open_璐濅箰铏?,
-      "name": "馃摎璐濅箰铏庰煋?,
+      "key": "open_璐濅箰铏?",
+      "name": "馃摎璐濅箰铏庰煋?",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/js/ubestkid_open.js",
       "searchable": 1,
@@ -641,7 +641,7 @@
     },
     {
       "key": "灏戝効鏁欒偛",
-      "name": "馃摎灏戝効鈹冩暀鑲拆煋?,
+      "name": "馃摎灏戝効鈹冩暀鑲拆煋?",
       "type": 3,
       "api": "csp_Bili",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/fan1.txt",
@@ -656,7 +656,7 @@
     },
     {
       "key": "灏忓璇惧爞",
-      "name": "馃摎灏忓鈹冭鍫傪煋?,
+      "name": "馃摎灏忓鈹冭鍫傪煋?",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -671,7 +671,7 @@
     },
     {
       "key": "鍒濅腑璇惧爞",
-      "name": "馃摎鍒濅腑鈹冭鍫傪煋?,
+      "name": "馃摎鍒濅腑鈹冭鍫傪煋?",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -686,7 +686,7 @@
     },
     {
       "key": "楂樹腑鏁欒偛",
-      "name": "馃摎楂樹腑鈹冭鍫傪煋?,
+      "name": "馃摎楂樹腑鈹冭鍫傪煋?",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -760,7 +760,7 @@
       "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hackyjso/box/main/drpy_js/js/yousheng.js"
     },
     {
-      "key": "js_涓崕鍚功缃?,
+      "key": "js_涓崕鍚功缃?",
       "name": "馃摎锔忊攦鍚功鈹冧腑鍗庰煋氾笍",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/libs/drpy2.min.js",
@@ -781,7 +781,7 @@
     },
     {
       "key": "88kanqiu",
-      "name": "鈿?8鐪嬬悆鈿?,
+      "name": "鈿?8鐪嬬悆鈿?",
       "type": 3,
       "api": "csp_Kanqiu",
       "searchable": 1,
@@ -805,7 +805,7 @@
     },
     {
       "key": "鐪嬬悆",
-      "name": "馃寪88鈹冪湅鐞凁煂?,
+      "name": "馃寪88鈹冪湅鐞凁煂?",
       "type": 3,
       "api": "csp_Kanqiu",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wex.jar",
@@ -817,7 +817,7 @@
     },
     {
       "key": "浼侀箙浣撹偛xp",
-      "name": "馃惂澶ч箙鈹冪湅鐞凁煇?,
+      "name": "馃惂澶ч箙鈹冪湅鐞凁煇?",
       "type": 3,
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/jar/wex.jar",
       "api": "csp_XPath",
@@ -830,7 +830,7 @@
       "ext": "https://gitcode.net/wexfnw/wex/-/master/qie.json"
     },
     {
-      "key": "js_姝︿韩鍚?,
+      "key": "js_姝︿韩鍚?",
       "name": "馃鈹冩牸鏂椻攦鐩存挱馃",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/hackyjso/TVbox/main/drpy_js/libs/drpy2.min.js",
@@ -841,7 +841,7 @@
     },
     {
       "key": "宸村＋",
-      "name": "馃挊宸村＋鈹冨姩婕煉?,
+      "name": "馃挊宸村＋鈹冨姩婕煉?",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -849,7 +849,7 @@
     },
     {
       "key": "csp_Anime1",
-      "name": "馃挊鏃ユ湰鈹冨姩婕煉?,
+      "name": "馃挊鏃ユ湰鈹冨姩婕煉?",
       "type": 3,
       "api": "csp_Anime1",
       "searchable": 1,
@@ -875,19 +875,19 @@
         "鏁扮粍": "<li class=\"www_xsmp3_com post_list_li\">&&</div>",
         "鍥剧墖": "https://gd-filems.dancf.com/gaoding/cms/mcm79j/mcm79j/59385/6a211035-3658-45ce-a476-79f6f5dc02b71172884.png?x-oss-process=image/resize,h_1308/interlace,1",
         "鏍囬": "title=\"&&\"",
-        "鍓爣棰?: ">&&</a",
+        "剧标题": ">&&</a",
         "閾炬帴": "href=\"&&\"",
         "鎾斁浜屾鎴彇": "autoplay&&;</script>",
         "鎾斁鏁扮粍": "\\[&&\\]",
         "鎾斁鍒楄〃": "{&&}",
         "鎾斁閾炬帴": "url*\"&&\"",
         "鎾斁鏍囬": "name*\"&&\"",
-        "鎾斁鍓爣棰?: "artist*\"&&\"",
-        "绾胯矾鏁扮粍": "鐩稿０闅忚韩鍚?,
-        "绾胯矾鏍囬": "鐩稿０闅忚韩鍚?,
+        "播放剧标题": "artist*\"&&\"",
+        "绾胯矾鏁扮粍": "鐩稿０闅忚韩鍚?",
+        "绾胯矾鏍囬": "鐩稿０闅忚韩鍚?",
         "瀵兼紨": "灏忕背",
         "涓绘紨": "鐩稿０鏄庢槦",
-        "绠€浠?: "鐩稿０鍚堥泦",
+        "简介": "鐩稿０鍚堥泦",
         "鍒嗙被url": "https://www.xsmp3.com/{cateId}/{catePg}.html;;av",
         "鍒嗙被": "閮痉绾?gdg#寰蜂簯绀?dys#鏂板娍鍔?xsxsl#闈掑尯绀?qqs#椹笁绔?msl#鏇村$xsmj"
       }
@@ -910,19 +910,19 @@
         "鏁扮粍": "<li class=\"www_psmp3_com post_list_li\">&&</div>",
         "鍥剧墖": "https://bkimg.cdn.bcebos.com/pic/86d6277f9e2f07084e3cb402ee24b899a901f2f3",
         "鏍囬": "title=\"&&\"",
-        "鍓爣棰?: ">&&</a",
+        "剧标题": ">&&</a",
         "閾炬帴": "href=\"&&\"",
         "鎾斁浜屾鎴彇": "autoplay&&;</script>",
         "鎾斁鏁扮粍": "\\[&&\\]",
         "鎾斁鍒楄〃": "{&&}",
         "鎾斁閾炬帴": "url*\"&&\"",
         "鎾斁鏍囬": "name*\"&&\"",
-        "鎾斁鍓爣棰?: "artist*\"&&\"",
-        "绾胯矾鏁扮粍": "璇勪功闅忚韩鍚?,
-        "绾胯矾鏍囬": "璇勪功闅忚韩鍚?,
+        "播放剧标题": "artist*\"&&\"",
+        "绾胯矾鏁扮粍": "璇勪功闅忚韩鍚?",
+        "绾胯矾鏍囬": "璇勪功闅忚韩鍚?",
         "瀵兼紨": "灏忕背",
         "涓绘紨": "璇勪功鏄庢槦",
-        "绠€浠?: "璇勪功鍚堥泦",
+        "简介": "璇勪功鍚堥泦",
         "鍒嗙被url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
         "鍒嗙被": "琚侀様鎴?ykc#鍗曠敯鑺?stf#鐢拌繛鍏?tly#鍒樺叞鑺?llf#杩炰附濡?llr#寮犲皯浣?zsz#鐢版垬涔?tzy"
       }
@@ -940,25 +940,25 @@
       "quickSearch": 0,
       "filterable": 1,
       "categories": [
-        "鍔ㄤ綔鐗?,
-        "鍠滃墽鐗?,
-        "鐖辨儏鐗?,
-        "绉戝够鐗?,
+        "鍔ㄤ綔鐗?",
+        "鍠滃墽鐗?",
+        "鐖辨儏鐗?",
+        "绉戝够鐗?",
         "鎭愭€栫墖",
-        "鍓ф儏鐗?,
-        "鎴樹簤鐗?,
-        "鎮枒鐗?,
-        "鐘姜鐗?,
-        "濂囧够鐗?,
-        "璁板綍鐗?,
-        "鍔ㄧ敾鐗?,
-        "鍐呭湴鍓?,
-        "棣欐腐鍓?,
-        "鍙版咕鍓?,
+        "鍓ф儏鐗?",
+        "鎴樹簤鐗?",
+        "鎮枒鐗?",
+        "鐘姜鐗?",
+        "濂囧够鐗?",
+        "璁板綍鐗?",
+        "鍔ㄧ敾鐗?",
+        "鍐呭湴鍓?",
+        "棣欐腐鍓?",
+        "鍙版咕鍓?",
         "鏃ュ墽",
         "闊╁墽",
-        "娆х編鍓?,
-        "椹嘲鍓?,
+        "娆х編鍓?",
+        "椹嘲鍓?",
         "澶ч檰缁艰壓",
         "娓彴缁艰壓",
         "鏃ラ煩缁艰壓",
@@ -970,27 +970,27 @@
     },
     {
       "key": "鏆撮ⅷ",
-      "name": "馃挊鏆撮ⅷ鈹冩帴鍙ｐ煉?,
+      "name": "馃挊鏆撮ⅷ鈹冩帴鍙ｐ煉?",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1,
       "categories": [
         "鐭墽",
-        "鍓ф儏鐗?,
-        "绉戝够鐗?,
-        "鍠滃墽鐗?,
+        "鍓ф儏鐗?",
+        "绉戝够鐗?",
+        "鍠滃墽鐗?",
         "鎭愭€栫墖",
-        "鍔ㄤ綔鐗?,
-        "鎴樹簤鐗?,
-        "绾綍鐗?,
-        "鍥戒骇鍓?,
-        "棣欐腐鍓?,
-        "鍙版咕鍓?,
-        "闊╁浗鍓?,
-        "鏃ユ湰鍓?,
-        "娴峰鍓?,
-        "娉板浗鍓?,
+        "鍔ㄤ綔鐗?",
+        "鎴樹簤鐗?",
+        "绾綍鐗?",
+        "鍥戒骇鍓?",
+        "棣欐腐鍓?",
+        "鍙版咕鍓?",
+        "闊╁浗鍓?",
+        "鏃ユ湰鍓?",
+        "娴峰鍓?",
+        "娉板浗鍓?",
         "鍥戒骇鍔ㄦ极",
         "娆х編鍔ㄦ极",
         "娓彴鍔ㄦ极",
@@ -1000,14 +1000,14 @@
         "娓彴缁艰壓",
         "鏃ラ煩缁艰壓",
         "澶ч檰缁艰壓",
-        "鍔ㄧ敾鐗?,
+        "鍔ㄧ敾鐗?",
         "鐢靛奖瑙ｈ",
         "浣撹偛璧涗簨",
         "瓒崇悆",
         "绡悆",
         "缃戠悆",
-        "鏂鍏?,
-        "棰勫憡鐗?
+        "鏂鍏?",
+        "棰勫憡鐗?"
       ]
     },
     {
@@ -1019,20 +1019,20 @@
       "changeable": 1,
       "categories": [
         "鐭墽",
-        "鍓ф儏鐗?,
-        "绉戝够鐗?,
-        "鍠滃墽鐗?,
+        "鍓ф儏鐗?",
+        "绉戝够鐗?",
+        "鍠滃墽鐗?",
         "鎭愭€栫墖",
-        "鍔ㄤ綔鐗?,
-        "鎴樹簤鐗?,
-        "绾綍鐗?,
-        "鍥戒骇鍓?,
-        "棣欐腐鍓?,
-        "鍙版咕鍓?,
-        "闊╁浗鍓?,
-        "鏃ユ湰鍓?,
-        "娴峰鍓?,
-        "娉板浗鍓?,
+        "鍔ㄤ綔鐗?",
+        "鎴樹簤鐗?",
+        "绾綍鐗?",
+        "鍥戒骇鍓?",
+        "棣欐腐鍓?",
+        "鍙版咕鍓?",
+        "闊╁浗鍓?",
+        "鏃ユ湰鍓?",
+        "娴峰鍓?",
+        "娉板浗鍓?",
         "鍥戒骇鍔ㄦ极",
         "娆х編鍔ㄦ极",
         "娓彴鍔ㄦ极",
@@ -1042,14 +1042,14 @@
         "娓彴缁艰壓",
         "鏃ラ煩缁艰壓",
         "澶ч檰缁艰壓",
-        "鍔ㄧ敾鐗?,
+        "鍔ㄧ敾鐗?",
         "鐢靛奖瑙ｈ",
         "浣撹偛璧涗簨",
         "瓒崇悆",
         "绡悆",
         "缃戠悆",
-        "鏂鍏?,
-        "棰勫憡鐗?
+        "鏂鍏?",
+        "棰勫憡鐗?"
       ]
     },
     {
@@ -1095,7 +1095,7 @@
       "changeable": 0
     },
     {
-      "key": "鐩ゆ悳绱?,
+      "key": "鐩ゆ悳绱?",
       "name": "馃挊鐩ゆ悳绱⑩攦4K馃挊",
       "type": 3,
       "api": "csp_PanSearch",
@@ -1104,15 +1104,15 @@
     },
     {
       "key": "push_agent",
-      "name": "馃挊鎺ㄩ€侌煉?,
+      "name": "馃挊鎺ㄩ€侌煉?",
       "type": 3,
       "api": "csp_Push",
       "searchable": 1,
       "changeable": 0
     },
     {
-      "key": "鎵捐硣婧?,
-      "name": "馃挊鎵捐硣婧愷煉?,
+      "key": "鎵捐硣婧?",
+      "name": "馃挊鎵捐硣婧愷煉?",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
@@ -1254,7 +1254,7 @@
         "flag": [
           "qiyi",
           "imgo",
-          "鐖卞鑹?,
+          "鐖卞鑹?",
           "濂囪壓",
           "qq",
           "鑵捐",
@@ -1296,7 +1296,7 @@
         "flag": [
           "qiyi",
           "imgo",
-          "鐖卞鑹?,
+          "鐖卞鑹?",
           "濂囪壓",
           "qq",
           "鑵捐",
@@ -1351,7 +1351,7 @@
   ],
   "ijk": [
     {
-      "group": "杞В鐮?,
+      "group": "杞В鐮?",
       "options": [
         {
           "category": 4,
@@ -1431,7 +1431,7 @@
       ]
     },
     {
-      "group": "纭В鐮?,
+      "group": "纭В鐮?",
       "options": [
         {
           "category": 4,

@@ -5,6 +5,9 @@
   1. 仓库内所有 .json 文件均可解析
   2. 含 sites 列表的配置文件中, 站点 key 不得重复
   3. dead_sites.json 的每个 key 必须存在于 anaer_meow.json 且 searchable == 0
+  4. subs.json 订阅必须全 https
+  5. mirror/ 文件零引用检测（防死重堆积）
+  6. subs.json 订阅条目去重检测（按剥离代理前缀后的真实上游判重）
 用法: python tools/validate.py   (在仓库根目录执行)
 全部通过退出码 0, 任一失败退出码 1。
 """
@@ -95,6 +98,60 @@ def main():
                 check("version.json %s 为 64 位十六进制" % field,
                       bool(re.fullmatch(r"[0-9a-fA-F]{64}", str(val))),
                       str(val)[:24] + ("…" if len(str(val)) > 24 else ""))
+
+    print("== 5) mirror/ 零引用检测 ==")
+    # 功能性引用来源: 订阅/配置/清单。README、reports、tools 审计台账不算功能性引用。
+    func_files = [p for p in ROOT.rglob("*")
+                  if p.is_file()
+                  and ".git" not in p.parts
+                  and "reports" not in p.parts
+                  and "tools" not in p.parts
+                  and p.suffix.lower() in (".json", ".txt", ".m3u", ".m3u8", ".xml")
+                  and p.name != "README.md"]
+    func_texts = {}
+    for p in func_files:
+        try:
+            func_texts[p] = p.read_bytes().decode("utf-8", errors="replace")
+        except Exception:
+            pass
+    mirror_dir = ROOT / "mirror"
+    if mirror_dir.is_dir():
+        for f in sorted(mirror_dir.iterdir()):
+            if not f.is_file():
+                continue
+            # mirror 下文件须以 "mirror/<name>" 全路径被引用, 避免与 iptv/ 下同名文件混淆
+            pat = re.compile(re.escape("mirror/" + f.name))
+            referrers = [str(p.relative_to(ROOT).as_posix())
+                         for p, t in func_texts.items()
+                         if p.resolve() != f.resolve() and pat.search(t)]
+            check("引用 mirror/" + f.name, bool(referrers),
+                  "" if referrers else "仓库内无任何功能性引用(README/reports 不计), 属死重请删除")
+
+    print("== 6) subs.json 订阅去重 ==")
+    if isinstance(subs, dict):
+
+        def canonical(u):
+            """剥离常见加速代理前缀, 返回真实上游 URL"""
+            for prefix in ("https://gh-proxy.com/", "https://ghfast.top/",
+                           "https://cdn.jsdelivr.net/gh/".replace("/gh/", "/"),
+                           "https://fastly.jsdelivr.net/gh/".replace("/gh/", "/")):
+                if u.startswith(prefix):
+                    u = u[len(prefix):]
+                    if not u.startswith("http"):
+                        u = "https://" + u
+                    break
+            return u.rstrip("/").lower()
+
+        seen = {}
+        for item in subs.get("urls", []):
+            u = canonical(str(item.get("url", "")))
+            name = str(item.get("name", "?"))
+            if u in seen:
+                check("订阅唯一 " + name[:24], False,
+                      "与「%s」指向同一上游: %s" % (seen[u][:24], u[:80]))
+            else:
+                seen[u] = name
+                check("订阅唯一 " + name[:24], True)
 
     print()
     if errors:
