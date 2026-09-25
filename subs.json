@@ -49,6 +49,10 @@
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/raycorn_live.json"
   },
   {
+   "name": "央视/卫视卫星官方源(26频道·分片实测可播)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/sat_live.json"
+  },
+  {
    "name": "noimank·健康家用(64源·jar0.7MB·spider带md5)",
    "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json"
   },
