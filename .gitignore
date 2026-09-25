@@ -13,3 +13,6 @@ tools/probe_history.json
 
 # 代理内部临时目录
 .temp/
+live_probe.py
+live_probe_result.json
+scan_result.json
