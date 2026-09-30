@@ -1,8 +1,8 @@
 {
-  "versionCode": 43,
-  "versionName": "1.1.31-sub",
-  "log": "净化链路与内存优化：purify 移出主线程(起播不再卡遥控)、净化缓存按远程规则版本失效(热更即时生效)、修复 ZipFile 句柄泄漏、release 包日志静默、清除 5 处静态引用内存泄漏(直播/历史/收藏/用户页/ControlManager)",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.31-sub_code43/TVBox_v1.1.31-sub_code43_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.31-sub_code43/TVBox_v1.1.31-sub_code43_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.31-sub_code43/TVBox_v1.1.31-sub_code43_universal.apk"
+  "versionCode": 44,
+  "versionName": "1.1.32-sub",
+  "log": "数据层与列表性能优化：历史记录查询移出主线程（历史页与首页热播不再卡顿）、历史查询改 SQL 层真分页、Gson 全局单例复用、封面占位图缓存改为 LRU 上限 8MB",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.32-sub_code44/TVBox_v1.1.32-sub_code44_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.32-sub_code44/TVBox_v1.1.32-sub_code44_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.32-sub_code44/TVBox_v1.1.32-sub_code44_universal.apk"
 }
