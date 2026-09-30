@@ -1,12 +1,12 @@
 {
  "urls": [
   {
-   "name": "自建直播·稳定精选+日更层(三轮验活27台)",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/tang_live.json"
-  },
-  {
    "name": "喵站·纯净HTTP(主力)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/anaer_meow.json"
+  },
+  {
+   "name": "自建直播·稳定精选+日更层(三轮验活27台)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/tang_live.json"
   },
   {
    "name": "C88聚合·修复版(92源·jar1.9MB·解析全)",
