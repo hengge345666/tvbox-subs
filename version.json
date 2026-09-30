@@ -1,8 +1,8 @@
 {
-  "versionCode": 42,
-  "versionName": "1.1.30-sub",
-  "log": "瘦身：移除P2P(libp2p)与迅雷SDK(thunder)，包体34.4→27.4MB；磁力/荐片链接停用，主力HTTP源零影响",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.30-sub_code42/TVBox_v1.1.30-sub_code42_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.30-sub_code42/TVBox_v1.1.30-sub_code42_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.30-sub_code42/TVBox_v1.1.30-sub_code42_universal.apk"
+  "versionCode": 43,
+  "versionName": "1.1.31-sub",
+  "log": "净化链路与内存优化：purify 移出主线程(起播不再卡遥控)、净化缓存按远程规则版本失效(热更即时生效)、修复 ZipFile 句柄泄漏、release 包日志静默、清除 5 处静态引用内存泄漏(直播/历史/收藏/用户页/ControlManager)",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.31-sub_code43/TVBox_v1.1.31-sub_code43_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.31-sub_code43/TVBox_v1.1.31-sub_code43_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.31-sub_code43/TVBox_v1.1.31-sub_code43_universal.apk"
 }
