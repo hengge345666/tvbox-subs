@@ -24,6 +24,14 @@ except Exception:
 ROOT = Path(__file__).resolve().parent.parent
 errors = []
 
+# subs.json 一律要求 https（规则 4）；以下为显式白名单例外。
+# 例外条件：仅限用户实机确认可用、且无 https 入口的自有线路；新增一条必须在此写明理由，
+# 不要为了过校验而放宽规则本身。
+SUBS_HTTP_ALLOWLIST = {
+    # 王二小放牛娃·多源聚合：仅提供 http 入口（无 https），2026-10-01 用户实机确认可用
+    "http://tvbox.王二小放牛娃.top",
+}
+
 
 def check(label, ok, detail=""):
     print(("  [PASS] " if ok else "  [FAIL] ") + label + ((" - " + detail) if detail else ""))
@@ -89,6 +97,9 @@ def main():
     if isinstance(subs, dict):
         for item in subs.get("urls", []):
             u = str(item.get("url", ""))
+            if u in SUBS_HTTP_ALLOWLIST:
+                check("http 订阅(白名单) " + str(item.get("name", "?"))[:18], True, u[:70])
+                continue
             check("https 订阅 " + str(item.get("name", "?"))[:20],
                   u.startswith("https://"), u[:70])
     ver = docs.get("version.json")
