@@ -83,6 +83,10 @@
   {
    "name": "影视仓官方·App大仓(90源·32%App)",
    "url": "http://47.96.82.41:5188/api.json"
+  },
+  {
+   "name": "TVboxorg·官方多仓索引(20线路)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/TVboxorg/TVbox/main/dist/tvbox.json"
   }
  ]
 }
