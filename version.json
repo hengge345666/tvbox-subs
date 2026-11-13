@@ -1,8 +1,8 @@
 {
-  "versionCode": 45,
-  "versionName": "1.1.33-sub",
-  "log": "新增离线缓存：整集下载、边下边播（缺失分片在线补取）、暂停/断点续传、离线列表页；补片限流与断网快速失败；XStream 升级 1.4.20 + 类型白名单",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.33-sub_code45/TVBox_v1.1.33-sub_code45_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.33-sub_code45/TVBox_v1.1.33-sub_code45_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.33-sub_code45/TVBox_v1.1.33-sub_code45_universal.apk"
+  "versionCode": 46,
+  "versionName": "1.1.34-sub",
+  "log": "离线下载去广告（M3u8.purify 前置净化 + 布局签名）；二期优化（mp4 续传 / 批量队列 / 速度 ETA）；断网与补片并发加固；自动追剧缓存",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.34-sub_code46/TVBox_v1.1.34-sub_code46_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.34-sub_code46/TVBox_v1.1.34-sub_code46_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.34-sub_code46/TVBox_v1.1.34-sub_code46_universal.apk"
 }
