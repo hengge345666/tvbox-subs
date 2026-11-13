@@ -17,9 +17,9 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 
 ## 订阅入口
 
-`subs.json` 精选 16 条线路（每条上游唯一、全部 https、CI 实时校验可达）：
+`subs.json` 精选 7 条线路（每条上游唯一、全部 https、CI 实时校验可达）：
 
-- **直播**：自建 tang_live（稳定精选+日更层+IPV6）、南风+咪咕、全部直播合集
+- **直播**：2026-11-13 起已下线自建直播订阅（`tang_live.json` / `mirror/live.m3u` / `iptv/`）；第三方配置内嵌的 `lives` 分组仍可观看
 - **点播大库**：高天流云 JS 库(297源)、yw88075 HTTP 库(211源)、qist 合集(151源)、C88(92源)、教主(93源)
 - **轻量/精简**：A站(24源)、Tomorrow(47源)、饭太硬(49源)、FongMI(33源)、noimank(64源)
 - **聚合/其他**：喵站主力配置、老刘备、香雅情XYQ
@@ -28,17 +28,12 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 
 | 文件 | 用途 | 消费方 |
 |---|---|---|
-| `subs.json` | 订阅接口索引（17 条，上游唯一化） | TVBox 应用「订阅」入口 |
+| `subs.json` | 订阅接口索引（7 条，上游唯一化） | TVBox 应用「订阅」入口 |
 | `version.json` | App 自更新 OTA 清单（版本号 / APK 地址 / 更新日志） | TVBox 应用检查更新 |
 | `ads.json` | 广告域名黑名单（含 note / updated 元数据） | TVBox 应用热更 |
 | `dead_sites.json` | 已探测确认失效的源站 key，供首日跳过 | TVBox 应用热更 |
-| `mirror/tang_live.json` | 自建直播总入口（精选 + 3 家日更上游 + Raycorn IPV6） | `subs.json` 首条 |
 | `mirror/anaer_meow.json` | 喵站主力自用配置（源 + 解析/播放/广告/直播/壁纸） | `subs.json` |
-| `mirror/live.m3u` | 全部直播合集（喵站+南风+咪咕，实测存活） | `subs.json` + `anaer_meow.json` |
-| `mirror/migu_live.m3u` | 咪咕直播镜像（169 频道） | `autoiptv_live.json` |
 | `mirror/{c88_box,fongmi0827,gao_js,hackyjso_jzy,qist_jsm,qist_fty,yw88075_js}.json` | 第三方点播配置镜像 | `subs.json` |
-| `mirror/autoiptv_live.json` | 南风直播 + 咪咕组合入口 | `subs.json` |
-| `iptv/` | 自维护直播清单（精选 m3u/txt、full、EPG） | `tang_live.json` 等 |
 | `tools/probe_sites.py` | MacCMS 源站存活探测脚本（并发 12、只读） | 维护工具 |
 | `tools/excluded_sites.json` | 排除决策审计台账（死站/慢站/成人站/恢复记录） | 维护记录 |
 | `tools/_to_exclude.json` | 拟排除站点草稿（与 `excluded_sites.json` 同步） | 维护记录 |
