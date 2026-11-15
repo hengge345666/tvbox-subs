@@ -1,10 +1,10 @@
 {
-  "versionCode": 48,
-  "versionName": "1.1.36-sub",
-  "log": "稳定性与安全加固：OTA 升级包 SHA-256 校验、修复 32 位设备误下发 arm64、离线缓存索引原子写与崩溃恢复、启动时僵尸态归位；包含 code47 全部能力",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.36-sub_code48/TVBox_v1.1.36-sub_code48_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.36-sub_code48/TVBox_v1.1.36-sub_code48_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.36-sub_code48/TVBox_v1.1.36-sub_code48_universal.apk",
-  "sha256": "c8b2fe8dcf61707fcf10b8272ae0ed1a936c0a12758a4c25e788fe0edfb45a5c",
-  "sha256Arm64": "916d97fc7c3175850cc2c585f5699c52a405cf652a80efc4ef27ee1e9ed634ac"
+  "versionCode": 50,
+  "versionName": "1.1.38-sub",
+  "log": "本地服务路径与鉴权加固（静态白名单之外全保护、防路径穿越与 Zip Slip、修复 /?do=proxy 绕过）、纯逻辑单测 99 项；包含 code49 发版脚本 v2 与默认关闭的诊断模式",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.38-sub_code50/TVBox_v1.1.38-sub_code50_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.38-sub_code50/TVBox_v1.1.38-sub_code50_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.38-sub_code50/TVBox_v1.1.38-sub_code50_universal.apk",
+  "sha256": "7813ceff4049535a115568ccd8c692147e503471fb4769e2b419fbd13d871151",
+  "sha256Arm64": "7985f604c3500285ba1bc54973f823ee3bfa5997e6c940c9452c6f59549cff6f"
 }
