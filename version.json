@@ -1,10 +1,10 @@
 {
-  "versionCode": 50,
-  "versionName": "1.1.38-sub",
-  "log": "本地服务路径与鉴权加固（静态白名单之外全保护、防路径穿越与 Zip Slip、修复 /?do=proxy 绕过）、纯逻辑单测 99 项；包含 code49 发版脚本 v2 与默认关闭的诊断模式",
-  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.38-sub_code50/TVBox_v1.1.38-sub_code50_universal.apk",
-  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.38-sub_code50/TVBox_v1.1.38-sub_code50_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.38-sub_code50/TVBox_v1.1.38-sub_code50_universal.apk",
-  "sha256": "7813ceff4049535a115568ccd8c692147e503471fb4769e2b419fbd13d871151",
-  "sha256Arm64": "7985f604c3500285ba1bc54973f823ee3bfa5997e6c940c9452c6f59549cff6f"
+  "versionCode": 51,
+  "versionName": "1.1.39-sub",
+  "log": "离线页遥控器焦点修复：选中条目蓝底白边高亮，上下键切换条目、左右键切换操作、OK 执行；操作项按状态显示（播放/暂停/继续/取消排队/删除），顶部容量开关聚焦有白边，底部提示改为遥控器语汇。K20 真机逐项验证通过，纯逻辑单测 99 项。",
+  "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.39-sub_code51/TVBox_v1.1.39-sub_code51_universal.apk",
+  "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.39-sub_code51/TVBox_v1.1.39-sub_code51_arm64.apk",
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.39-sub_code51/TVBox_v1.1.39-sub_code51_universal.apk",
+  "sha256": "b6998a18c9a4fcbdedd0c08e4a81939fe9d3560c28d0af38fad3e391fd9163cc",
+  "sha256Arm64": "0622ea360b2883a0ab726c26a639494144bbafd4af0242e412ccfb284292bc9d"
 }
