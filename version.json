@@ -4,5 +4,7 @@
   "log": "离线进度条显示连续已缓存区间（蓝色条 / 缓存到 xx:xx / 已缓存全片）；拖动越界时在线补片或夹回边界；起播 duration=0 用 playlist 时长兜底",
   "apk": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.35-sub_code47/TVBox_v1.1.35-sub_code47_universal.apk",
   "apkArm64": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.35-sub_code47/TVBox_v1.1.35-sub_code47_arm64.apk",
-  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.35-sub_code47/TVBox_v1.1.35-sub_code47_universal.apk"
+  "apkUniversal": "https://github.com/hengge345666/tvbox-subs/releases/download/v1.1.35-sub_code47/TVBox_v1.1.35-sub_code47_universal.apk",
+  "sha256": "d6a729101a22aa39010dc28d9afdc362f1b570e1af4a447f35ff429b246a1966",
+  "sha256Arm64": "e1d828634612dea6db2bc0533e1b3f632543523b73f6e7f1570e98485ea595ad"
 }
