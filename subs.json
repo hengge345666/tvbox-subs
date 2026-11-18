@@ -27,6 +27,18 @@
   {
    "name": "FongMI·0827修复版(33源·jar仅0.25MB·秒加载)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/fongmi0827.json"
+  },
+  {
+   "name": "牛虎·旗舰聚合(172源·每日巡检去死链)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu1.json"
+  },
+  {
+   "name": "TVBox.org官方聚合(160源·社区维护)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/tvboxorg.json"
+  },
+  {
+   "name": "香雅情·XYQ(48源·戏曲短剧向)",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/xyq.json"
   }
  ]
 }

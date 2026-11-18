@@ -116,7 +116,8 @@ def main():
     #   REQUIRED = 关键镜像, 必须被功能性配置(subs.json 等)引用;
     #   ARCHIVE  = 归档快照(备用弹药库), 不要求引用, 但第 1/2 项的 JSON 校验依然覆盖。
     # 新增 mirror 文件必须先登记到其中一类, 防止静默堆积死重。
-    MIRROR_REQUIRED = {"anaer_meow.json", "fongmi0827.json", "qist_fty.json"}
+    MIRROR_REQUIRED = {"anaer_meow.json", "fongmi0827.json", "qist_fty.json",
+                       "niubihu1.json", "tvboxorg.json", "xyq.json"}
     MIRROR_ARCHIVE = {"c88_box.json", "gao_js.json", "hackyjso_jzy.json",
                       "qist_jsm.json", "yw88075_js.json", "migu_live.m3u"}
     # 功能性引用来源: 订阅/配置/清单。README、reports、tools 审计台账不算功能性引用。
