@@ -8,7 +8,7 @@
   python probe_sites.py mirror/anaer_meow.json 永夜星河
       探测指定源里每个接口/正则类站点(type 0/1)按 mac cms 接口做真实搜索探测,
       判定 存活/空结果/非JSON响应/失活, 并给出失败原因与耗时。
-      同时记录到 probe_history.json，追踪连续失败天数。
+      同时记录到 probe_history.json，追踪连续失败轮次（Weekly Probe 每周一轮）。
 
 复活扫描:
   python probe_sites.py --revive dead_sites.json [主源JSON] [关键词]
@@ -17,7 +17,7 @@
 
 候选报告:
   python probe_sites.py --report
-      不探测，仅基于历史记录输出候选 dead_sites 清单（连续 7 天失败）。
+      不探测，仅基于历史记录输出候选 dead_sites 清单（连续 3 轮失败）。
       输出候选下架 + 候选恢复，供人工确认。
 
 查看历史:
@@ -45,7 +45,9 @@ TIMEOUT = 8
 KEYWORD = "庆余年"
 
 # ---- dead_sites 巡检配置 ----
-CONSECUTIVE_DAYS = 7  # 连续失败天数阈值
+# Weekly Probe 每周跑一轮; 原 "连续 7 天" 实际等于连续 7 周, 与探测频率不匹配。
+# 2026-11-18 改为按轮次计数: 连续 3 轮(约 21 天)失败才进入下架候选。
+CONSECUTIVE_ROUNDS = 3
 
 # 路径推断（脚本在 tools/ 下，源池在上一级）
 _TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -196,7 +198,7 @@ def update_history(results, history):
             fail_dates = entry.get("fail_dates", [])
             if today not in fail_dates:
                 fail_dates.append(today)
-            entry["fail_dates"] = fail_dates[-CONSECUTIVE_DAYS:]
+            entry["fail_dates"] = fail_dates[-CONSECUTIVE_ROUNDS:]
         else:
             # 今天活了，清空连续失败记录
             entry["fail_dates"] = []
@@ -216,7 +218,7 @@ def generate_report(history=None):
     candidates = []
     for key, entry in history.items():
         fail_count = len(entry.get("fail_dates", []))
-        if fail_count >= CONSECUTIVE_DAYS and key not in dead_keys_existing:
+        if fail_count >= CONSECUTIVE_ROUNDS and key not in dead_keys_existing:
             candidates.append({
                 "key": key,
                 "name": entry.get("name", ""),
@@ -284,12 +286,12 @@ def cmd_report():
     candidates, recovered = generate_report(history)
 
     print("=== dead_sites 候选清单 ===")
-    print("判定标准: 连续 %d 天探测失败 (API+网络双失败)" % CONSECUTIVE_DAYS)
+    print("判定标准: 连续 %d 轮探测失败 (每周一轮; API+网络双失败)" % CONSECUTIVE_ROUNDS)
     print()
     if candidates:
         print("候选下架 (%d):" % len(candidates))
         for c in candidates:
-            print("  %s  %s  (连续失败 %d 天)  %s" % (
+            print("  %s  %s  (连续失败 %d 轮)  %s" % (
                 c["key"][:12], cut(c["name"], 20), c["consecutive_fails"],
                 cut(c["last_verdict"], 50)
             ))
@@ -415,7 +417,7 @@ def main():
     # 输出候选清单
     candidates, recovered = generate_report(history)
     if candidates:
-        print("\n--- 候选 dead_sites (连续 %d 天失败) ---" % CONSECUTIVE_DAYS)
+        print("\n--- 候选 dead_sites (连续 %d 轮失败) ---" % CONSECUTIVE_ROUNDS)
         for c in candidates:
             print("  %s  %s  fails=%d  %s" % (
                 c["key"][:12], cut(c["name"], 20), c["consecutive_fails"], cut(c["last_verdict"], 50)

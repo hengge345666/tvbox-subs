@@ -6,7 +6,7 @@
   2. 含 sites 列表的配置文件中, 站点 key 不得重复
   3. dead_sites.json 的每个 key 必须存在于 anaer_meow.json 且 searchable == 0
   4. subs.json 订阅必须全 https
-  5. mirror/ 文件零引用检测（防死重堆积）
+  5. mirror/ 引用与分区登记（关键镜像须被引用, 归档快照豁免但仍过结构校验）
   6. subs.json 订阅条目去重检测（按剥离代理前缀后的真实上游判重）
 用法: python tools/validate.py   (在仓库根目录执行)
 全部通过退出码 0, 任一失败退出码 1。
@@ -110,7 +110,15 @@ def main():
                       bool(re.fullmatch(r"[0-9a-fA-F]{64}", str(val))),
                       str(val)[:24] + ("…" if len(str(val)) > 24 else ""))
 
-    print("== 5) mirror/ 零引用检测 ==")
+    print("== 5) mirror/ 引用与分区登记 ==")
+    # mirror/ 分两类（2026-11-18 修正: 原"全部须被引用"规则与 7 条订阅精简后的现状冲突,
+    # 导致 CI 连续失败）:
+    #   REQUIRED = 关键镜像, 必须被功能性配置(subs.json 等)引用;
+    #   ARCHIVE  = 归档快照(备用弹药库), 不要求引用, 但第 1/2 项的 JSON 校验依然覆盖。
+    # 新增 mirror 文件必须先登记到其中一类, 防止静默堆积死重。
+    MIRROR_REQUIRED = {"anaer_meow.json", "fongmi0827.json", "qist_fty.json"}
+    MIRROR_ARCHIVE = {"c88_box.json", "gao_js.json", "hackyjso_jzy.json",
+                      "qist_jsm.json", "yw88075_js.json", "migu_live.m3u"}
     # 功能性引用来源: 订阅/配置/清单。README、reports、tools 审计台账不算功能性引用。
     func_files = [p for p in ROOT.rglob("*")
                   if p.is_file()
@@ -130,13 +138,20 @@ def main():
         for f in sorted(mirror_dir.iterdir()):
             if not f.is_file():
                 continue
+            if f.name in MIRROR_ARCHIVE:
+                check("归档快照 mirror/" + f.name, f.stat().st_size > 0,
+                      "备用镜像, 免零引用检测")
+                continue
             # mirror 下文件须以 "mirror/<name>" 全路径被引用, 避免与 iptv/ 下同名文件混淆
             pat = re.compile(re.escape("mirror/" + f.name))
             referrers = [str(p.relative_to(ROOT).as_posix())
                          for p, t in func_texts.items()
                          if p.resolve() != f.resolve() and pat.search(t)]
             check("引用 mirror/" + f.name, bool(referrers),
-                  "" if referrers else "仓库内无任何功能性引用(README/reports 不计), 属死重请删除")
+                  "" if referrers else "仓库内无任何功能性引用(README/reports 不计)")
+            check("mirror/" + f.name + " 分区登记", f.name in MIRROR_REQUIRED,
+                  "" if f.name in MIRROR_REQUIRED
+                  else "新增镜像须显式加入 MIRROR_REQUIRED 或 MIRROR_ARCHIVE")
 
     print("== 6) subs.json 订阅去重 ==")
     if isinstance(subs, dict):

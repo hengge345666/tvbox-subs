@@ -8,8 +8,9 @@ tools/__pycache__/
 /_*.m3u8
 /_*.apk
 
-# 巡检历史记录（运行时自动生成）
-tools/probe_history.json
+# 巡检历史记录：2026-11-18 起改为入库。
+# Weekly Probe 在 Actions 上每次全新 checkout，历史不入库则连续失败轮次永远攒不够，
+# dead_sites 自动下架机制完全空转。该文件须随报告一起 git add 回写。
 
 # 代理内部临时目录
 .temp/

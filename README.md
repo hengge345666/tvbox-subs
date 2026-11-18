@@ -33,7 +33,9 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 | `ads.json` | 广告域名黑名单（含 note / updated 元数据） | TVBox 应用热更 |
 | `dead_sites.json` | 已探测确认失效的源站 key，供首日跳过 | TVBox 应用热更 |
 | `mirror/anaer_meow.json` | 喵站主力自用配置（源 + 解析/播放/广告/直播/壁纸） | `subs.json` |
-| `mirror/{c88_box,fongmi0827,gao_js,hackyjso_jzy,qist_jsm,qist_fty,yw88075_js}.json` | 第三方点播配置镜像 | `subs.json` |
+| `mirror/{fongmi0827,qist_fty}.json` | 关键镜像（在默认订阅链路中） | `subs.json` |
+| `mirror/{c88_box,gao_js,hackyjso_jzy,qist_jsm,yw88075_js}.json` | 归档快照（备用弹药库，不进默认订阅） | 人工切换 |
+| `mirror/migu_live.m3u` | 咪咕直播归档快照（第三方源，非自建直播） | 手动添加直播 |
 | `tools/probe_sites.py` | MacCMS 源站存活探测脚本（并发 12、只读） | 维护工具 |
 | `tools/excluded_sites.json` | 排除决策审计台账（死站/慢站/成人站/恢复记录） | 维护记录 |
 | `tools/_to_exclude.json` | 拟排除站点草稿（与 `excluded_sites.json` 同步） | 维护记录 |
@@ -46,7 +48,7 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 1. 上游配置更新后，镜像文件放 `mirror/`（保持文件名不变）。
 2. 跑 `tools/probe_sites.py <源JSON> [关键词]` 探测站点存活（只读）；每周一 04:00（北京时间）GitHub Actions 也会自动跑一轮并回写报告到 `reports/`。
 3. 依探测结果更新 `dead_sites.json`，并在 `tools/excluded_sites.json` 登记决策；`--revive` 可对死站名单做复活扫描（`python tools/probe_sites.py --revive dead_sites.json`）。
-4. 本地跑 `python tools/validate.py` 自检：JSON 与 key 唯一性、mirror 零引用（防死重堆积）、subs.json 上游去重。
+4. 本地跑 `python tools/validate.py` 自检：JSON 与 key 唯一性、关键 mirror 引用 + 新增镜像分区登记、subs.json 上游去重。新增 `mirror/` 文件须在 `tools/validate.py` 的 `MIRROR_REQUIRED` / `MIRROR_ARCHIVE` 中显式登记。
 5. 提交推送；CI 会自动重跑同样的校验，并对 `subs.json` / `version.json` 的全部外链做可达性检查。
 
 ## 手动备用源
@@ -74,7 +76,7 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 
 ## 源池健康
 
-<!-- health:start 由 Weekly Probe 工作流维护, 手动编辑会被覆盖 -->
+<!-- health:start 由 Weekly Probe 工作流 + tools/update_health.py 自动维护, 手动编辑会被覆盖 -->
 
 等待首轮定时探测后自动填充：各镜像可出片站点数 / 失活数 / 探测时间。
 
