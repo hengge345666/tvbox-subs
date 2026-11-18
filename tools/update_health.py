@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-把 Weekly Probe 的探测输出写回 README 的 health 标记区块。
+把 Weekly Probe 的探测输出写成 reports/health.md。
 
 输入: probe_main.txt / probe_revive.txt（由 .github/workflows/probe.yml 生成于仓库根）
-输出: 就地更新 README.md 中 <!-- health:start ... --> 与 <!-- health:end --> 之间的内容
+输出: reports/health.md —— 放在 reports/ 下，现有 workflow 的 git add reports 会自动入库，
+      因此无需改动 workflow 文件、也无需 workflow scope。
 用法: python tools/update_health.py [--date YYYY-MM-DD]
+注: Weekly Probe 正常探测时 probe_sites.py 已自动写 reports/health.md；本脚本供本地补跑/复核。
 仅依赖标准库；找不到汇总行时以 0 填充，不误判为失败。
 """
 import argparse
@@ -20,7 +22,8 @@ except Exception:
     pass
 
 ROOT = Path(__file__).resolve().parent.parent
-README = ROOT / "README.md"
+REPORTS = ROOT / "reports"
+HEALTH = REPORTS / "health.md"
 
 
 def read(name):
@@ -62,9 +65,11 @@ def main():
             pass
 
     block = (
+        "# 源池健康快照\n\n"
+        "> 由 Weekly Probe 自动更新，随周期探测提交到 `reports/`。\n\n"
         "| 指标 | 数值 |\n"
         "|---|---|\n"
-        "| 最近探测 | %s（UTC，Weekly Probe 自动生成） |\n"
+        "| 最近探测 | %s（Weekly Probe 自动） |\n"
         "| 主力源 | `mirror/anaer_meow.json` |\n"
         "| 总站点 / 待探测 | %d / %d |\n"
         "| 可出片 | %d |\n"
@@ -75,16 +80,10 @@ def main():
         "| 当前 dead_sites | %d |\n"
     ) % (args.date, total, todo, alive, empty, nonjson, dead, revived, dead_sites)
 
-    text = README.read_text(encoding="utf-8")
-    m = re.search(r"(<!-- health:start[^\n]*-->\n)(.*?)(<!-- health:end -->)",
-                  text, re.S)
-    if not m:
-        print("README.md 缺少 health:start / health:end 标记", file=sys.stderr)
-        return 1
-    new_text = text[:m.start(2)] + "\n" + block + "\n" + text[m.end(2):]
-    with open(README, "w", encoding="utf-8", newline="") as f:
-        f.write(new_text)
-    print("README 源池健康区块已更新 (%s)" % args.date)
+    REPORTS.mkdir(exist_ok=True)
+    with open(HEALTH, "w", encoding="utf-8", newline="") as f:
+        f.write(block)
+    print("reports/health.md 已更新 (%s)" % args.date)
     return 0
 
 

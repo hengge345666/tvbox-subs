@@ -8,7 +8,7 @@
   python probe_sites.py mirror/anaer_meow.json 永夜星河
       探测指定源里每个接口/正则类站点(type 0/1)按 mac cms 接口做真实搜索探测,
       判定 存活/空结果/非JSON响应/失活, 并给出失败原因与耗时。
-      同时记录到 probe_history.json，追踪连续失败轮次（Weekly Probe 每周一轮）。
+      同时记录到 reports/probe_history.json，追踪连续失败轮次（Weekly Probe 每周一轮）。
 
 复活扫描:
   python probe_sites.py --revive dead_sites.json [主源JSON] [关键词]
@@ -23,7 +23,7 @@
 查看历史:
   python probe_sites.py --history
 
-只读探测, 不修改任何源文件（probe_history.json 除外）。
+只读探测, 不修改任何源文件（reports/probe_history.json 与 reports/health.md 除外）。
 """
 import json, os, sys, time, urllib.parse, datetime
 import concurrent.futures as futures
@@ -52,7 +52,11 @@ CONSECUTIVE_ROUNDS = 3
 # 路径推断（脚本在 tools/ 下，源池在上一级）
 _TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
 _SUBS_REPO = os.path.dirname(_TOOLS_DIR)
-HISTORY_FILE = os.path.join(_TOOLS_DIR, "probe_history.json")
+# 巡检历史与健康快照落在 reports/：现有 Weekly Probe 的归档步骤只做 git add reports，
+# 这样无需改 workflow 文件即可随周期探测自动回写仓库（2026-11-18）。
+_REPORTS_DIR = os.path.join(_SUBS_REPO, "reports")
+HISTORY_FILE = os.path.join(_REPORTS_DIR, "probe_history.json")
+HEALTH_FILE = os.path.join(_REPORTS_DIR, "health.md")
 DEAD_SITES_FILE = os.path.join(_SUBS_REPO, "dead_sites.json")
 
 
@@ -140,21 +144,57 @@ def load(path_or_url):
 # ============================================================
 
 def load_history():
-    """加载历史探测记录。"""
-    if not os.path.exists(HISTORY_FILE):
+    """加载历史探测记录。优先 reports/，兼容迁移前的 tools/ 旧路径。"""
+    path = HISTORY_FILE
+    if not os.path.exists(path):
+        legacy = os.path.join(_TOOLS_DIR, "probe_history.json")
+        if os.path.exists(legacy):
+            path = legacy
+    if not os.path.exists(path):
         return {}
     try:
-        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except (json.JSONDecodeError, IOError):
         return {}
 
 
 def save_history(history):
-    """保存历史探测记录。"""
+    """保存历史探测记录到 reports/（现有 workflow 的 git add reports 会自动入库）。"""
+    os.makedirs(_REPORTS_DIR, exist_ok=True)
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
         f.write("\n")
+
+
+def write_health_snapshot(total, todo, res, date_str=None):
+    """把本轮统计写成 reports/health.md，随周期报告一起入库。
+
+    复活候选由独立的 revive 步骤产出、落在 probe_revive.txt（不入库），
+    因此这里只指向当日周期报告，避免写入 0 造成误读。
+    """
+    date_str = date_str or datetime.date.today().isoformat()
+    dead_count = len(load_dead_keys())
+    block = (
+        "# 源池健康快照\n\n"
+        "> 由 Weekly Probe 自动更新，随周期探测提交到 `reports/`。\n\n"
+        "| 指标 | 数值 |\n"
+        "|---|---|\n"
+        "| 最近探测 | %s（Weekly Probe 自动） |\n"
+        "| 主力源 | `mirror/anaer_meow.json` |\n"
+        "| 总站点 / 待探测 | %d / %d |\n"
+        "| 可出片 | %d |\n"
+        "| 空结果 | %d |\n"
+        "| 非 JSON 响应（未必不可用） | %d |\n"
+        "| 失活 | %d |\n"
+        "| 复活候选（待人工复核） | 见当日 `reports/` 周期报告 |\n"
+        "| 当前 dead_sites | %d |\n"
+    ) % (date_str, total, todo, len(res["ALIVE"]), len(res["EMPTY"]),
+         len(res["NONJSON"]), len(res["DEAD"]), dead_count)
+    os.makedirs(_REPORTS_DIR, exist_ok=True)
+    with open(HEALTH_FILE, "w", encoding="utf-8", newline="") as f:
+        f.write(block)
+    print("健康快照已写入 reports/health.md (%s)" % date_str)
 
 
 def load_dead_keys():
@@ -413,6 +453,9 @@ def main():
 
     # 更新历史记录
     history = update_history(probe_results, history)
+
+    # 健康快照写入 reports/（现有 workflow 的 git add reports 自动入库）
+    write_health_snapshot(len(sites), len(t1), res)
 
     # 输出候选清单
     candidates, recovered = generate_report(history)

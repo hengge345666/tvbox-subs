@@ -76,9 +76,9 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 
 ## 源池健康
 
-<!-- health:start 由 Weekly Probe 工作流 + tools/update_health.py 自动维护, 手动编辑会被覆盖 -->
+<!-- health:start 由 Weekly Probe 工作流自动维护, 详见 reports/health.md -->
 
-等待首轮定时探测后自动填充：各镜像可出片站点数 / 失活数 / 探测时间。
+最新健康快照见 [reports/health.md](reports/health.md)（每周探测后由 `git add reports` 自动回写）；历次报告见 [reports/](reports/) 目录。
 
 <!-- health:end -->
 
