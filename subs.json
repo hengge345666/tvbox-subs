@@ -17,20 +17,12 @@
    "url": "https://play.iptv365.org/OK/api.json"
   },
   {
-   "name": "拾光·App站大户(246源·jar1.9MB)",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json"
-  },
-  {
    "name": "饭太硬·老牌精简(49源)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/qist_fty.json"
   },
   {
    "name": "FongMI·0827修复版(33源·jar仅0.25MB·秒加载)",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/fongmi0827.json"
-  },
-  {
-   "name": "牛虎·旗舰聚合(172源·每日巡检去死链)",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu1.json"
   },
   {
    "name": "TVBox.org官方聚合(160源·社区维护)",

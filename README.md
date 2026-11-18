@@ -17,27 +17,28 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 
 ## 订阅入口
 
-`subs.json` 精选 10 条线路（每条上游唯一、全部 https、CI 实时校验可达）：
+`subs.json` 精选 8 条线路（每条上游唯一、全部 https、CI 实时校验可达）：
 
 - **直播**：2026-11-13 起已下线自建直播订阅（`tang_live.json` / `mirror/live.m3u` / `iptv/`）；第三方配置内嵌的 `lives` 分组仍可观看
 - **点播大库**：高天流云 JS 库(297源)、yw88075 HTTP 库(211源)、qist 合集(151源)、C88(92源)、教主(93源)
 - **主力/轻量**：喵站主力配置、饭太硬(49源)、FongMI(33源)、茄子库(40源)、王二小(96源)
-- **第三方镜像(2026-11-18 镜像入库)**：牛虎旗舰聚合(172源·每日巡检)、TVBox.org 官方聚合(160源)、香雅情 XYQ(48源)
-- **独立线路**：OK杰克(76源)、拾光(246源·上游已停更待替换)
+- **第三方镜像(2026-11-18 镜像入库)**：TVBox.org 官方聚合(160源)、香雅情 XYQ(48源)
+- **独立线路**：OK杰克(76源)
 
 ## 文件地图
 
 | 文件 | 用途 | 消费方 |
 |---|---|---|
-| `subs.json` | 订阅接口索引（10 条，上游唯一化） | TVBox 应用「订阅」入口 |
+| `subs.json` | 订阅接口索引（8 条，上游唯一化） | TVBox 应用「订阅」入口 |
 | `version.json` | App 自更新 OTA 清单（版本号 / APK 地址 / 更新日志） | TVBox 应用检查更新 |
 | `ads.json` | 广告域名黑名单（含 note / updated 元数据） | TVBox 应用热更 |
 | `dead_sites.json` | 已探测确认失效的源站 key，供首日跳过 | TVBox 应用热更 |
 | `mirror/anaer_meow.json` | 喵站主力自用配置（源 + 解析/播放/广告/直播/壁纸） | `subs.json` |
 | `mirror/{fongmi0827,qist_fty}.json` | 关键镜像（在默认订阅链路中） | `subs.json` |
-| `mirror/{niubihu1,tvboxorg}.json` | 第三方镜像（自有仓库托管，避免上游域名单点） | `subs.json` |
+| `mirror/tvboxorg.json` | 第三方镜像（自有仓库托管，避免上游域名单点） | `subs.json` |
 | `mirror/xyq/` | 香雅情自包含资源包（62 文件：主配置 + custom_spider.jar + dr_py/XYQHiker/biliext 规则）。配置内用 `./` 相对路径引用同目录资源，必须整目录镜像，缺 jar 会白屏 | `subs.json` 指向 `mirror/xyq/XYQTVBox.json` |
-| `mirror/{c88_box,gao_js,hackyjso_jzy,qist_jsm,yw88075_js}.json` | 归档快照（备用弹药库，不进默认订阅） | 人工切换 |
+| `mirror/{c88_box,gao_js,hackyjso_jzy,qist_jsm,yw88075_js,niubihu1}.json` | 归档快照（备用弹药库，不进默认订阅） | 人工切换 |
+| `mirror/niubihu/` | 牛虎自包含资源包归档（主 jar easy11.14.png + 嗷呜 jar aowu.png + live.txt + logo.png） | 随 niubihu1.json 恢复 |
 | `mirror/migu_live.m3u` | 咪咕直播归档快照（第三方源，非自建直播） | 手动添加直播 |
 | `tools/probe_sites.py` | MacCMS 源站存活探测脚本（并发 12、只读） | 维护工具 |
 | `tools/excluded_sites.json` | 排除决策审计台账（死站/慢站/成人站/恢复记录） | 维护记录 |

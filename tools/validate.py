@@ -117,9 +117,10 @@ def main():
     #   ARCHIVE  = 归档快照(备用弹药库), 不要求引用, 但第 1/2 项的 JSON 校验依然覆盖。
     # 新增 mirror 文件必须先登记到其中一类, 防止静默堆积死重。
     MIRROR_REQUIRED = {"anaer_meow.json", "fongmi0827.json", "qist_fty.json",
-                       "niubihu1.json", "tvboxorg.json"}
+                       "tvboxorg.json"}
     MIRROR_ARCHIVE = {"c88_box.json", "gao_js.json", "hackyjso_jzy.json",
-                      "qist_jsm.json", "yw88075_js.json", "migu_live.m3u"}
+                      "qist_jsm.json", "yw88075_js.json", "migu_live.m3u",
+                      "niubihu1.json"}
     # 自包含资源包目录: 主配置用相对路径 ./ 引用同目录资源, 缺一个就白屏。
     # 逐个校验关键依赖存在且非空, 防止"只搬 JSON 忘了 jar"的回归。
     MIRROR_RESOURCE_BUNDLES = {
