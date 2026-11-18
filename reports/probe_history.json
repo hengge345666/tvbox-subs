@@ -4,7 +4,7 @@
     "api": "http://ffzy.tv/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "a794df941b177a5eb1e4e991fb5eaccb": {
@@ -12,7 +12,7 @@
     "api": "http://www.ffzy.tv/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "730acd683fc317fa1a584e5613e727f0": {
@@ -20,7 +20,7 @@
     "api": "http://cj.ffzyapi.com//api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "73b5c89acc8a7c24118857fc514e9218": {
@@ -28,17 +28,15 @@
     "api": "http://ffzy3.tv/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "7e324c0872c13fd329e818c33a659046": {
     "name": "10-如意",
     "api": "https://cj.rycjapi.com/api.php/provide/vod/",
-    "fail_dates": [
-      "2026-09-14"
-    ],
-    "last_verdict": "DEAD(ConnectionError; ConnectionError)",
-    "last_check": "2026-09-14",
+    "fail_dates": [],
+    "last_verdict": "ALIVE(3)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "7b1d09368af7a13806e1a8e1e43850e5": {
@@ -46,7 +44,7 @@
     "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "08770a213d5c282a0fe20bf7648a9aba": {
@@ -54,7 +52,7 @@
     "api": "https://api.ffzyapi.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "ad1116ca9a9b3057570066086c9c9698": {
@@ -62,15 +60,15 @@
     "api": "http://ffzy4.tv/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "740e5d81e28de3ab97eab19f0ce6cf1d": {
     "name": "5-暴风",
     "api": "https://bfzyapi.com/api.php/provide/vod/",
     "fail_dates": [],
-    "last_verdict": "ALIVE(10)",
-    "last_check": "2026-10-26",
+    "last_verdict": "ALIVE(20)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "d2fee2579b5b9f122d45709ce08226fb": {
@@ -89,7 +87,7 @@
     "api": "http://ffzy5.tv/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "c8af26ef0238ad65540ef8c8a2a1d738": {
@@ -97,15 +95,15 @@
     "api": "https://cj.lziapi.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(20)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "16952cefcaeeda11b0bae2529a576e12": {
     "name": "11-暴风",
     "api": "http://by.bfzyapi.com/api.php/provide/vod/",
     "fail_dates": [],
-    "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-10-26",
+    "last_verdict": "ALIVE(20)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "2da82ad79b8f4e114cf435763ab1d721": {
@@ -113,7 +111,7 @@
     "api": "https://www.gdlsp.com/api/xml.php",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-09-14",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "c7c8d8da2ba856cc798421b5de48a8bc": {
@@ -121,7 +119,7 @@
     "api": "https://www.kxgav.com/api/xml.php",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-09-14",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "4797280cffa831567a8b737ec684ac1d": {
@@ -184,7 +182,7 @@
     "api": "https://www.hongniuzy3.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "30e07a544ffe9b6069a1ba66d6442ca9": {
@@ -222,7 +220,7 @@
     "api": "https://subocaiji.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "7ced0073619101d397b5c86fc3578ed4": {
@@ -230,7 +228,7 @@
     "api": "https://hhzyapi.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "f392a6508debf453628b2713b0ee0a47": {
@@ -249,18 +247,15 @@
     "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "3a565658ffb7ec926e61756240866e64": {
     "name": "30-无尽",
     "api": "https://api.wujinapi.com/api.php/provide/vod/",
-    "fail_dates": [
-      "2026-10-21",
-      "2026-10-26"
-    ],
-    "last_verdict": "DEAD(HTTP 502; ReadTimeout)",
-    "last_check": "2026-10-26",
+    "fail_dates": [],
+    "last_verdict": "ALIVE(9)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "2b95a57602ae920c848d81627e162f9e": {
@@ -278,8 +273,8 @@
     "name": "25-最大",
     "api": "https://zuidazy.co/api.php/provide/vod/",
     "fail_dates": [],
-    "last_verdict": "ALIVE(7)",
-    "last_check": "2026-10-26",
+    "last_verdict": "ALIVE(20)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "39a5f7a3881f34fa6361cf1129caea4f": {
@@ -295,7 +290,7 @@
     "api": "https://niuniuzy3.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "0ec30b843eb0dd00005239556b902374": {
@@ -303,7 +298,7 @@
     "api": "https://lovedan.net/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(12)",
-    "last_check": "2026-09-14",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "3b413ffe4c72f0b8f99ca6a868075d99": {
@@ -311,7 +306,7 @@
     "api": "https://api.ukuapi88.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(3)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "0be92695deec6ee83ef66a6fca1e88e4": {
@@ -319,7 +314,7 @@
     "api": "https://caiji.moduapi.cc/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(3)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "77791ef659e8282af587e24e7b0c18a5": {
@@ -327,7 +322,7 @@
     "api": "https://www.mdzyapi.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(3)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "e743537b66dc4d8932f3a3800fdb7477": {
@@ -335,15 +330,15 @@
     "api": "https://www.haohuazy.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "e750d6da567daae09c179aec32891d63": {
     "name": "35-最大",
     "api": "https://api.zuidapi.com/api.php/provide/vod/",
     "fail_dates": [],
-    "last_verdict": "ALIVE(7)",
-    "last_check": "2026-10-26",
+    "last_verdict": "ALIVE(20)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "9988d74012ebbb2648a68f41dab1f3da": {
@@ -362,15 +357,17 @@
     "api": "https://8day.icu/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-09-14",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "130ff3134aa51648a8a5575b98b5d268": {
     "name": "49-无忧",
     "api": "https://www.wyvod.com/api.php/provide/vod/",
-    "fail_dates": [],
-    "last_verdict": "ALIVE(8)",
-    "last_check": "2026-09-14",
+    "fail_dates": [
+      "2026-11-18"
+    ],
+    "last_verdict": "DEAD(HTTP 403; HTTP 403)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "45f33b701d9ec5f355ffb35e51e2a37d": {
@@ -430,7 +427,7 @@
     "api": "https://ty.tyyszy5.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "f333ebedb73901ca466a8ebc6aeab0da": {
@@ -459,8 +456,8 @@
     "name": "42-玉兔资源(切片)",
     "api": "https://apiyutu.com/api.php/provide/vod/",
     "fail_dates": [],
-    "last_verdict": "ALIVE(4)",
-    "last_check": "2026-09-14",
+    "last_verdict": "ALIVE(5)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "b954276569fe5d54ca57cf5cd6358465": {
@@ -468,28 +465,27 @@
     "api": "http://rise.eu.org/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "EMPTY",
-    "last_check": "2026-09-14",
-    "in_dead_sites": true
+    "last_check": "2026-11-18",
+    "in_dead_sites": false
   },
   "bf7e48d845aea9b3a2ec1bd253dc9bc3": {
     "name": "59-闪电",
     "api": "http://sdzyapi.com/api.php/provide/vod/at/xml",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "dcbb4b646ce9e6b0c0565925f2008037": {
     "name": "40-橘猫采集",
     "api": "http://www.zitv.cc/api.php/provide/vod/",
     "fail_dates": [
-      "2026-10-01",
-      "2026-10-05",
       "2026-10-21",
-      "2026-10-26"
+      "2026-10-26",
+      "2026-11-18"
     ],
-    "last_verdict": "DEAD(ConnectTimeout; ConnectTimeout)",
-    "last_check": "2026-10-26",
+    "last_verdict": "DEAD(HTTP 403; HTTP 403)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "d76e6a4dd10a8e038439df2458b56e9d": {
@@ -497,7 +493,7 @@
     "api": "https://jszyapi.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(8)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "a7309ad5614fb7c13fa6d3e49639f8be": {
@@ -505,17 +501,15 @@
     "api": "https://yayazy2.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "acd47931ed9a83e500f70bbb7c5c0c2b": {
     "name": "54-奇艺",
     "api": "https://iqiyizyapi.com/api.php/provide/vod/",
-    "fail_dates": [
-      "2026-09-14"
-    ],
-    "last_verdict": "DEAD(ConnectTimeout; ConnectTimeout)",
-    "last_check": "2026-09-14",
+    "fail_dates": [],
+    "last_verdict": "ALIVE(2)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "c0d55d39117844f081c86f10fec19ba4": {
@@ -532,11 +526,9 @@
   "d09daf6b15ef9ed1f4fc5aff8b87e40a": {
     "name": "62-秒播",
     "api": "https://api.zeqaht.com/api.php/provide/vod/",
-    "fail_dates": [
-      "2026-10-26"
-    ],
-    "last_verdict": "DEAD(ReadTimeout; ReadTimeout)",
-    "last_check": "2026-10-26",
+    "fail_dates": [],
+    "last_verdict": "ALIVE(2)",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "5df752820b133e0e7b9ba6634e3f7dbb": {
@@ -544,7 +536,7 @@
     "api": "https://sdzyapi.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "ba51fa806dc0be9906a19d02b8e6dad1": {
@@ -552,7 +544,7 @@
     "api": "https://api.niuniuzy.me/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE_NONJSON",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "16cfe5fb43282cd0609786037845f50b": {
@@ -571,7 +563,7 @@
     "api": "https://api.apibdzy.com/api.php/provide/vod/",
     "fail_dates": [],
     "last_verdict": "ALIVE(2)",
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-18",
     "in_dead_sites": false
   },
   "de35b0afa75598ab506891123e6d8cb8": {
@@ -589,9 +581,9 @@
     "name": "43-HG",
     "api": "https://hong.hgyx.vip/api.php/provide/vod/",
     "fail_dates": [],
-    "last_verdict": "ALIVE(12)",
-    "last_check": "2026-09-14",
-    "in_dead_sites": true
+    "last_verdict": "ALIVE(13)",
+    "last_check": "2026-11-18",
+    "in_dead_sites": false
   },
   "d8f1cd70bcdc09564995c505f7041a2e": {
     "name": "39-柚子",
