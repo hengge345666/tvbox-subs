@@ -119,16 +119,12 @@ def main():
     MIRROR_REQUIRED = {"anaer_meow.json", "fongmi0827.json", "qist_fty.json",
                        "tvboxorg.json"}
     MIRROR_ARCHIVE = {"c88_box.json", "gao_js.json", "hackyjso_jzy.json",
-                      "qist_jsm.json", "yw88075_js.json", "migu_live.m3u",
-                      "niubihu1.json"}
+                      "qist_jsm.json", "yw88075_js.json", "migu_live.m3u"}
     # 自包含资源包目录: 主配置用相对路径 ./ 引用同目录资源, 缺一个就白屏。
     # 逐个校验关键依赖存在且非空, 防止"只搬 JSON 忘了 jar"的回归。
     MIRROR_RESOURCE_BUNDLES = {
         "xyq": ["XYQTVBox.json", "custom_spider.jar", "dr_py/libs/drpy2.min.js",
                 "dr_py/js/drpy.js", "XYQHiker/戏曲多多.json", "biliext/Bili.json"],
-        # 牛虎自包含镜像: 主 jar(easy11.14.png) + 12 个嗷呜站分站 jar(aowu.png) + 直播源 + logo,
-        # 全部从原作者 niubihu1/tvbox 镜像到自有仓库, spider/lives/logo 字段已改指 mirror/niubihu/。
-        "niubihu": ["easy11.14.png", "aowu.png", "live.txt", "logo.png"],
     }
     for bundle, required in MIRROR_RESOURCE_BUNDLES.items():
         for rel in required:

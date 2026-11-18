@@ -37,8 +37,7 @@ TVBox 订阅聚合与数据源维护仓库。本仓库作为远程配置源，�
 | `mirror/{fongmi0827,qist_fty}.json` | 关键镜像（在默认订阅链路中） | `subs.json` |
 | `mirror/tvboxorg.json` | 第三方镜像（自有仓库托管，避免上游域名单点） | `subs.json` |
 | `mirror/xyq/` | 香雅情自包含资源包（62 文件：主配置 + custom_spider.jar + dr_py/XYQHiker/biliext 规则）。配置内用 `./` 相对路径引用同目录资源，必须整目录镜像，缺 jar 会白屏 | `subs.json` 指向 `mirror/xyq/XYQTVBox.json` |
-| `mirror/{c88_box,gao_js,hackyjso_jzy,qist_jsm,yw88075_js,niubihu1}.json` | 归档快照（备用弹药库，不进默认订阅） | 人工切换 |
-| `mirror/niubihu/` | 牛虎自包含资源包归档（主 jar easy11.14.png + 嗷呜 jar aowu.png + live.txt + logo.png） | 随 niubihu1.json 恢复 |
+| `mirror/{c88_box,gao_js,hackyjso_jzy,qist_jsm,yw88075_js}.json` | 归档快照（备用弹药库，不进默认订阅） | 人工切换 |
 | `mirror/migu_live.m3u` | 咪咕直播归档快照（第三方源，非自建直播） | 手动添加直播 |
 | `tools/probe_sites.py` | MacCMS 源站存活探测脚本（并发 12、只读） | 维护工具 |
 | `tools/excluded_sites.json` | 排除决策审计台账（死站/慢站/成人站/恢复记录） | 维护记录 |
