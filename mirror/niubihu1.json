@@ -1,7 +1,7 @@
 {
- "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/easy11.14.png;md5;0fde605daa324202bfda23e5cfef0a65",
+ "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/easy11.14.png;md5;0fde605daa324202bfda23e5cfef0a65",
  "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
- "logo": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/logo.png",
+ "logo": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/logo.png",
  "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
  "sites": [
   {
@@ -44,7 +44,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Fz",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Xy",
@@ -55,7 +55,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Xy",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Zjdr",
@@ -66,7 +66,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Zjdr",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Xyz",
@@ -77,7 +77,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Xyz",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Xnm",
@@ -88,7 +88,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Xnm",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Mtq",
@@ -99,7 +99,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Mtq",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Llq",
@@ -110,7 +110,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Llq",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Xsz",
@@ -121,7 +121,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Xsz",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Xhr",
@@ -132,7 +132,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Xhr",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "AppV7Dsx",
@@ -143,7 +143,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "AppV7Dsx",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "Guazi",
@@ -154,7 +154,7 @@
    "quickSearch": 1,
    "changeable": 1,
    "ext": "Guazi",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png"
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png"
   },
   {
    "key": "瓜子影视",
@@ -1494,7 +1494,7 @@
    "name": "📂至臻 ┃ 4K极速",
    "type": 3,
    "api": "csp_PantaAmns",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/jar/aowu.png",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/aowu.png",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -2382,7 +2382,7 @@
   {
    "name": "🐯牛虎 ┃ 官方综合",
    "type": 0,
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/niubihu/live.txt",
    "playerType": 1,
    "ua": "okhttp/3.15",
    "epg": "http://epg.112114.xyz/?ch={name}&date={date}",

@@ -125,6 +125,9 @@ def main():
     MIRROR_RESOURCE_BUNDLES = {
         "xyq": ["XYQTVBox.json", "custom_spider.jar", "dr_py/libs/drpy2.min.js",
                 "dr_py/js/drpy.js", "XYQHiker/戏曲多多.json", "biliext/Bili.json"],
+        # 牛虎自包含镜像: 主 jar(easy11.14.png) + 12 个嗷呜站分站 jar(aowu.png) + 直播源 + logo,
+        # 全部从原作者 niubihu1/tvbox 镜像到自有仓库, spider/lives/logo 字段已改指 mirror/niubihu/。
+        "niubihu": ["easy11.14.png", "aowu.png", "live.txt", "logo.png"],
     }
     for bundle, required in MIRROR_RESOURCE_BUNDLES.items():
         for rel in required:
